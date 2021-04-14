@@ -1,0 +1,34 @@
+# sent_id = phrase 1
+# text = le chat voit le chat
+1	le	le	det	_	_	2	det	_	_
+2	chat	chat	Noun	_	_	3	nsubj	_	_
+3	voit	voir	Verb	_	_	0	root	_	_
+4	le	le	det	_	_	5	det	_	_
+5	chat	chat	Noun	_	_	3	obj	_	_
+
+# sent_id = phrase 2
+# text = le chat voit le chat
+1	le	le	det	_	_	2	det	_	_
+2	chat	chat	Noun	_	_	3	nsubj	_	_
+3	voit	voir	Verb	_	_	0	root	_	_
+4	le	le	det	_	_	5	conj	_	_
+5	chat	chat	Noun	_	_	3	obj	_	_
+
+# sent_id = phrase 3
+# text = c'est ma maison.
+1	C'	ce	PRON	_	_	2	nsubj	_	_
+2	est	être	VERB	_	_	0	root	_	_
+3	ma	ma	DET	_	_	4	det	_	_
+4	maison	maison	NOUN	_	_	2	obj	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id =  phrase 4
+# text = Il est dans la maison.
+1	Il	il	PRON	_	_	2	nsubj	_	_
+2	est	être	VERB	_	_	0	root	_	_
+3	dans	dans	ADP	_	_	5	case	_	_
+4	la	le	DET	_	_	5	det	_	_
+5	maison	maison	NOUN	_	_	2	obl	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+
