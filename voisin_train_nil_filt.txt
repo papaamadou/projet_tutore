@@ -1,0 +1,628 @@
+?     1	(("n'", 'est'), ['ce', 0, 0, 'pas'])	{'NIL': [('fr-ud-train_00908', '2', '3'), ('fr-ud-train_00995', '2', '3'), ('fr-ud-train_01334', '5', '6'), ('fr-ud-train_02558', '2', '3'), ('fr-ud-train_02887', '18', '19'), ('fr-ud-train_03316', '2', '3'), ('fr-ud-train_03548', '26', '27'), ('fr-ud-train_04546', '48', '49'), ('fr-ud-train_04650', '2', '3'), ('fr-ud-train_05611', '31', '32'), ('fr-ud-train_05790', '6', '7'), ('fr-ud-train_06701', '2', '3'), ('fr-ud-train_07709', '23', '24'), ('fr-ud-train_08048', '3', '4'), ('fr-ud-train_09857', '2', '3'), ('fr-ud-train_10945', '2', '3'), ('fr-ud-train_11021', '2', '3'), ('fr-ud-train_11774', '2', '3'), ('fr-ud-train_12360', '2', '3'), ('fr-ud-train_12577', '25', '26'), ('fr-ud-train_12870', '15', '16'), ('fr-ud-train_13067', '3', '4'), ('fr-ud-train_13716', '3', '4')], 'advmod - R': [('fr-ud-train_11770', 3, 4)]}
+?     2	(("n'", 'est'), ['qui', 0, 0, 'pas'])	{'NIL': [('fr-ud-train_03860', '6', '7'), ('fr-ud-train_05886', '14', '15'), ('fr-ud-train_07167', '22', '23'), ('fr-ud-train_07340', '12', '13'), ('fr-ud-train_09456', '56', '57'), ('fr-ud-train_11482', '10', '11'), ('fr-ud-train_12485', '27', '28')], 'advmod - R': [('fr-ud-train_12536', 16, 17)]}
+?     3	(('est', 'plus'), ["n'", 0, 0, 'en'])	{'NIL': [('fr-ud-train_00619', '3', '4')], 'advmod - L': [('fr-ud-train_00003', 16, 17)]}
++     4	(("l'", 'information'), ['de', 0, 0, 'et'])	{'NIL': [('fr-ud-train_14312', '6', '7')], 'det - R': [('fr-ud-train_01030', 43, 44), ('fr-ud-train_03171', 10, 11), ('fr-ud-train_10164', 19, 20), ('fr-ud-train_14360', 48, 49)]}
++     5	(('à', 'cours'), ["qu'", 'le', 0, 'de'])	{'fixed - L': [('fr-ud-train_05928', 19, 21)], 'case - R': [('fr-ud-train_01862', 4, 6), ('fr-ud-train_11174', 14, 16)]}
++     6	(('le', 'cours'), ['à', 0, 0, 'de'])	{'NIL': [('fr-ud-train_05928', '20', '21')], 'det - R': [('fr-ud-train_00019', 3, 4), ('fr-ud-train_00299', 51, 52), ('fr-ud-train_00458', 2, 3), ('fr-ud-train_00896', 31, 32), ('fr-ud-train_00903', 12, 13), ('fr-ud-train_01270', 10, 11), ('fr-ud-train_01579', 21, 22), ('fr-ud-train_01862', 5, 6), ('fr-ud-train_01947', 16, 17), ('fr-ud-train_02024', 9, 10), ('fr-ud-train_02217', 16, 17), ('fr-ud-train_02464', 25, 26), ('fr-ud-train_02846', 2, 3), ('fr-ud-train_02931', 5, 6), ('fr-ud-train_02977', 22, 23), ('fr-ud-train_03233', 15, 16), ('fr-ud-train_03256', 25, 26), ('fr-ud-train_03544', 16, 17), ('fr-ud-train_03869', 2, 3), ('fr-ud-train_04142', 2, 3), ('fr-ud-train_04142', 20, 21), ('fr-ud-train_04195', 8, 9), ('fr-ud-train_04509', 11, 12), ('fr-ud-train_04617', 12, 13), ('fr-ud-train_04802', 6, 7), ('fr-ud-train_05041', 6, 7), ('fr-ud-train_05160', 12, 13), ('fr-ud-train_05171', 8, 9), ('fr-ud-train_05296', 22, 23), ('fr-ud-train_05336', 2, 3), ('fr-ud-train_05425', 9, 10), ('fr-ud-train_05691', 10, 11), ('fr-ud-train_06019', 15, 16), ('fr-ud-train_06370', 34, 35), ('fr-ud-train_06880', 10, 11), ('fr-ud-train_06948', 2, 3), ('fr-ud-train_07117', 36, 37), ('fr-ud-train_07182', 7, 8), ('fr-ud-train_07501', 15, 16), ('fr-ud-train_07789', 2, 3), ('fr-ud-train_07870', 15, 16), ('fr-ud-train_08131', 6, 7), ('fr-ud-train_08266', 15, 16), ('fr-ud-train_08266', 25, 26), ('fr-ud-train_08436', 53, 54), ('fr-ud-train_08891', 2, 3), ('fr-ud-train_08958', 2, 3), ('fr-ud-train_08999', 2, 3), ('fr-ud-train_09297', 45, 46), ('fr-ud-train_10040', 8, 9), ('fr-ud-train_10140', 15, 16), ('fr-ud-train_10455', 20, 21), ('fr-ud-train_10511', 17, 18), ('fr-ud-train_10852', 27, 28), ('fr-ud-train_11174', 15, 16), ('fr-ud-train_11194', 2, 3), ('fr-ud-train_11359', 24, 25), ('fr-ud-train_11408', 2, 3), ('fr-ud-train_11652', 20, 21), ('fr-ud-train_11793', 51, 52), ('fr-ud-train_12077', 18, 19), ('fr-ud-train_12194', 37, 38), ('fr-ud-train_12461', 10, 11), ('fr-ud-train_12616', 19, 20), ('fr-ud-train_12959', 2, 3), ('fr-ud-train_13091', 5, 6), ('fr-ud-train_13238', 5, 6), ('fr-ud-train_13302', 5, 6), ('fr-ud-train_13320', 11, 12), ('fr-ud-train_13602', 37, 38), ('fr-ud-train_13909', 7, 8), ('fr-ud-train_13942', 2, 3), ('fr-ud-train_14321', 2, 3), ('fr-ud-train_14379', 5, 6), ('fr-ud-train_14492', 12, 13), ('fr-ud-train_14542', 13, 14)]}
+-     7	(("n'", 'ont'), ['ils', 0, 0, 'pas'])	{'NIL': [('fr-ud-train_04022', '9', '10'), ('fr-ud-train_04022', '19', '20'), ('fr-ud-train_11351', '44', '45')], 'advmod - R': [('fr-ud-train_14042', 2, 3)]}
+-     8	(('ont', 'pas'), ["n'", 0, 0, 'encore'])	{'NIL': [('fr-ud-train_09591', '4', '5')], 'advmod - L': [('fr-ud-train_00022', 24, 25)]}
++     9	(("l'", 'eau'), ['de', 0, 0, '.'])	{'NIL': [('fr-ud-train_00071', '48', '49'), ('fr-ud-train_02044', '30', '31')], 'det - R': [('fr-ud-train_12769', 24, 25)]}
++    10	(("l'", 'eau'), ['de', 0, 0, 'et'])	{'NIL': [('fr-ud-train_09965', '28', '29')], 'det - R': [('fr-ud-train_11519', 16, 17)]}
++    11	(("s'", 'étend'), ['elle', 0, 0, 'sur'])	{'expl:pass - R': [('fr-ud-train_09171', 19, 20)], 'dep:comp - R': [('fr-ud-train_00025', 2, 3)]}
++    12	(("s'", 'étend'), ['il', 0, 0, 'sur'])	{'expl:pass - R': [('fr-ud-train_11224', 2, 3), ('fr-ud-train_12383', 2, 3)], 'dep:comp - R': [('fr-ud-train_07659', 2, 3)]}
+?    13	(('à', 'le'), [',', 0, 0, 'plus'])	{'NIL': [('fr-ud-train_01283', '21', '22'), ('fr-ud-train_07116', '28', '29')], 'fixed - L': [('fr-ud-train_14504', 15, 16)]}
+-    14	(('à', 'le'), [',', 0, 0, 'lieu'])	{'NIL': [('fr-ud-train_01495', '32', '33')], 'fixed - L': [('fr-ud-train_03380', 10, 11), ('fr-ud-train_10735', 27, 28)]}
++    15	(('à', 'le'), ["qu'", 0, 0, 'cours'])	{'NIL': [('fr-ud-train_01862', '4', '5'), ('fr-ud-train_11174', '14', '15')], 'fixed - L': [('fr-ud-train_05928', 19, 20)]}
+-    16	(('centre', 'alignés'), ['le', 'de', 'quatre', 'sur'])	{'NIL': [('fr-ud-train_00058', '24', '44'), ('fr-ud-train_00058', '33', '44')], 'nsubj - R': [('fr-ud-train_00058', 14, 44)]}
++    17	(('habitants', 'appelés'), ['ses', 'sont', 0, 'les'])	{'nsubj - R': [('fr-ud-train_03265', 2, 4)], 'nsubj:pass - R': [('fr-ud-train_00060', 2, 4), ('fr-ud-train_03081', 2, 4), ('fr-ud-train_03825', 2, 4), ('fr-ud-train_09903', 2, 4), ('fr-ud-train_12593', 2, 4)]}
++    18	(('sont', 'appelés'), ['habitants', 0, 0, 'les'])	{'aux:tense - R': [('fr-ud-train_03265', 3, 4)], 'aux:pass - R': [('fr-ud-train_00060', 3, 4), ('fr-ud-train_03081', 3, 4), ('fr-ud-train_03825', 3, 4), ('fr-ud-train_09903', 3, 4), ('fr-ud-train_12593', 3, 4)]}
+-    19	(('droits', 'sahara'), ['les', 'de', 'le', 'occidental'])	{'NIL': [('fr-ud-train_02414', '49', '61')], 'nmod - L': [('fr-ud-train_00066', 52, 58)]}
++    20	(('sahara', 'occidental'), ['le', 0, 0, 'a'])	{'amod - L': [('fr-ud-train_10680', 6, 7), ('fr-ud-train_12551', 5, 6)], 'flat:name - L': [('fr-ud-train_04795', 31, 32)]}
+    21	(('sahara', 'occidental'), ['le', 0, 0, '.'])	{'flat:name - L': [('fr-ud-train_13504', 35, 36)], 'amod - L': [('fr-ud-train_00066', 58, 59), ('fr-ud-train_02296', 30, 31), ('fr-ud-train_02339', 14, 15), ('fr-ud-train_02414', 61, 62), ('fr-ud-train_02874', 43, 44), ('fr-ud-train_03033', 11, 12), ('fr-ud-train_04504', 29, 30), ('fr-ud-train_05496', 42, 43), ('fr-ud-train_07127', 35, 36), ('fr-ud-train_10558', 30, 31), ('fr-ud-train_12049', 46, 47)]}
+    22	(('le', 'milieu'), ['à', 0, 0, 'de'])	{'NIL': [('fr-ud-train_08907', '15', '16')], 'det - R': [('fr-ud-train_00071', 22, 23), ('fr-ud-train_00483', 32, 33), ('fr-ud-train_02453', 15, 16), ('fr-ud-train_02666', 9, 10), ('fr-ud-train_03954', 8, 9), ('fr-ud-train_04909', 38, 39), ('fr-ud-train_05985', 6, 7), ('fr-ud-train_06355', 21, 22), ('fr-ud-train_07344', 7, 8), ('fr-ud-train_07607', 11, 12), ('fr-ud-train_07674', 2, 3), ('fr-ud-train_08148', 31, 32), ('fr-ud-train_08738', 40, 41), ('fr-ud-train_09573', 9, 10), ('fr-ud-train_12717', 18, 19), ('fr-ud-train_13201', 33, 34), ('fr-ud-train_13650', 37, 38), ('fr-ud-train_14068', 22, 23), ('fr-ud-train_14450', 18, 19)]}
+    23	(('de', "l'"), ['et', 0, 0, 'argent'])	{'NIL': [('fr-ud-train_13213', '9', '10')], 'fixed - L': [('fr-ud-train_08756', 45, 46)]}
+    24	(('à', 'titre'), [',', 0, 0, "d'"])	{'fixed - L': [('fr-ud-train_05729', 4, 5)], 'case - R': [('fr-ud-train_04112', 13, 14), ('fr-ud-train_08236', 27, 28)]}
+    25	(('à', 'siècle'), [0, 'le', 'xviiie', ','])	{'NIL': [('fr-ud-train_04187', '1', '7')], 'case - R': [('fr-ud-train_02500', 1, 4)]}
+    26	(('tous', 'ans'), [',', 'les', 'dix', ','])	{'NIL': [('fr-ud-train_02938', '6', '30')], 'amod - R': [('fr-ud-train_02938', 27, 30)]}
+    27	(('est', 'pas'), ["n'", 0, 0, 'de'])	{'NIL': [('fr-ud-train_00908', '3', '4'), ('fr-ud-train_04546', '49', '50'), ('fr-ud-train_10154', '24', '25'), ('fr-ud-train_11917', '7', '8')], 'advmod - L': [('fr-ud-train_00080', 26, 27)]}
+    28	(('est', 'pas'), ["n'", 0, 0, 'encore'])	{'NIL': [('fr-ud-train_02716', '21', '22'), ('fr-ud-train_06055', '7', '8'), ('fr-ud-train_09250', '5', '6')], 'advmod - L': [('fr-ud-train_00761', 28, 29)]}
+    29	(('est', 'pas'), ["n'", 0, 0, 'à'])	{'NIL': [('fr-ud-train_09072', '5', '6'), ('fr-ud-train_14037', '4', '5')], 'advmod - L': [('fr-ud-train_11770', 4, 5)]}
+    30	(("n'", 'a'), ['il', 0, 0, 'pas'])	{'NIL': [('fr-ud-train_00737', '9', '10'), ('fr-ud-train_02164', '16', '17'), ('fr-ud-train_03308', '8', '9'), ('fr-ud-train_05052', '3', '4'), ('fr-ud-train_09182', '13', '14'), ('fr-ud-train_10203', '8', '9'), ('fr-ud-train_11276', '12', '13'), ('fr-ud-train_12547', '17', '18')], 'advmod - R': [('fr-ud-train_00575', 21, 22), ('fr-ud-train_02214', 2, 3), ('fr-ud-train_02857', 6, 7), ('fr-ud-train_09484', 9, 10), ('fr-ud-train_11233', 16, 17), ('fr-ud-train_13332', 7, 8)]}
+    31	(("n'", 'a'), ['qui', 0, 0, 'plus'])	{'NIL': [('fr-ud-train_02045', '25', '26')], 'advmod - R': [('fr-ud-train_14024', 16, 17)]}
+    32	(("n'", 'a'), ['il', 'y', 0, 'pas'])	{'NIL': [('fr-ud-train_02391', '8', '10'), ('fr-ud-train_03938', '18', '20'), ('fr-ud-train_10228', '7', '9')], 'advmod - R': [('fr-ud-train_00988', 9, 11), ('fr-ud-train_01064', 4, 6), ('fr-ud-train_02453', 22, 24), ('fr-ud-train_03331', 12, 14), ('fr-ud-train_03386', 4, 6), ('fr-ud-train_03698', 2, 4), ('fr-ud-train_04101', 12, 14), ('fr-ud-train_04877', 7, 9), ('fr-ud-train_04992', 2, 4), ('fr-ud-train_06024', 2, 4), ('fr-ud-train_06382', 9, 11), ('fr-ud-train_06950', 22, 24), ('fr-ud-train_08103', 2, 4), ('fr-ud-train_08188', 2, 4), ('fr-ud-train_10662', 19, 21), ('fr-ud-train_10862', 19, 21), ('fr-ud-train_11114', 9, 11), ('fr-ud-train_12148', 2, 4), ('fr-ud-train_12499', 2, 4), ('fr-ud-train_12828', 2, 4), ('fr-ud-train_13917', 11, 13)]}
+    33	(("n'", 'a'), [',', 0, 0, 'pas'])	{'NIL': [('fr-ud-train_02947', '9', '10'), ('fr-ud-train_04975', '21', '22'), ('fr-ud-train_06614', '7', '8'), ('fr-ud-train_07407', '9', '10')], 'advmod - R': [('fr-ud-train_13079', 7, 8)]}
+    34	(("n'", 'a'), ['elle', 0, 0, 'pas'])	{'NIL': [('fr-ud-train_04178', '20', '21'), ('fr-ud-train_10868', '6', '7')], 'advmod - R': [('fr-ud-train_13876', 20, 21)]}
+    35	(("n'", 'a'), ['qui', 0, 0, 'pas'])	{'NIL': [('fr-ud-train_04509', '4', '5'), ('fr-ud-train_09108', '12', '13'), ('fr-ud-train_12012', '27', '28')], 'advmod - R': [('fr-ud-train_06807', 16, 17), ('fr-ud-train_11671', 5, 6), ('fr-ud-train_11964', 17, 18), ('fr-ud-train_13886', 9, 10)]}
+    36	(("n'", 'a'), ['il', 0, 0, 'plus'])	{'NIL': [('fr-ud-train_05738', '23', '24'), ('fr-ud-train_06103', '5', '6')], 'advmod - R': [('fr-ud-train_08455', 5, 6)]}
+    37	(("n'", 'a'), ['on', 0, 0, 'pas'])	{'NIL': [('fr-ud-train_09456', '5', '6'), ('fr-ud-train_10189', '8', '9')], 'advmod - R': [('fr-ud-train_07322', 2, 3), ('fr-ud-train_09534', 4, 5)]}
+    38	(('y', 'a'), ['il', 0, 0, 'une'])	{'NIL': [('fr-ud-train_00245', '25', '26'), ('fr-ud-train_13722', '17', '18')], 'dep:comp - R': [('fr-ud-train_00220', 7, 8), ('fr-ud-train_03278', 8, 9), ('fr-ud-train_09400', 19, 20), ('fr-ud-train_10245', 8, 9), ('fr-ud-train_11378', 11, 12), ('fr-ud-train_12994', 14, 15), ('fr-ud-train_13716', 11, 12)]}
+    39	(('y', 'a'), ["n'", 0, 0, 'pas'])	{'NIL': [('fr-ud-train_02391', '9', '10'), ('fr-ud-train_03938', '19', '20'), ('fr-ud-train_10228', '8', '9')], 'dep:comp - R': [('fr-ud-train_00988', 10, 11), ('fr-ud-train_01064', 5, 6), ('fr-ud-train_02453', 23, 24), ('fr-ud-train_03331', 13, 14), ('fr-ud-train_03386', 5, 6), ('fr-ud-train_03698', 3, 4), ('fr-ud-train_04101', 13, 14), ('fr-ud-train_04877', 8, 9), ('fr-ud-train_04992', 3, 4), ('fr-ud-train_06024', 3, 4), ('fr-ud-train_06382', 10, 11), ('fr-ud-train_06950', 23, 24), ('fr-ud-train_08103', 3, 4), ('fr-ud-train_08188', 3, 4), ('fr-ud-train_10662', 20, 21), ('fr-ud-train_10862', 20, 21), ('fr-ud-train_11114', 10, 11), ('fr-ud-train_12148', 3, 4), ('fr-ud-train_12499', 3, 4), ('fr-ud-train_12828', 3, 4), ('fr-ud-train_13917', 12, 13)]}
+    40	(('y', 'a'), ['il', 0, 0, 'plus'])	{'NIL': [('fr-ud-train_03109', '2', '3')], 'dep:comp - R': [('fr-ud-train_07668', 32, 33), ('fr-ud-train_09206', 10, 11)]}
+    41	(('y', 'a'), ['il', 0, 0, 'de'])	{'NIL': [('fr-ud-train_06435', '8', '9')], 'dep:comp - R': [('fr-ud-train_00088', 7, 8), ('fr-ud-train_01989', 9, 10), ('fr-ud-train_06057', 16, 17)]}
+    42	(('y', 'a'), ['il', 0, 0, 'six'])	{'NIL': [('fr-ud-train_08208', '15', '16')], 'dep:comp - R': [('fr-ud-train_09819', 2, 3)]}
+    43	(('y', 'a'), ['il', 0, 0, 'un'])	{'NIL': [('fr-ud-train_09062', '2', '3')], 'dep:comp - R': [('fr-ud-train_03149', 2, 3), ('fr-ud-train_11380', 14, 15), ('fr-ud-train_11412', 2, 3), ('fr-ud-train_13806', 2, 3)]}
+    44	(('y', 'a'), ['il', 0, 0, 'deux'])	{'NIL': [('fr-ud-train_12908', '2', '3')], 'dep:comp - R': [('fr-ud-train_01426', 2, 3), ('fr-ud-train_02387', 2, 3), ('fr-ud-train_05495', 15, 16), ('fr-ud-train_08000', 3, 4)]}
+    45	(('y', 'a'), ['il', 0, 0, 'encore'])	{'NIL': [('fr-ud-train_13426', '15', '16')], 'dep:comp - R': [('fr-ud-train_00308', 37, 38), ('fr-ud-train_08996', 10, 11)]}
+    46	(('la', 'musique'), ['de', 0, 0, 'à'])	{'NIL': [('fr-ud-train_07990', '12', '13')], 'det - R': [('fr-ud-train_00699', 10, 11)]}
+    47	(('il', 'a'), [0, 'y', 0, 'un'])	{'fixed - L': [('fr-ud-train_09062', 1, 3)], 'expl:subj - R': [('fr-ud-train_03149', 1, 3), ('fr-ud-train_11412', 1, 3), ('fr-ud-train_13806', 1, 3)]}
+    48	(('il', 'a'), [0, 'y', 0, 'deux'])	{'fixed - L': [('fr-ud-train_12908', 1, 3)], 'expl:subj - R': [('fr-ud-train_01426', 1, 3), ('fr-ud-train_02387', 1, 3)]}
+    49	(('il', 'a'), ["qu'", "n'", 0, 'pas'])	{'NIL': [('fr-ud-train_00737', '8', '10'), ('fr-ud-train_03308', '7', '9'), ('fr-ud-train_09182', '12', '14')], 'nsubj - R': [('fr-ud-train_09484', 8, 10), ('fr-ud-train_13332', 6, 8)]}
+    50	(('il', 'a'), [',', "n'", 'y', 'pas'])	{'NIL': [('fr-ud-train_02391', '7', '10')], 'expl:subj - R': [('fr-ud-train_00988', 8, 11), ('fr-ud-train_02453', 21, 24), ('fr-ud-train_03331', 11, 14), ('fr-ud-train_04877', 6, 9), ('fr-ud-train_11114', 8, 11)]}
+    51	(('il', 'a'), [0, 0, 0, 'également'])	{'NIL': [('fr-ud-train_02810', '1', '2'), ('fr-ud-train_03376', '1', '2'), ('fr-ud-train_06201', '1', '2'), ('fr-ud-train_08377', '1', '2'), ('fr-ud-train_09758', '1', '2'), ('fr-ud-train_11216', '1', '2')], 'nsubj - R': [('fr-ud-train_06522', 1, 2)]}
+    52	(('il', 'a'), [0, 0, 0, 'aussi'])	{'NIL': [('fr-ud-train_03947', '1', '2'), ('fr-ud-train_06301', '1', '2'), ('fr-ud-train_07702', '1', '2'), ('fr-ud-train_07772', '1', '2')], 'nsubj - R': [('fr-ud-train_14056', 1, 2)]}
+    53	(('il', 'a'), [',', 0, 0, 'ainsi'])	{'NIL': [('fr-ud-train_05450', '32', '33')], 'nsubj - R': [('fr-ud-train_11865', 69, 70)]}
+    54	(('il', 'a'), [',', "n'", 0, 'plus'])	{'NIL': [('fr-ud-train_06103', '4', '6')], 'nsubj - R': [('fr-ud-train_08455', 4, 6)]}
+    55	(('il', 'a'), ["qu'", "n'", 'y', 'pas'])	{'NIL': [('fr-ud-train_10228', '6', '9')], 'expl:subj - R': [('fr-ud-train_04101', 11, 14)]}
+    56	(('le', 'sud'), ['à', 0, 0, '.'])	{'flat:name - L': [('fr-ud-train_09973', 19, 20)], 'det - R': [('fr-ud-train_01485', 16, 17), ('fr-ud-train_11146', 26, 27), ('fr-ud-train_12420', 28, 29), ('fr-ud-train_13715', 35, 36)]}
+    57	(('%', 'voix'), ['39,9', 'de', 'les', ')'])	{'NIL': [('fr-ud-train_12489', '17', '31')], 'nmod - L': [('fr-ud-train_12489', 17, 20)]}
+    58	(('privilège', 'passage'), ['un', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_00107', '15', '43')], 'nmod - L': [('fr-ud-train_00107', 15, 18)]}
+    59	(('jours', 'tard'), ['deux', 'plus', 0, ','])	{'obl:mod - R': [('fr-ud-train_09926', 2, 4)], 'advmod - L': [('fr-ud-train_01442', 2, 4), ('fr-ud-train_12637', 2, 4)]}
+    60	(('une', 'dizaine'), ['à', 0, 0, 'de'])	{'nummod - R': [('fr-ud-train_05455', 6, 7)], 'det - R': [('fr-ud-train_00470', 14, 15)]}
+    61	(('une', 'dizaine'), ["d'", 0, 0, "d'"])	{'nummod - R': [('fr-ud-train_10848', 21, 22)], 'det - R': [('fr-ud-train_07365', 34, 35)]}
+    62	(('la', 'suite'), ['par', 0, 0, ','])	{'NIL': [('fr-ud-train_04886', '23', '24')], 'det - R': [('fr-ud-train_00140', 13, 14), ('fr-ud-train_03444', 2, 3), ('fr-ud-train_04151', 2, 3), ('fr-ud-train_05063', 2, 3), ('fr-ud-train_06812', 2, 3), ('fr-ud-train_08025', 2, 3), ('fr-ud-train_08472', 8, 9), ('fr-ud-train_08496', 2, 3), ('fr-ud-train_13286', 22, 23), ('fr-ud-train_13866', 11, 12)]}
+    63	(('il', 'suffit'), [',', 0, 0, 'de'])	{'expl:subj - R': [('fr-ud-train_10271', 8, 9)], 'nsubj - R': [('fr-ud-train_01265', 10, 11)]}
+    64	(('située', 'département'), [',', 'dans', 'le', 'de'])	{'NIL': [('fr-ud-train_04932', '16', '24')], 'obl:arg - L': [('fr-ud-train_00256', 7, 10), ('fr-ud-train_00338', 7, 10), ('fr-ud-train_00946', 7, 10), ('fr-ud-train_01303', 12, 15), ('fr-ud-train_01595', 7, 10), ('fr-ud-train_01872', 7, 10), ('fr-ud-train_02158', 7, 10), ('fr-ud-train_02531', 7, 10), ('fr-ud-train_02997', 7, 10), ('fr-ud-train_03602', 7, 10), ('fr-ud-train_03681', 7, 10), ('fr-ud-train_03753', 7, 10), ('fr-ud-train_03782', 7, 10), ('fr-ud-train_04024', 7, 10), ('fr-ud-train_04559', 7, 10), ('fr-ud-train_05894', 7, 10), ('fr-ud-train_06061', 7, 10), ('fr-ud-train_07346', 11, 14), ('fr-ud-train_08189', 7, 10), ('fr-ud-train_08884', 7, 10), ('fr-ud-train_09303', 7, 10), ('fr-ud-train_09874', 7, 10), ('fr-ud-train_10480', 7, 10), ('fr-ud-train_10535', 12, 15), ('fr-ud-train_10550', 7, 10), ('fr-ud-train_11636', 7, 10), ('fr-ud-train_12053', 7, 10), ('fr-ud-train_12469', 7, 10), ('fr-ud-train_12493', 7, 10), ('fr-ud-train_13475', 7, 10), ('fr-ud-train_14081', 16, 19)]}
+    65	(('festival', 'international'), ['le', 0, 0, 'de'])	{'appos - L': [('fr-ud-train_14053', 34, 35)], 'amod - L': [('fr-ud-train_00173', 26, 27), ('fr-ud-train_04618', 2, 3), ('fr-ud-train_08600', 14, 15), ('fr-ud-train_11764', 11, 12)]}
+    66	(('exploration', 'espace'), ["l'", 'de', "l'", ','])	{'NIL': [('fr-ud-train_00176', '2', '20')], 'nmod - L': [('fr-ud-train_00176', 2, 5)]}
+    67	(('retenus', 'ce'), ['étant', 'plus', 'pour', "qu'"])	{'NIL': [('fr-ud-train_00215', '29', '38')], 'obl:mod - L': [('fr-ud-train_00215', 29, 32)]}
+    68	(('ce', "qu'"), ['pour', 0, 0, 'ils'])	{'NIL': [('fr-ud-train_00215', '32', '33')], 'acl:relcl - L': [('fr-ud-train_00215', 38, 39)]}
+    69	(('elle', 'a'), ["qu'", "n'", 0, 'pas'])	{'NIL': [('fr-ud-train_04178', '19', '21')], 'nsubj - R': [('fr-ud-train_13876', 19, 21)]}
+    70	(('1er', 'secteurs'), ['les', 'et', '2e', '.'])	{'NIL': [('fr-ud-train_00224', '13', '41')], 'amod - R': [('fr-ud-train_00224', 38, 41)]}
+    71	(('fin', 'début'), ['la', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_03279', '3', '15')], 'conj - L': [('fr-ud-train_00226', 5, 12), ('fr-ud-train_01330', 2, 9), ('fr-ud-train_05515', 38, 46), ('fr-ud-train_13135', 15, 23)]}
+    72	(('début', 'histoire'), ['le', 'de', "l'", 'de'])	{'NIL': [('fr-ud-train_13820', '2', '17')], 'nmod - L': [('fr-ud-train_13820', 2, 5)]}
+    73	(('se', 'contente'), ['ne', 0, 0, 'pas'])	{'dep:comp - R': [('fr-ud-train_08115', 3, 4)], 'obj - R': [('fr-ud-train_00227', 5, 6)]}
+    74	(('est', 'fait'), ['tout', 0, 0, 'pour'])	{'aux:tense - R': [('fr-ud-train_11695', 2, 3)], 'aux:pass - R': [('fr-ud-train_00228', 14, 15)]}
+    75	(('à', 'plus'), [',', 'le', 0, 'fort'])	{'NIL': [('fr-ud-train_07116', '28', '30')], 'fixed - L': [('fr-ud-train_14504', 15, 17)]}
+    76	(('absorbe', 'énergie'), ['puis', 'toute', "l'", 'mécanique'])	{'NIL': [('fr-ud-train_00232', '26', '38')], 'obj - L': [('fr-ud-train_00232', 26, 29)]}
+    77	(('énergie', 'augmente'), ["l'", 'mécanique', "n'", 'à'])	{'NIL': [('fr-ud-train_00232', '29', '45')], 'nsubj - R': [('fr-ud-train_00232', 38, 45)]}
+    78	(('de', 'pendule'), ['mécanique', 'le', 'premier', "n'"])	{'NIL': [('fr-ud-train_00232', '31', '43')], 'case - R': [('fr-ud-train_00232', 40, 43)]}
+    79	(('il', 'interdit'), [0, 'est', 'donc', 'de'])	{'nsubj - R': [('fr-ud-train_12629', 1, 4)], 'expl:subj - R': [('fr-ud-train_08885', 1, 4)]}
+    80	(('est', 'interdit'), ['il', 'donc', 0, 'de'])	{'aux:tense - R': [('fr-ud-train_12629', 2, 4)], 'aux:pass - R': [('fr-ud-train_08885', 2, 4)]}
+    81	(('le', 'plus'), ['à', 0, 0, 'fort'])	{'NIL': [('fr-ud-train_14504', '16', '17')], 'fixed - L': [('fr-ud-train_07116', 29, 30)]}
+    82	(('il', 'y'), [',', 0, 0, 'a'])	{'NIL': [('fr-ud-train_00220', '6', '7'), ('fr-ud-train_00820', '20', '21'), ('fr-ud-train_00871', '8', '9'), ('fr-ud-train_01989', '8', '9'), ('fr-ud-train_04802', '15', '16'), ('fr-ud-train_05703', '6', '7'), ('fr-ud-train_05989', '10', '11'), ('fr-ud-train_06110', '18', '19'), ('fr-ud-train_06301', '9', '10'), ('fr-ud-train_10245', '7', '8'), ('fr-ud-train_10459', '7', '8'), ('fr-ud-train_11378', '10', '11'), ('fr-ud-train_11380', '13', '14'), ('fr-ud-train_11503', '13', '14'), ('fr-ud-train_12994', '13', '14'), ('fr-ud-train_13740', '36', '37')], 'fixed - L': [('fr-ud-train_02604', 6, 7), ('fr-ud-train_08208', 14, 15), ('fr-ud-train_08825', 24, 25)]}
+    83	(('il', 'y'), [0, 0, 0, 'a'])	{'NIL': [('fr-ud-train_00231', '1', '2'), ('fr-ud-train_00775', '1', '2'), ('fr-ud-train_00868', '1', '2'), ('fr-ud-train_01054', '1', '2'), ('fr-ud-train_01426', '1', '2'), ('fr-ud-train_02387', '1', '2'), ('fr-ud-train_03062', '1', '2'), ('fr-ud-train_03085', '1', '2'), ('fr-ud-train_03149', '1', '2'), ('fr-ud-train_05775', '1', '2'), ('fr-ud-train_08438', '1', '2'), ('fr-ud-train_08843', '1', '2'), ('fr-ud-train_08901', '1', '2'), ('fr-ud-train_09819', '1', '2'), ('fr-ud-train_11361', '1', '2'), ('fr-ud-train_11412', '1', '2'), ('fr-ud-train_11585', '1', '2'), ('fr-ud-train_11989', '1', '2'), ('fr-ud-train_12040', '1', '2'), ('fr-ud-train_12548', '1', '2'), ('fr-ud-train_13806', '1', '2'), ('fr-ud-train_13887', '1', '2')], 'fixed - L': [('fr-ud-train_03109', 1, 2), ('fr-ud-train_04971', 1, 2), ('fr-ud-train_09062', 1, 2), ('fr-ud-train_12908', 1, 2)]}
+    84	(('une', 'vingtaine'), ["d'", 0, 0, "d'"])	{'det - R': [('fr-ud-train_07576', 11, 12)], 'nummod - R': [('fr-ud-train_02572', 14, 15)]}
+    85	(('département', 'région'), ['le', 'de', 'la', 'de'])	{'conj - L': [('fr-ud-train_09189', 25, 31)], 'nmod - L': [('fr-ud-train_08740', 18, 24)], 'NIL': [('fr-ud-train_04932', '24', '32')]}
+    86	(('deux', 'brevet'), ['de', ':', 'un', '«'])	{'NIL': [('fr-ud-train_00277', '11', '24')], 'appos - L': [('fr-ud-train_00277', 11, 14)]}
+    87	(('est', 'connue'), ['elle', 0, 0, 'pour'])	{'aux:tense - R': [('fr-ud-train_14549', 8, 9)], 'aux:pass - R': [('fr-ud-train_13596', 2, 3)]}
+    88	(('située', 'province'), [',', 'dans', 'la', 'de'])	{'NIL': [('fr-ud-train_04103', '9', '15'), ('fr-ud-train_07528', '13', '23')], 'obl:arg - L': [('fr-ud-train_02234', 12, 15)]}
+    89	(('a', 'encore'), ['y', 0, 0, 'un'])	{'NIL': [('fr-ud-train_13426', '16', '17')], 'advmod - L': [('fr-ud-train_08996', 11, 12)]}
+    90	(('à', 'moins'), [',', 0, 0, "d'"])	{'case - R': [('fr-ud-train_10246', 33, 34)], 'fixed - L': [('fr-ud-train_00345', 11, 12)]}
+    91	(('né', 'famille'), [0, 'dans', 'une', 'de'])	{'obl:arg - L': [('fr-ud-train_09430', 1, 4)], 'obl:mod - L': [('fr-ud-train_04438', 1, 4)]}
+    92	(('le', 'fait'), ['de', 0, 0, 'que'])	{'NIL': [('fr-ud-train_09456', '29', '30')], 'det - R': [('fr-ud-train_01577', 4, 5), ('fr-ud-train_07201', 15, 16), ('fr-ud-train_08332', 8, 9)]}
+    93	(('le', 'fait'), ['de', 0, 0, "qu'"])	{'NIL': [('fr-ud-train_09523', '29', '30'), ('fr-ud-train_12087', '28', '29')], 'det - R': [('fr-ud-train_03056', 15, 16), ('fr-ud-train_05625', 5, 6), ('fr-ud-train_09484', 5, 6)]}
+    94	(('partage', 'nombre'), ['il', 'un', 'certain', 'de'])	{'NIL': [('fr-ud-train_00368', '10', '25')], 'obj - L': [('fr-ud-train_00368', 10, 13)]}
+    95	(('nombre', 'nombre'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_00589', '5', '22')], 'conj - L': [('fr-ud-train_06811', 12, 17), ('fr-ud-train_13856', 12, 17)]}
+    96	(('clubs', 'champions'), ['les', 0, 0, 'en'])	{'appos - L': [('fr-ud-train_05870', 36, 37)], 'amod - L': [('fr-ud-train_00373', 37, 38)]}
+    97	(('de', 'collines'), ['une', 'les', 'sept', 'de'])	{'NIL': [('fr-ud-train_00378', '6', '26')], 'case - R': [('fr-ud-train_00378', 23, 26)]}
+    98	(("s'", 'appuyant'), ['en', 0, 0, 'sur'])	{'dep:comp - R': [('fr-ud-train_14214', 20, 21)], 'obj - R': [('fr-ud-train_00387', 2, 3)]}
+    99	(('plus', 'ans'), ['de', 'de', '60', ','])	{'NIL': [('fr-ud-train_03761', '16', '54')], 'dep:comp - L': [('fr-ud-train_03761', 16, 19)]}
+   100	(('zone', 'euro'), ['la', 0, 0, '.'])	{'nmod - L': [('fr-ud-train_08523', 29, 30)], 'appos - L': [('fr-ud-train_04742', 38, 39)]}
+   101	(('°', 'c'), ['16', 0, 0, '.'])	{'appos - L': [('fr-ud-train_02092', 18, 19)], 'nmod - L': [('fr-ud-train_00525', 18, 19)]}
+   102	(('the', 'world'), ['of', 0, 0, '.'])	{'flat:name - L': [('fr-ud-train_10324', 16, 17)], 'flat:foreign - L': [('fr-ud-train_09196', 10, 11)]}
+   103	(('le', 'site'), [',', 0, 0, 'internet'])	{'NIL': [('fr-ud-train_13625', '5', '6')], 'det - R': [('fr-ud-train_01990', 3, 4)]}
+   104	(('association', 'noblesse'), ["l'", 'de', 'la', 'européenne'])	{'NIL': [('fr-ud-train_00423', '2', '12'), ('fr-ud-train_00423', '2', '58')], 'nmod - L': [('fr-ud-train_00423', 2, 5)]}
+   105	(('intérêts', 'noblesse'), ['les', 'de', 'la', 'européenne'])	{'NIL': [('fr-ud-train_00423', '9', '58')], 'nmod - L': [('fr-ud-train_00423', 9, 12)]}
+   106	(('se', 'jette'), ['qui', 0, 0, 'dans'])	{'dep:comp - R': [('fr-ud-train_03363', 24, 25)], 'obj - R': [('fr-ud-train_00645', 13, 14)]}
+   107	(('le', 'lieu'), ['à', 0, 0, 'de'])	{'NIL': [('fr-ud-train_00181', '47', '48'), ('fr-ud-train_00384', '17', '18'), ('fr-ud-train_01506', '38', '39'), ('fr-ud-train_02504', '6', '7'), ('fr-ud-train_04780', '37', '38'), ('fr-ud-train_04800', '22', '23'), ('fr-ud-train_06344', '19', '20'), ('fr-ud-train_09658', '24', '25')], 'det - R': [('fr-ud-train_04478', 31, 32), ('fr-ud-train_06482', 31, 32)]}
+   108	(('communauté', 'agglomération'), ['la', 'de', "l'", "d'"])	{'NIL': [('fr-ud-train_00504', '2', '23')], 'nmod - L': [('fr-ud-train_00504', 2, 5)]}
+   109	(('première', 'titre'), ['la', 'en', '(', 'original'])	{'NIL': [('fr-ud-train_00506', '20', '51')], 'nmod - L': [('fr-ud-train_00506', 20, 32)]}
+   110	(('espèce', 'genre'), ['une', 'de', 'le', 'croton'])	{'NIL': [('fr-ud-train_00932', '5', '10')], 'nmod - L': [('fr-ud-train_00509', 5, 10)]}
+   111	(('genre', 'famille'), ['un', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_02990', '4', '11'), ('fr-ud-train_05201', '4', '9'), ('fr-ud-train_09046', '4', '9')], 'nmod - L': [('fr-ud-train_01505', 4, 9), ('fr-ud-train_08794', 4, 7), ('fr-ud-train_11025', 4, 9)]}
+   112	(('origine', 'nom'), ["l'", 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_00512', '2', '27')], 'nmod - L': [('fr-ud-train_00635', 7, 10), ('fr-ud-train_02456', 2, 5), ('fr-ud-train_12168', 20, 23)]}
+   113	(('amérique', 'sud'), ["d'", 'de', 'le', ','])	{'NIL': [('fr-ud-train_06528', '32', '54')], 'nmod - L': [('fr-ud-train_06528', 32, 35)]}
+   114	(('orientali', 'del'), ['colli', 0, 0, 'friuli'])	{'NIL': [('fr-ud-train_02092', '3', '4')], 'flat:name - L': [('fr-ud-train_00525', 3, 4)]}
+   115	(('température', 'comprise'), ['une', 0, 0, 'entre'])	{'amod - L': [('fr-ud-train_02092', 12, 13)], 'acl - L': [('fr-ud-train_00525', 12, 13)]}
+   116	(('est', '-ce'), [0, 0, 0, 'que'])	{'nsubj - L': [('fr-ud-train_11432', 1, 2)], 'expl:subj - L': [('fr-ud-train_02591', 1, 2), ('fr-ud-train_10190', 1, 2)]}
+   117	(('est', '-ce'), [0, 0, 0, 'un'])	{'NIL': [('fr-ud-train_06321', '1', '2')], 'cop - R': [('fr-ud-train_05627', 1, 2)]}
+   118	(('militants', 'droits'), ['des', 'de', 'les', 'de'])	{'NIL': [('fr-ud-train_00531', '9', '54')], 'nmod - L': [('fr-ud-train_00531', 9, 12)]}
+   119	(('située', 'région'), [',', 'dans', 'la', 'de'])	{'NIL': [('fr-ud-train_04932', '16', '32')], 'obl:arg - L': [('fr-ud-train_00534', 9, 12)]}
+   120	(('mer', 'mer'), ['la', 'caspienne', 'la', 'noire'])	{'NIL': [('fr-ud-train_00645', '17', '29')], 'conj - L': [('fr-ud-train_13412', 9, 14)]}
+   121	(('empare', 'minute'), ["s'", 'de', '1', 'et'])	{'NIL': [('fr-ud-train_00570', '11', '29')], 'obl:mod - L': [('fr-ud-train_00570', 11, 18)]}
+   122	(('minute', 'avance'), ['1', 'et', "d'", 'sur'])	{'NIL': [('fr-ud-train_00570', '18', '23')], 'nmod - L': [('fr-ud-train_00570', 18, 34)]}
+   123	(('nombre', '1700'), ['le', 'de', 'de', '.'])	{'NIL': [('fr-ud-train_00589', '5', '27')], 'nsubj - R': [('fr-ud-train_00589', 22, 27)]}
+   124	(('le', 'fort'), ['à', 'plus', 0, 'de'])	{'NIL': [('fr-ud-train_14504', '16', '18')], 'advmod - R': [('fr-ud-train_07116', 29, 31)]}
+   125	(('un', 'an'), ["d'", 0, 0, 'de'])	{'nummod - R': [('fr-ud-train_10246', 36, 37), ('fr-ud-train_11852', 7, 8)], 'det - R': [('fr-ud-train_01685', 20, 21), ('fr-ud-train_04744', 8, 9)]}
+   126	(('un', 'an'), [0, 0, 0, 'plus'])	{'nummod - R': [('fr-ud-train_10649', 1, 2)], 'det - R': [('fr-ud-train_00737', 1, 2), ('fr-ud-train_03437', 1, 2), ('fr-ud-train_03866', 1, 2), ('fr-ud-train_07795', 1, 2), ('fr-ud-train_08856', 1, 2)]}
+   127	(('né', '22'), [',', 'à', 'le', 'mars'])	{'obl:arg - L': [('fr-ud-train_11657', 4, 8)], 'obl:mod - L': [('fr-ud-train_01593', 11, 15)]}
+   128	(('prix', 'académie'), ['le', 'de', "l'", 'de'])	{'NIL': [('fr-ud-train_00638', '11', '26')], 'nmod - L': [('fr-ud-train_00638', 11, 14)]}
+   129	(('espèce', 'famille'), ['une', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_00509', '5', '15'), ('fr-ud-train_00932', '5', '15'), ('fr-ud-train_01069', '5', '10'), ('fr-ud-train_01196', '5', '10'), ('fr-ud-train_01973', '5', '16'), ('fr-ud-train_04077', '5', '10'), ('fr-ud-train_04324', '12', '18'), ('fr-ud-train_06190', '5', '10'), ('fr-ud-train_08526', '11', '17'), ('fr-ud-train_10706', '5', '15'), ('fr-ud-train_11234', '11', '17'), ('fr-ud-train_13975', '5', '12')], 'nmod - L': [('fr-ud-train_00653', 5, 10), ('fr-ud-train_00751', 12, 17), ('fr-ud-train_03996', 5, 10), ('fr-ud-train_05095', 5, 10), ('fr-ud-train_06130', 5, 10), ('fr-ud-train_07952', 16, 21), ('fr-ud-train_08479', 5, 10), ('fr-ud-train_09875', 18, 23), ('fr-ud-train_10311', 5, 10), ('fr-ud-train_10547', 5, 10), ('fr-ud-train_10883', 5, 10), ('fr-ud-train_12431', 5, 10), ('fr-ud-train_13139', 5, 10), ('fr-ud-train_13495', 5, 10)]}
+   130	(('espèce', 'famille'), ['une', "d'", 'la', 'de'])	{'NIL': [('fr-ud-train_00758', '14', '25'), ('fr-ud-train_04749', '5', '12'), ('fr-ud-train_07050', '12', '17'), ('fr-ud-train_08935', '5', '11'), ('fr-ud-train_09598', '11', '17'), ('fr-ud-train_10783', '12', '17')], 'nmod - L': [('fr-ud-train_01602', 5, 11), ('fr-ud-train_02151', 5, 10), ('fr-ud-train_02481', 5, 10), ('fr-ud-train_03547', 5, 11), ('fr-ud-train_04362', 5, 11), ('fr-ud-train_05550', 5, 10), ('fr-ud-train_06515', 5, 11), ('fr-ud-train_09131', 5, 10), ('fr-ud-train_09163', 9, 14), ('fr-ud-train_09900', 13, 18), ('fr-ud-train_10540', 5, 10), ('fr-ud-train_12321', 5, 10), ('fr-ud-train_13430', 5, 10)]}
+   131	(('plus', 'connu'), ['le', 0, 0, 'est'])	{'NIL': [('fr-ud-train_01059', '4', '5')], 'advmod - R': [('fr-ud-train_07971', 21, 22)]}
+   132	(('connu', 'nom'), ['aussi', 'sous', 'le', 'de'])	{'NIL': [('fr-ud-train_06404', '24', '62')], 'obl:mod - L': [('fr-ud-train_06404', 24, 27)]}
+   133	(('mois', 'tard'), ['quelques', 'plus', 0, '.'])	{'NIL': [('fr-ud-train_01713', '4', '6')], 'advmod - L': [('fr-ud-train_10999', 10, 12)]}
+   134	(('qui', 'a'), [',', "n'", 0, 'plus'])	{'NIL': [('fr-ud-train_02045', '24', '26')], 'nsubj - R': [('fr-ud-train_14024', 15, 17)]}
+   135	(('qui', 'a'), [',', "n'", 0, 'pas'])	{'NIL': [('fr-ud-train_04509', '3', '5')], 'nsubj - R': [('fr-ud-train_11671', 4, 6), ('fr-ud-train_13886', 8, 10)]}
+   136	(('sainte', 'trinité'), ['la', 0, 0, ','])	{'appos - L': [('fr-ud-train_03889', 18, 19)], 'flat:name - L': [('fr-ud-train_00726', 27, 28)]}
+   137	(('le', 'grand'), ['de', 0, 0, 'chelem'])	{'NIL': [('fr-ud-train_02809', '10', '11'), ('fr-ud-train_06505', '12', '13')], 'det - R': [('fr-ud-train_02462', 10, 11)]}
+   138	(('an', 'tard'), ['un', 'plus', 0, ','])	{'NIL': [('fr-ud-train_10649', '2', '4')], 'advmod - L': [('fr-ud-train_00737', 2, 4), ('fr-ud-train_03437', 2, 4), ('fr-ud-train_03866', 2, 4), ('fr-ud-train_06736', 11, 13), ('fr-ud-train_08856', 2, 4)]}
+   139	(('de', 'kg'), ['catégorie', 'les', '59', 'à'])	{'NIL': [('fr-ud-train_02545', '20', '45')], 'case - R': [('fr-ud-train_02545', 42, 45)]}
+   140	(('comté', 'état'), ['le', 'de', "l'", 'de'])	{'NIL': [('fr-ud-train_00747', '2', '10'), ('fr-ud-train_01353', '2', '21'), ('fr-ud-train_02197', '10', '16'), ('fr-ud-train_03599', '2', '20'), ('fr-ud-train_05959', '10', '17'), ('fr-ud-train_09769', '10', '16'), ('fr-ud-train_10072', '2', '13'), ('fr-ud-train_12494', '8', '18'), ('fr-ud-train_13619', '2', '20')], 'nmod - L': [('fr-ud-train_06537', 11, 16)]}
+   141	(('comté', 'état'), ['un', 'de', "l'", 'de'])	{'NIL': [('fr-ud-train_01353', '14', '21')], 'nmod - L': [('fr-ud-train_00747', 7, 10)]}
+   142	(('de', 'grand'), ['tournée', 'le', 0, 'chelem'])	{'NIL': [('fr-ud-train_02809', '9', '11')], 'case - R': [('fr-ud-train_02462', 9, 11)]}
+   143	(('durant', 'guerre'), [0, 'la', 'seconde', 'mondiale'])	{'NIL': [('fr-ud-train_01019', '1', '48')], 'case - R': [('fr-ud-train_07141', 1, 4)]}
+   144	(('compétition', 'football'), ['de', 'majeure', 'de', 'féminin'])	{'NIL': [('fr-ud-train_00810', '12', '26')], 'nmod - L': [('fr-ud-train_00810', 12, 15)]}
+   145	(('football', 'féminin'), ['de', 0, 0, ','])	{'NIL': [('fr-ud-train_00810', '26', '27')], 'amod - L': [('fr-ud-train_00810', 15, 16)]}
+   146	(('coupe', 'monde'), ['la', 'de', 'le', 'en'])	{'NIL': [('fr-ud-train_02072', '13', '25')], 'nmod - L': [('fr-ud-train_11568', 7, 10)]}
+   147	(('championnat', 'jeux'), ['le', "d'", 'les', 'olympiques'])	{'NIL': [('fr-ud-train_05897', '6', '39')], 'conj - L': [('fr-ud-train_00810', 22, 36)]}
+   148	(('agit', 'dérivé'), ["s'", "d'", 'un', 'de'])	{'NIL': [('fr-ud-train_09574', '3', '10')], 'obl:arg - L': [('fr-ud-train_00814', 3, 6)]}
+   149	(('dérivé', 'foire'), ['un', 'de', '«', '»'])	{'NIL': [('fr-ud-train_00814', '6', '26')], 'nmod - L': [('fr-ud-train_00814', 6, 9)]}
+   150	(('se', 'trouve'), ['où', 0, 0, 'le'])	{'dep:comp - R': [('fr-ud-train_10306', 25, 26)], 'expl:pass - R': [('fr-ud-train_03387', 42, 43)]}
+   151	(('black', 'panther'), ['le', 0, 0, 'party'])	{'amod - R': [('fr-ud-train_05264', 18, 19)], 'flat:name - L': [('fr-ud-train_00839', 2, 3)], 'flat:foreign - L': [('fr-ud-train_09776', 2, 3)]}
+   152	(('capitaine', 'régiment'), [',', 'à', 'le', 'de'])	{'NIL': [('fr-ud-train_00851', '11', '35')], 'nmod - L': [('fr-ud-train_00851', 11, 14)]}
+   153	(('plus', 'anciens'), ['les', 0, 0, 'de'])	{'NIL': [('fr-ud-train_01925', '9', '10')], 'advmod - R': [('fr-ud-train_07747', 6, 7)]}
+   154	(('y', 'sont'), ["n'", 0, 0, 'pas'])	{'NIL': [('fr-ud-train_05904', '7', '8')], 'obl:arg - R': [('fr-ud-train_00858', 4, 5)]}
+   155	(('lors', 'élections'), [0, 'de', 'les', 'législatives'])	{'NIL': [('fr-ud-train_09660', '1', '8')], 'obl:arg - L': [('fr-ud-train_03711', 1, 4)]}
+   156	(('insectes', 'famille'), ["d'", 'lépidoptères', 'la', 'de'])	{'NIL': [('fr-ud-train_04749', '7', '12')], 'nmod - L': [('fr-ud-train_08935', 7, 11)]}
+   157	(('il', 'fils'), [0, 'est', 'le', 'de'])	{'NIL': [('fr-ud-train_08987', '1', '25')], 'nsubj - R': [('fr-ud-train_00911', 1, 4), ('fr-ud-train_02597', 1, 4), ('fr-ud-train_08671', 1, 4), ('fr-ud-train_10298', 1, 4)]}
+   158	(('taux', 'taux'), ['le', 'national', 'le', 'départemental'])	{'NIL': [('fr-ud-train_12517', '22', '35')], 'conj - L': [('fr-ud-train_00924', 22, 31), ('fr-ud-train_13896', 22, 31)]}
+   159	(('fonctionner', 'jours'), ['faisait', 'six', 'les', 'de'])	{'NIL': [('fr-ud-train_00927', '5', '18')], 'obl:mod - L': [('fr-ud-train_00927', 5, 13)]}
+   160	(('plantes', 'genre'), ['de', 'de', 'le', 'croton'])	{'NIL': [('fr-ud-train_00509', '7', '10')], 'nmod - L': [('fr-ud-train_00932', 7, 10)]}
+   161	(('fédération', 'football'), ['la', 'de', 'de', '.'])	{'NIL': [('fr-ud-train_04009', '2', '48')], 'nmod - L': [('fr-ud-train_04008', 25, 34)]}
+   162	(('classée', 'monument'), [0, 0, 0, 'historique'])	{'xcomp:pred - L': [('fr-ud-train_02563', 1, 2)], 'obj - L': [('fr-ud-train_00972', 1, 2)]}
+   163	(('vous', 'avez'), ['si', "n'", 0, 'pas'])	{'NIL': [('fr-ud-train_13219', '4', '6')], 'nsubj - R': [('fr-ud-train_01004', 2, 4)]}
+   164	(("n'", 'avez'), ['vous', 0, 0, 'pas'])	{'NIL': [('fr-ud-train_13219', '5', '6')], 'advmod - R': [('fr-ud-train_01004', 3, 4), ('fr-ud-train_02189', 2, 3)]}
+   165	(('il', 'est'), [0, 0, 0, 'aussi'])	{'NIL': [('fr-ud-train_00148', '1', '2'), ('fr-ud-train_05370', '1', '2'), ('fr-ud-train_05457', '1', '2'), ('fr-ud-train_05849', '1', '2'), ('fr-ud-train_06607', '1', '2'), ('fr-ud-train_07210', '1', '2'), ('fr-ud-train_08359', '1', '2'), ('fr-ud-train_13335', '1', '2')], 'expl:subj - R': [('fr-ud-train_06466', 1, 2)]}
+   166	(('il', 'est'), [0, 0, 0, 'toujours'])	{'NIL': [('fr-ud-train_00596', '1', '2')], 'nsubj - R': [('fr-ud-train_01581', 1, 2)]}
+   167	(('il', 'est'), [0, 0, 0, 'à'])	{'NIL': [('fr-ud-train_03534', '1', '2'), ('fr-ud-train_04743', '1', '2'), ('fr-ud-train_07994', '1', '2'), ('fr-ud-train_09602', '1', '2'), ('fr-ud-train_13224', '1', '2')], 'expl:subj - R': [('fr-ud-train_03739', 1, 2), ('fr-ud-train_10228', 1, 2)]}
+   168	(('il', 'est'), [0, 0, 0, 'chargé'])	{'NIL': [('fr-ud-train_11517', '1', '2')], 'nsubj - R': [('fr-ud-train_06216', 1, 2), ('fr-ud-train_11665', 1, 2)]}
+   169	(('il', 'est'), [0, 0, 0, "d'"])	{'NIL': [('fr-ud-train_13378', '1', '2'), ('fr-ud-train_14112', '1', '2')], 'nsubj - R': [('fr-ud-train_01013', 1, 2)]}
+   170	(('23', 'août'), ['le', 0, 0, 'à'])	{'NIL': [('fr-ud-train_07724', '18', '19')], 'nmod - L': [('fr-ud-train_04346', 14, 15)]}
+   171	(('plus', 'connus'), ['les', 0, 0, ','])	{'NIL': [('fr-ud-train_02975', '48', '49')], 'advmod - R': [('fr-ud-train_01045', 6, 7)]}
+   172	(('comarque', 'province'), ['la', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_01223', '11', '18')], 'conj - L': [('fr-ud-train_02586', 7, 13)]}
+   173	(('scorpions', 'famille'), ['de', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_10311', '7', '10'), ('fr-ud-train_10547', '7', '10')], 'nmod - L': [('fr-ud-train_01069', 7, 10), ('fr-ud-train_06190', 7, 10)]}
+   174	(("c'", 'est'), [',', 0, 0, 'que'])	{'expl:subj - R': [('fr-ud-train_13243', 10, 11)], 'nsubj - R': [('fr-ud-train_01097', 5, 6), ('fr-ud-train_02627', 25, 26)]}
+   175	(("c'", 'est'), [',', 0, 0, 'pour'])	{'NIL': [('fr-ud-train_01179', '21', '22'), ('fr-ud-train_10350', '33', '34'), ('fr-ud-train_14446', '9', '10')], 'nsubj - R': [('fr-ud-train_07439', 35, 36), ('fr-ud-train_10003', 27, 28), ('fr-ud-train_13036', 8, 9)]}
+   176	(("c'", 'est'), [0, 0, 0, 'en'])	{'NIL': [('fr-ud-train_01620', '1', '2'), ('fr-ud-train_06541', '1', '2'), ('fr-ud-train_09139', '1', '2'), ('fr-ud-train_10689', '1', '2'), ('fr-ud-train_12614', '1', '2')], 'expl:subj - R': [('fr-ud-train_06347', 1, 2), ('fr-ud-train_07232', 1, 2), ('fr-ud-train_11833', 1, 2)]}
+   177	(("c'", 'est'), [',', 0, 0, 'de'])	{'NIL': [('fr-ud-train_02044', '27', '28')], 'nsubj - R': [('fr-ud-train_06429', 17, 18)]}
+   178	(("c'", 'est'), [',', 0, 0, 'un'])	{'NIL': [('fr-ud-train_02108', '4', '5'), ('fr-ud-train_03928', '5', '6'), ('fr-ud-train_04978', '8', '9'), ('fr-ud-train_06807', '9', '10'), ('fr-ud-train_07914', '7', '8'), ('fr-ud-train_09543', '10', '11'), ('fr-ud-train_10401', '10', '11'), ('fr-ud-train_12128', '11', '12'), ('fr-ud-train_13281', '12', '13')], 'nsubj - R': [('fr-ud-train_02392', 3, 4)]}
+   179	(("c'", 'est'), [0, 0, 0, 'à'])	{'NIL': [('fr-ud-train_02460', '1', '2'), ('fr-ud-train_03644', '1', '2'), ('fr-ud-train_05069', '1', '2'), ('fr-ud-train_05287', '1', '2'), ('fr-ud-train_08034', '1', '2'), ('fr-ud-train_08264', '1', '2'), ('fr-ud-train_09581', '1', '2'), ('fr-ud-train_11555', '1', '2'), ('fr-ud-train_14004', '1', '2')], 'expl:subj - R': [('fr-ud-train_06603', 1, 2)]}
+   180	(("c'", 'est'), ['et', 0, 0, 'en'])	{'NIL': [('fr-ud-train_05817', '18', '19')], 'expl:subj - R': [('fr-ud-train_08615', 15, 16)]}
+   181	(('est', 'élu'), ['il', 0, 0, 'député'])	{'aux:pass - R': [('fr-ud-train_09871', 7, 8), ('fr-ud-train_12810', 24, 25)], 'aux:tense - R': [('fr-ud-train_03332', 2, 3)]}
+   182	(('résultats', 'détaillés'), [0, 0, 0, 'de'])	{'acl - L': [('fr-ud-train_05193', 1, 2)], 'amod - L': [('fr-ud-train_04266', 1, 2), ('fr-ud-train_05144', 1, 2), ('fr-ud-train_07286', 1, 2)]}
+   183	(('proximité', 'village'), ['à', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_08786', '20', '26')], 'nmod - L': [('fr-ud-train_11857', 11, 14)]}
+   184	(('étang', 'superficie'), ["l'", 'de', 'une', 'de'])	{'NIL': [('fr-ud-train_08234', '2', '23')], 'nmod - L': [('fr-ud-train_01154', 2, 9)]}
+   185	(('royal', 'navy'), ['la', 0, 0, '.'])	{'flat:name - L': [('fr-ud-train_03991', 29, 30)], 'nmod - R': [('fr-ud-train_01168', 12, 13)]}
+   186	(('temps', 'trou'), ['le', "d'", 'un', 'noir'])	{'NIL': [('fr-ud-train_01188', '10', '27')], 'nmod - L': [('fr-ud-train_01188', 10, 13)]}
+   187	(('faire', 'sport'), ['de', 'le', 'le', ','])	{'NIL': [('fr-ud-train_02099', '10', '24')], 'obl:mod - L': [('fr-ud-train_01194', 8, 13)]}
+   188	(('serpents', 'famille'), ['de', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_05095', '7', '10'), ('fr-ud-train_06130', '7', '10'), ('fr-ud-train_07952', '18', '21'), ('fr-ud-train_13139', '7', '10')], 'nmod - L': [('fr-ud-train_01196', 7, 10)]}
+   189	(('siège', 'comté'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_01208', '5', '31')], 'nmod - L': [('fr-ud-train_01208', 5, 8), ('fr-ud-train_09769', 7, 10)]}
+   190	(('comparant', 'échelle'), ['en', 'la', "l'", 'de'])	{'NIL': [('fr-ud-train_07982', '2', '10')], 'obl:arg - L': [('fr-ud-train_01211', 2, 10)]}
+   191	(('échelle', 'rivière'), ["l'", 'de', 'la', ','])	{'NIL': [('fr-ud-train_07982', '10', '16')], 'nmod - L': [('fr-ud-train_01211', 10, 16)]}
+   192	(('commune', 'province'), ['une', 'italienne', 'la', 'de'])	{'NIL': [('fr-ud-train_02234', '5', '15')], 'nmod - L': [('fr-ud-train_11033', 4, 8), ('fr-ud-train_13156', 4, 8), ('fr-ud-train_13630', 7, 11)]}
+   193	(('commune', 'province'), ['une', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_02586', '4', '13'), ('fr-ud-train_07473', '4', '14')], 'nmod - L': [('fr-ud-train_01223', 8, 18), ('fr-ud-train_12773', 6, 9)]}
+   194	(('commune', 'province'), ['la', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_04746', '8', '17'), ('fr-ud-train_09312', '11', '37')], 'nmod - L': [('fr-ud-train_08662', 21, 30)]}
+   195	(('commune', 'province'), ['une', "d'", ',', 'de'])	{'NIL': [('fr-ud-train_10349', '7', '17')], 'nmod - L': [('fr-ud-train_13109', 4, 14)]}
+   196	(('lors', 'finale'), [0, 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_12484', '1', '11')], 'obl:arg - L': [('fr-ud-train_01231', 1, 4)]}
+   197	(('championnats', 'monde'), ['les', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_09863', '12', '33')], 'nmod - L': [('fr-ud-train_01396', 33, 36), ('fr-ud-train_04654', 2, 5), ('fr-ud-train_09195', 2, 5), ('fr-ud-train_09863', 12, 15), ('fr-ud-train_11655', 6, 9), ('fr-ud-train_12109', 9, 12), ('fr-ud-train_12190', 41, 44)]}
+   198	(('championnats', 'monde'), ['de', 'de', 'le', '('])	{'NIL': [('fr-ud-train_02846', '21', '55')], 'nmod - L': [('fr-ud-train_02846', 21, 24)]}
+   199	(('mésorégion', 'porto'), ['la', 'métropolitaine', 'de', 'alegre'])	{'NIL': [('fr-ud-train_01237', '8', '42')], 'nmod - L': [('fr-ud-train_01237', 8, 11)]}
+   200	(('gare', 'gare'), ['la', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_05758', '15', '23'), ('fr-ud-train_13060', '7', '30')], 'conj - L': [('fr-ud-train_01465', 18, 23)]}
+   201	(('placer', 'encoche'), ['de', 'le', "l'", '«'])	{'NIL': [('fr-ud-train_01265', '13', '46'), ('fr-ud-train_01265', '13', '57')], 'obl:arg - L': [('fr-ud-train_01265', 13, 18)]}
+   202	(('tirette', 'encoche'), ['la', 'immédiatement', "l'", '«'])	{'NIL': [('fr-ud-train_01265', '40', '57')], 'nmod - L': [('fr-ud-train_01265', 40, 46)]}
+   203	(('ingénieurs', 'pont'), ['les', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_01276', '4', '40')], 'nmod - L': [('fr-ud-train_01276', 4, 7)]}
+   204	(('département', 'commune'), ['le', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_10222', '20', '26')], 'conj - L': [('fr-ud-train_01303', 15, 22)]}
+   205	(('obtient', 'capn'), ['et', '2', 'la', 'de'])	{'NIL': [('fr-ud-train_01338', '11', '26')], 'obl:mod - L': [('fr-ud-train_01338', 11, 17)]}
+   206	(('compte', 'fabricant'), ['ville', "d'", 'un', 'de'])	{'NIL': [('fr-ud-train_01345', '3', '16')], 'obl:mod - L': [('fr-ud-train_01345', 3, 9)]}
+   207	(('comté', 'anglais'), ['le', 'de', 'en', ':'])	{'appos - L': [('fr-ud-train_03599', 2, 7)], 'nmod - L': [('fr-ud-train_01353', 2, 7)]}
+   208	(('plus', 'importants'), ['les', 0, 0, 'de'])	{'NIL': [('fr-ud-train_13126', '12', '13'), ('fr-ud-train_14515', '9', '10')], 'advmod - R': [('fr-ud-train_01366', 6, 7), ('fr-ud-train_08597', 17, 18)]}
+   209	(('ville', 'district'), ['une', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_03960', '12', '19')], 'nmod - L': [('fr-ud-train_01394', 10, 16)]}
+   210	(('est', 'composé'), ['il', 0, 0, 'de'])	{'aux:tense - R': [('fr-ud-train_08187', 2, 3)], 'aux:pass - R': [('fr-ud-train_06319', 13, 14), ('fr-ud-train_09696', 2, 3)]}
+   211	(('voie', 'gare'), ['la', 'entre', 'la', 'de'])	{'NIL': [('fr-ud-train_01465', '15', '23')], 'nmod - L': [('fr-ud-train_01465', 15, 18)]}
+   212	(('sont', 'qualifiés'), ['groupe', 0, 0, 'pour'])	{'aux:tense - R': [('fr-ud-train_05084', 6, 7)], 'aux:pass - R': [('fr-ud-train_01497', 8, 9)]}
+   213	(('située', 'france'), ['église', 'à', 'en', '.'])	{'NIL': [('fr-ud-train_12766', '9', '14')], 'obl:mod - L': [('fr-ud-train_10582', 7, 12), ('fr-ud-train_13094', 9, 14)]}
+   214	(('chevalier', 'légion'), ['fait', 'de', 'la', "d'"])	{'NIL': [('fr-ud-train_07411', '8', '16')], 'nmod - L': [('fr-ud-train_13104', 23, 26)]}
+   215	(('la', 'royal'), ['de', 0, 0, 'navy'])	{'NIL': [('fr-ud-train_01168', '11', '12')], 'det - R': [('fr-ud-train_02913', 88, 89)]}
+   216	(('objets', 'statue'), ['des', 'mis', 'une', 'de'])	{'NIL': [('fr-ud-train_01514', '9', '42')], 'appos - L': [('fr-ud-train_01514', 9, 20)]}
+   217	(('km', 'ouest'), ['11', 'à', "l'", 'de'])	{'NIL': [('fr-ud-train_01528', '21', '33')], 'nmod - L': [('fr-ud-train_01528', 21, 24)]}
+   218	(('située', 'sud-ouest'), ['est', 'à', 'le', 'de'])	{'obl:mod - L': [('fr-ud-train_08178', 4, 19)], 'obl:arg - L': [('fr-ud-train_05105', 4, 7)]}
+   219	(('français', 'ligue'), ['en', ':', 0, 'supérieure'])	{'appos - L': [('fr-ud-train_03937', 7, 9)], 'nmod - R': [('fr-ud-train_01573', 7, 9)]}
+   220	(('saison', 'championnat'), ['la', '1958-1959', 'le', 'de'])	{'NIL': [('fr-ud-train_03393', '2', '17')], 'nmod - L': [('fr-ud-train_03393', 2, 6)]}
+   221	(('saison', 'championnat'), ['la', '1971-1972', 'le', 'de'])	{'NIL': [('fr-ud-train_07605', '2', '17')], 'nmod - L': [('fr-ud-train_07605', 2, 6)]}
+   222	(('où', 'est'), [',', 0, 0, 'la'])	{'NIL': [('fr-ud-train_06528', '44', '45')], 'obl:arg - R': [('fr-ud-train_01629', 38, 39)]}
+   223	(('front', 'polisario'), ['le', 0, 0, 'et'])	{'appos - L': [('fr-ud-train_10761', 13, 14)], 'flat:name - L': [('fr-ud-train_03899', 12, 13)]}
+   224	(('état', 'fédéré'), ["l'", 0, 0, 'de'])	{'acl - L': [('fr-ud-train_07766', 14, 15)], 'amod - L': [('fr-ud-train_01689', 15, 16)]}
+   225	(('est', 'considéré'), [',', 0, 0, 'comme'])	{'aux:pass - R': [('fr-ud-train_12056', 12, 13)], 'aux:tense - R': [('fr-ud-train_11028', 9, 10)]}
+   226	(('école', 'contrôleurs'), ["l'", 'de', 'les', 'aériens'])	{'conj - L': [('fr-ud-train_01695', 6, 62)], 'nmod - L': [('fr-ud-train_01695', 6, 9)]}
+   227	(('1868', 'astéroïde'), ['(', ')', 'un', 'troyen'])	{'NIL': [('fr-ud-train_01700', '7', '12')], 'nsubj - R': [('fr-ud-train_01700', 2, 12)]}
+   228	(('est', 'histoire'), ["c'", 'une', 'autre', 'qui'])	{'NIL': [('fr-ud-train_03997', '3', '13')], 'cop - R': [('fr-ud-train_03997', 9, 13)]}
+   229	(('réalisé', 'sorti'), ['américain', 'par', ',', 'en'])	{'NIL': [('fr-ud-train_01870', '14', '19'), ('fr-ud-train_06763', '14', '22')], 'conj - L': [('fr-ud-train_01745', 8, 13), ('fr-ud-train_04893', 12, 18), ('fr-ud-train_10064', 11, 16)]}
+   230	(('canal', 'latéral'), ['le', 0, 0, 'à'])	{'amod - L': [('fr-ud-train_07840', 23, 24)], 'appos - L': [('fr-ud-train_01750', 2, 3)]}
+   231	(("d'", 'histoire'), ['ou', 'une', 'petite', 'de'])	{'NIL': [('fr-ud-train_09983', '15', '56'), ('fr-ud-train_09983', '15', '66')], 'case - R': [('fr-ud-train_09983', 63, 66)]}
+   232	(('plus', 'haut'), ['le', 0, 0, 'de'])	{'NIL': [('fr-ud-train_09910', '11', '12')], 'advmod - R': [('fr-ud-train_03823', 9, 10)]}
+   233	(('armée', 'française'), ["l'", 'de', 'terre', 'qui'])	{'NIL': [('fr-ud-train_14263', '14', '17')], 'amod - L': [('fr-ud-train_01775', 13, 16), ('fr-ud-train_14080', 14, 17)]}
+   234	(('réfère', 'tour'), ['se', 'à', 'la', 'eiffel'])	{'NIL': [('fr-ud-train_12264', '12', '36')], 'obl:arg - L': [('fr-ud-train_12264', 12, 15)]}
+   235	(('bordé', 'nord'), ['est', 'par', 'le', ','])	{'NIL': [('fr-ud-train_13715', '3', '9')], 'obl:mod - L': [('fr-ud-train_12955', 3, 11)]}
+   236	(('ans', 'tard'), ['deux', 'plus', 0, ','])	{'NIL': [('fr-ud-train_10931', '2', '4')], 'advmod - L': [('fr-ud-train_02579', 37, 39)]}
+   237	(("qu'", 'elle'), [',', 0, 0, 'est'])	{'NIL': [('fr-ud-train_11342', '26', '27')], 'nsubj - L': [('fr-ud-train_11294', 12, 13)]}
+   238	(('située', 'point'), ['est', 'à', 'le', 'kilométrique'])	{'obl:mod - L': [('fr-ud-train_12203', 15, 18)], 'obl:arg - L': [('fr-ud-train_01894', 13, 16)]}
+   239	(('ligne', 'métro'), ['la', '2', 'le', 'de'])	{'NIL': [('fr-ud-train_10375', '7', '15')], 'nmod - L': [('fr-ud-train_11820', 17, 21)]}
+   240	(('situe', 'bord'), ['se', 'à', 'le', 'de'])	{'obl:arg - L': [('fr-ud-train_13294', 4, 7)], 'obl:mod - L': [('fr-ud-train_01924', 6, 18)]}
+   241	(("c'", 'un'), [0, 'est', "l'", 'de'])	{'NIL': [('fr-ud-train_05069', '1', '8')], 'nsubj - R': [('fr-ud-train_01925', 1, 4), ('fr-ud-train_08621', 1, 4)]}
+   242	(('pour', 'ans'), ['$', 'les', '65', 'et'])	{'NIL': [('fr-ud-train_01926', '9', '18')], 'case - R': [('fr-ud-train_01926', 15, 18)]}
+   243	(("c'", 'fin'), [0, 'est', 'la', 'de'])	{'NIL': [('fr-ud-train_08499', '1', '18')], 'nsubj - R': [('fr-ud-train_01939', 1, 5), ('fr-ud-train_02009', 1, 4), ('fr-ud-train_06620', 1, 4)]}
+   244	(('fin', 'fin'), ['la', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_05325', '13', '37')], 'conj - L': [('fr-ud-train_01939', 5, 15), ('fr-ud-train_08477', 4, 22)]}
+   245	(('état', 'brésil'), ["l'", 'de', 'le', '.'])	{'NIL': [('fr-ud-train_10630', '15', '28')], 'nmod - L': [('fr-ud-train_01946', 7, 13)]}
+   246	(('site', 'internet'), ['le', 0, 0, 'de'])	{'nmod - R': [('fr-ud-train_13625', 6, 7)], 'nmod - L': [('fr-ud-train_01990', 4, 5)]}
+   247	(('établi', 'université'), ['autres', 'un', "l'", 'de'])	{'NIL': [('fr-ud-train_02008', '17', '41')], 'obl:mod - L': [('fr-ud-train_02008', 17, 32)]}
+   248	(('un', 'institut'), ["l'", 'à', "l'", 'technologique'])	{'NIL': [('fr-ud-train_02008', '54', '71')], 'nmod - L': [('fr-ud-train_02008', 54, 57)]}
+   249	(('monte', '€'), ['se', 'en', 'k', 'par'])	{'NIL': [('fr-ud-train_02041', '14', '37')], 'obl:arg - L': [('fr-ud-train_02041', 14, 26)]}
+   250	(("c'", 'eau'), [',', 'est', "l'", '.'])	{'NIL': [('fr-ud-train_02044', '8', '31')], 'nsubj - R': [('fr-ud-train_02044', 27, 31)]}
+   251	(('étude', 'droits'), ["l'", 'de', 'les', 'de'])	{'NIL': [('fr-ud-train_02055', '16', '34')], 'nmod - L': [('fr-ud-train_02055', 16, 19)]}
+   252	(("d'", 'enfants'), ['pas', 0, 0, '.'])	{'det - R': [('fr-ud-train_14042', 5, 6)], 'case - R': [('fr-ud-train_11965', 25, 26)]}
+   253	(('métrage', 'sorti'), ['court', 'français', ',', 'en'])	{'NIL': [('fr-ud-train_02895', '5', '12')], 'acl - L': [('fr-ud-train_02165', 9, 15)]}
+   254	(('théâtre', 'opéra'), ['le', 'bolchoï', "l'", 'de'])	{'NIL': [('fr-ud-train_02172', '7', '45')], 'conj - L': [('fr-ud-train_02172', 7, 39)]}
+   255	(('présidents', 'conseils'), ['trois', 'de', 'les', 'de'])	{'NIL': [('fr-ud-train_02174', '11', '38')], 'nmod - L': [('fr-ud-train_02174', 11, 14)]}
+   256	(("s'", 'imposer'), ['à', 0, 0, 'comme'])	{'obj - R': [('fr-ud-train_06397', 4, 5)], 'expl:pass - R': [('fr-ud-train_02194', 5, 6)]}
+   257	(('obtient', 'prix'), ['il', 'le', 'premier', 'de'])	{'conj - L': [('fr-ud-train_03949', 5, 17)], 'obj - L': [('fr-ud-train_03949', 5, 8), ('fr-ud-train_03949', 33, 36)]}
+   258	(('communes', 'commune'), ['les', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_08152', '2', '17'), ('fr-ud-train_14093', '2', '11')], 'conj - L': [('fr-ud-train_02263', 15, 60)]}
+   259	(('petronius', 'consul'), ['de', 'probianius', ',', 'en'])	{'NIL': [('fr-ud-train_02280', '15', '43')], 'appos - L': [('fr-ud-train_02280', 15, 18)]}
+   260	(('qui', 'est'), ['ce', 0, 0, 'très'])	{'NIL': [('fr-ud-train_09317', '2', '3')], 'nsubj - R': [('fr-ud-train_03636', 13, 14)]}
+   261	(('il', 'étend'), [0, "s'", 0, 'sur'])	{'nsubj:pass - R': [('fr-ud-train_11224', 1, 3), ('fr-ud-train_12383', 1, 3)], 'nsubj - R': [('fr-ud-train_07659', 1, 3)]}
+   262	(('municipalité', 'district'), ['la', 'de', ',', 'de'])	{'appos - L': [('fr-ud-train_13283', 17, 21), ('fr-ud-train_14346', 17, 21)], 'nmod - L': [('fr-ud-train_02338', 17, 21), ('fr-ud-train_07643', 17, 21)]}
+   263	(('situation', 'sahara'), ['la', 'à', 'le', 'occidental'])	{'NIL': [('fr-ud-train_00114', '15', '18')], 'nmod - L': [('fr-ud-train_02339', 11, 14)]}
+   264	(('je', 'argent'), ['/', 'serais', 'ton', '/'])	{'NIL': [('fr-ud-train_02371', '39', '47')], 'nsubj - R': [('fr-ud-train_02371', 44, 47)]}
+   265	(('je', 'or'), ['/', 'serais', 'ton', '»'])	{'NIL': [('fr-ud-train_02371', '39', '52'), ('fr-ud-train_02371', '44', '52')], 'nsubj - R': [('fr-ud-train_02371', 49, 52)]}
+   266	(("qu'", 'un'), ['plus', 0, 0, 'seul'])	{'NIL': [('fr-ud-train_07077', '5', '6')], 'advmod - R': [('fr-ud-train_02406', 8, 9)]}
+   267	(('problème', 'sahara'), ['le', 'de', 'le', 'occidental'])	{'NIL': [('fr-ud-train_02414', '8', '61')], 'nmod - L': [('fr-ud-train_02414', 8, 11)]}
+   268	(('athlète', 'spécialiste'), ['un', 'américain', ',', 'de'])	{'amod - L': [('fr-ud-train_07026', 12, 15)], 'nmod - L': [('fr-ud-train_06877', 25, 28)]}
+   269	(('tournée', 'grand'), ['la', 'de', 'le', 'chelem'])	{'NIL': [('fr-ud-train_02809', '8', '11')], 'nmod - L': [('fr-ud-train_02462', 8, 11)]}
+   270	(('grand', 'chelem'), ['le', 0, 0, '.'])	{'amod - R': [('fr-ud-train_02809', 11, 12)], 'flat:name - L': [('fr-ud-train_02462', 11, 12)]}
+   271	(('creux', 'carrière'), ['«', 'poussiéreux', '«', '»'])	{'NIL': [('fr-ud-train_02526', '16', '45')], 'conj - L': [('fr-ud-train_02526', 16, 21)]}
+   272	(('creux', 'mine'), ['«', 'poussiéreux', '«', '»'])	{'NIL': [('fr-ud-train_02526', '16', '49')], 'conj - L': [('fr-ud-train_02526', 16, 25)]}
+   273	(('carrière', 'mine'), ['«', '»', '«', '»'])	{'NIL': [('fr-ud-train_02526', '21', '25')], 'conj - L': [('fr-ud-train_02526', 45, 49)]}
+   274	(('médaille', 'catégorie'), ['une', "d'", 'la', 'de'])	{'NIL': [('fr-ud-train_02545', '9', '41')], 'nmod - L': [('fr-ud-train_02545', 9, 19)]}
+   275	(('championnat', 'émirats'), ['le', 'de', 'les', 'arabes'])	{'NIL': [('fr-ud-train_02605', '6', '27')], 'nmod - L': [('fr-ud-train_02605', 6, 9)]}
+   276	(('est', 'basé'), ['classement', 0, 0, 'sur'])	{'aux:tense - R': [('fr-ud-train_13791', 3, 4)], 'aux:pass - R': [('fr-ud-train_13011', 3, 4)]}
+   277	(('coupe', 'football'), ['la', 'de', 'de', '2010'])	{'NIL': [('fr-ud-train_05027', '2', '8')], 'nmod - L': [('fr-ud-train_02631', 3, 8)]}
+   278	(('de', 'importantes'), ['une', 'les', 'plus', 'de'])	{'NIL': [('fr-ud-train_12456', '6', '11')], 'case - R': [('fr-ud-train_02637', 11, 14)]}
+   279	(('plus', 'importantes'), ['les', 0, 0, 'de'])	{'NIL': [('fr-ud-train_12456', '10', '11')], 'advmod - R': [('fr-ud-train_02637', 13, 14)]}
+   280	(('troisième', 'code'), ['le', ',', 'le', 'et'])	{'NIL': [('fr-ud-train_02640', '28', '47')], 'orphan - L': [('fr-ud-train_02640', 28, 31)]}
+   281	(('fiba', 'afrique'), ['la', 0, 0, '.'])	{'flat:name - L': [('fr-ud-train_06126', 13, 14)], 'nmod - L': [('fr-ud-train_02644', 12, 13)]}
+   282	(('groupe', 'agissant'), ['le', 'spin', ')', 'sur'])	{'NIL': [('fr-ud-train_02671', '26', '44')], 'acl - L': [('fr-ud-train_02671', 26, 31)]}
+   283	(('turn', 'dortmund'), ['appellation', '-', 'eintracht', '1848'])	{'NIL': [('fr-ud-train_02728', '8', '18')], 'appos - L': [('fr-ud-train_02728', 8, 13)]}
+   284	(('avant', 'fuselage'), ["l'", 'de', 'le', '.'])	{'NIL': [('fr-ud-train_02729', '15', '32')], 'nmod - L': [('fr-ud-train_04361', 23, 26)]}
+   285	(('lord', 'mer'), ['1er', 'de', 'la', 'en'])	{'NIL': [('fr-ud-train_02732', '20', '37'), ('fr-ud-train_02732', '20', '47')], 'nmod - L': [('fr-ud-train_02732', 20, 23)]}
+   286	(('lord', 'mer'), ['troisième', 'de', 'la', 'en'])	{'NIL': [('fr-ud-train_02732', '34', '47')], 'nmod - L': [('fr-ud-train_02732', 34, 37)]}
+   287	(('permet', 'correspondances'), ['t+', 'un', 'plusieurs', 'possibles'])	{'NIL': [('fr-ud-train_12609', '4', '17')], 'obl:mod - L': [('fr-ud-train_12242', 4, 17)]}
+   288	(('and', 'roll'), ['rock', 0, 0, ','])	{'NIL': [('fr-ud-train_08747', '10', '11')], 'flat:name - L': [('fr-ud-train_02768', 9, 10)]}
+   289	(('a', 'plus'), ['y', 0, 0, 'de'])	{'advmod - L': [('fr-ud-train_12483', 6, 7)], 'obj - L': [('fr-ud-train_07668', 33, 34), ('fr-ud-train_09206', 11, 12)]}
+   290	(('a', 'plus'), ['y', 0, 0, "d'"])	{'NIL': [('fr-ud-train_03109', '3', '4')], 'advmod - L': [('fr-ud-train_04354', 4, 5)]}
+   291	(('tendance', 'celle'), ['une', 'radicale', ',', 'de'])	{'NIL': [('fr-ud-train_02784', '34', '60')], 'appos - L': [('fr-ud-train_02784', 34, 37)]}
+   292	(('il', 'premier'), [0, 'a', 'le', 'de'])	{'NIL': [('fr-ud-train_13016', '1', '131')], 'nsubj - R': [('fr-ud-train_02793', 1, 5)]}
+   293	(('de', 'chelem'), ['tournée', 'le', 'grand', '.'])	{'NIL': [('fr-ud-train_02462', '9', '12')], 'case - R': [('fr-ud-train_02809', 9, 12)]}
+   294	(('le', 'chelem'), ['de', 'grand', 0, '.'])	{'NIL': [('fr-ud-train_02462', '10', '12')], 'det - R': [('fr-ud-train_02809', 10, 12)]}
+   295	(('tournée', 'chelem'), ['la', 'de', 'grand', '.'])	{'NIL': [('fr-ud-train_02462', '8', '12')], 'nmod - L': [('fr-ud-train_02809', 8, 12)]}
+   296	(('rembrandt', 'research'), ['le', 0, 0, 'project'])	{'nmod - R': [('fr-ud-train_07670', 22, 23)], 'flat:name - L': [('fr-ud-train_02838', 2, 3)]}
+   297	(('research', 'project'), ['rembrandt', 0, 0, '('])	{'nmod - R': [('fr-ud-train_07670', 23, 24)], 'flat:name - L': [('fr-ud-train_02838', 3, 4)]}
+   298	(('maghreb', 'islamique'), ['le', 0, 0, '.'])	{'flat:name - L': [('fr-ud-train_04379', 16, 17)], 'amod - L': [('fr-ud-train_02865', 44, 45)]}
+   299	(('conseil', 'nations'), ['le', 'de', 'les', 'unies'])	{'NIL': [('fr-ud-train_00068', '6', '55'), ('fr-ud-train_12374', '52', '57')], 'nmod - L': [('fr-ud-train_02867', 20, 25), ('fr-ud-train_05440', 10, 19), ('fr-ud-train_10352', 20, 25)]}
+   300	(('milan', 'ac'), ['le', 0, 0, 'est'])	{'nmod - L': [('fr-ud-train_14486', 2, 3)], 'flat:name - L': [('fr-ud-train_12331', 11, 12)]}
+   301	(('comité', 'pollution'), ['le', 'consultatif', 'la', 'pétrolière'])	{'NIL': [('fr-ud-train_02913', '142', '163')], 'nmod - L': [('fr-ud-train_02913', 142, 147)]}
+   302	(('de', 'conférence'), ['président', 'la', 'troisième', 'internationale'])	{'NIL': [('fr-ud-train_02913', '116', '159')], 'case - R': [('fr-ud-train_02913', 156, 159)]}
+   303	(('noms', 'suivent'), ['les', 'de', 'ne', 'pas'])	{'NIL': [('fr-ud-train_02936', '6', '25')], 'nsubj - R': [('fr-ud-train_02936', 20, 25)]}
+   304	(('crue', 'doit'), ['une', 'de', 'm3/s', 'survenir'])	{'NIL': [('fr-ud-train_02938', '16', '37')], 'nsubj - R': [('fr-ud-train_02938', 33, 37)]}
+   305	(('est', 'tour'), ["c'", 'à', 'le', 'de'])	{'obl:arg - L': [('fr-ud-train_14157', 14, 17)], 'cop - R': [('fr-ud-train_02980', 10, 13)]}
+   306	(('où', 'temps'), [',', 'le', 'un', 'mort'])	{'NIL': [('fr-ud-train_02981', '27', '41')], 'advmod - R': [('fr-ud-train_02981', 35, 41)]}
+   307	(('droit', 'peuple'), ['le', 'de', 'le', 'sahraoui'])	{'NIL': [('fr-ud-train_13310', '29', '41')], 'nmod - L': [('fr-ud-train_02991', 7, 10)]}
+   308	(('ministère', 'finances'), ['le', 'de', 'les', '.'])	{'NIL': [('fr-ud-train_06929', '8', '46'), ('fr-ud-train_06929', '39', '46'), ('fr-ud-train_07690', '18', '25')], 'nmod - L': [('fr-ud-train_13061', 21, 24)]}
+   309	(('intercity', 'interregion'), ['trains', '(', ',', '('])	{'NIL': [('fr-ud-train_03054', '7', '12')], 'conj - L': [('fr-ud-train_03025', 22, 27)]}
+   310	(('intercity', 'omnibus'), ['trains', '(', ',', '('])	{'NIL': [('fr-ud-train_03054', '7', '17')], 'conj - L': [('fr-ud-train_03025', 22, 32)]}
+   311	(('intercity', 'heure'), ['trains', '(', 'et', 'de'])	{'NIL': [('fr-ud-train_03054', '7', '22')], 'conj - L': [('fr-ud-train_03025', 22, 37)]}
+   312	(('terre', 'française'), ['de', 0, 0, 'qui'])	{'NIL': [('fr-ud-train_01775', '15', '16'), ('fr-ud-train_14080', '16', '17')], 'amod - L': [('fr-ud-train_14263', 16, 17)]}
+   313	(('trains', 'interregion'), ['des', 'intercity', ',', '('])	{'NIL': [('fr-ud-train_03025', '21', '27')], 'conj - L': [('fr-ud-train_03054', 6, 12)]}
+   314	(('trains', 'omnibus'), ['des', 'intercity', ',', '('])	{'NIL': [('fr-ud-train_03025', '21', '32')], 'conj - L': [('fr-ud-train_03054', 6, 17)]}
+   315	(('trains', 'heure'), ['des', 'intercity', 'et', 'de'])	{'NIL': [('fr-ud-train_03025', '21', '37')], 'conj - L': [('fr-ud-train_03054', 6, 22)]}
+   316	(('rue', 'rue'), ['la', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_03104', '2', '14'), ('fr-ud-train_03104', '2', '28'), ('fr-ud-train_03104', '14', '28')], 'conj - L': [('fr-ud-train_04397', 20, 26)]}
+   317	(('va', 'rue'), ['qui', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_03104', '11', '28')], 'obl:arg - L': [('fr-ud-train_03104', 11, 14)]}
+   318	(('examine', 'projets'), ['il', 'notamment', 'les', 'de'])	{'conj - L': [('fr-ud-train_03131', 2, 28)], 'obj - L': [('fr-ud-train_03131', 2, 5)]}
+   319	(('village', 'commune'), ['un', 'belge', 'la', 'de'])	{'NIL': [('fr-ud-train_06186', '11', '23')], 'nmod - L': [('fr-ud-train_04746', 4, 8)]}
+   320	(('né', 'paris'), [',', 'le', 'à', ','])	{'NIL': [('fr-ud-train_06718', '4', '20'), ('fr-ud-train_10604', '4', '21')], 'obl:arg - L': [('fr-ud-train_05795', 5, 11), ('fr-ud-train_11666', 4, 10)]}
+   321	(('commune', 'département'), ['une', 'française', 'le', 'de'])	{'NIL': [('fr-ud-train_00256', '4', '10'), ('fr-ud-train_00338', '4', '10'), ('fr-ud-train_00946', '4', '10'), ('fr-ud-train_01595', '4', '10'), ('fr-ud-train_01872', '4', '10'), ('fr-ud-train_02158', '4', '10'), ('fr-ud-train_02531', '4', '10'), ('fr-ud-train_02997', '4', '10'), ('fr-ud-train_03602', '4', '10'), ('fr-ud-train_03681', '4', '10'), ('fr-ud-train_03753', '4', '10'), ('fr-ud-train_03782', '4', '10'), ('fr-ud-train_03849', '7', '20'), ('fr-ud-train_04024', '4', '10'), ('fr-ud-train_04559', '4', '10'), ('fr-ud-train_05391', '4', '9'), ('fr-ud-train_05894', '4', '10'), ('fr-ud-train_06061', '4', '10'), ('fr-ud-train_06752', '4', '9'), ('fr-ud-train_08189', '4', '10'), ('fr-ud-train_08884', '4', '10'), ('fr-ud-train_09303', '4', '10'), ('fr-ud-train_09499', '4', '9'), ('fr-ud-train_09874', '4', '10'), ('fr-ud-train_10413', '4', '9'), ('fr-ud-train_10480', '4', '10'), ('fr-ud-train_10550', '4', '10'), ('fr-ud-train_10822', '4', '9'), ('fr-ud-train_11611', '7', '20'), ('fr-ud-train_11636', '4', '10'), ('fr-ud-train_12053', '4', '10'), ('fr-ud-train_12469', '4', '10'), ('fr-ud-train_12493', '4', '10'), ('fr-ud-train_13475', '4', '10')], 'nmod - L': [('fr-ud-train_03239', 4, 13)]}
+   322	(('commune', 'département'), ['une', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_12304', '4', '35')], 'nmod - L': [('fr-ud-train_12531', 9, 12)]}
+   323	(('encore', 'service'), ['sont', 'en', 0, ','])	{'NIL': [('fr-ud-train_04104', '29', '31')], 'advmod - R': [('fr-ud-train_03277', 14, 16)]}
+   324	(('dépit', 'centaines'), ['en', 'de', 'quelques', 'de'])	{'NIL': [('fr-ud-train_03326', '2', '59')], 'obl:mod - R': [('fr-ud-train_03326', 38, 59)]}
+   325	(('état', 'états-unis'), ["l'", 'de', 'les', '.'])	{'NIL': [('fr-ud-train_02197', '16', '23'), ('fr-ud-train_03599', '20', '27'), ('fr-ud-train_13619', '20', '26')], 'nmod - L': [('fr-ud-train_09769', 16, 23), ('fr-ud-train_12494', 18, 24)]}
+   326	(('dépositaire', 'autorité'), ['personne', 'de', "l'", 'publique'])	{'obl:arg - L': [('fr-ud-train_03680', 18, 21)], 'nmod - L': [('fr-ud-train_03390', 34, 37)]}
+   327	(('les', 'grands'), ['de', 0, 0, 'lacs'])	{'NIL': [('fr-ud-train_01011', '19', '20')], 'det - R': [('fr-ud-train_09461', 6, 7)]}
+   328	(('rencontrèrent', 'tête'), ['ingéniosité', 'autant', 'la', 'de'])	{'NIL': [('fr-ud-train_03410', '9', '22')], 'obl:mod - L': [('fr-ud-train_03410', 9, 15)]}
+   329	(('autant', 'tête'), ['rencontrèrent', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_03410', '10', '15')], 'ccomp:obj - L': [('fr-ud-train_03410', 10, 22)]}
+   330	(('équipe', 'moins'), ["l'", 'nationale', 'les', 'de'])	{'NIL': [('fr-ud-train_03413', '6', '21')], 'nmod - L': [('fr-ud-train_03413', 6, 11)]}
+   331	(('adjoint', 'maire'), ['élu', 'à', 'le', 'de'])	{'NIL': [('fr-ud-train_03440', '7', '19')], 'nmod - L': [('fr-ud-train_03440', 7, 10)]}
+   332	(('lundi', 'vendredi'), ['le', 'à', 'le', ','])	{'NIL': [('fr-ud-train_07192', '60', '63')], 'nmod - L': [('fr-ud-train_03443', 6, 9)]}
+   333	(('remporté', 'championnats'), ['a', 'la', 'les', 'de'])	{'NIL': [('fr-ud-train_06772', '25', '44')], 'obj - L': [('fr-ud-train_06772', 25, 30)]}
+   334	(('diffusion', '16:30'), [0, ':', 'à', '.'])	{'NIL': [('fr-ud-train_04041', '1', '10')], 'nmod - L': [('fr-ud-train_03504', 1, 10)]}
+   335	(('il', 'centre'), [0, 'est', 'le', "d'"])	{'NIL': [('fr-ud-train_06216', '1', '28')], 'nsubj - R': [('fr-ud-train_03534', 1, 5)]}
+   336	(('espèce', 'seule'), ['une', "d'", 'la', 'de'])	{'conj - L': [('fr-ud-train_07050', 12, 23)], 'appos - L': [('fr-ud-train_03547', 5, 17), ('fr-ud-train_06515', 5, 17)]}
+   337	(('signé', 'président'), ['été', 'par', 'le', 'de'])	{'NIL': [('fr-ud-train_03573', '24', '35')], 'obl:agent - L': [('fr-ud-train_03573', 24, 27)]}
+   338	(('président', 'président'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_05399', '35', '43')], 'conj - L': [('fr-ud-train_03573', 27, 35)]}
+   339	(('intérêt', 'maghreb'), ["l'", 'de', 'le', ','])	{'NIL': [('fr-ud-train_03576', '3', '38')], 'nmod - L': [('fr-ud-train_03576', 3, 8)]}
+   340	(('ohio', 'états-unis'), ["l'", ',', 'les', '.'])	{'NIL': [('fr-ud-train_09769', '19', '23')], 'nmod - L': [('fr-ud-train_03599', 23, 27)]}
+   341	(('faisceau', 'plexus'), ['le', 'latéral', 'le', 'brachial'])	{'NIL': [('fr-ud-train_03609', '7', '33')], 'nmod - L': [('fr-ud-train_03609', 7, 11)]}
+   342	(('issu', 'tronc'), ['brachial', 'de', 'le', 'antérieur'])	{'NIL': [('fr-ud-train_03609', '13', '25')], 'obl:arg - L': [('fr-ud-train_03609', 13, 16)]}
+   343	(('insecte', 'famille'), ['un', 'lépidoptère', 'la', 'de'])	{'NIL': [('fr-ud-train_06945', '5', '10'), ('fr-ud-train_07746', '5', '10')], 'nmod - L': [('fr-ud-train_03693', 17, 21)]}
+   344	(('compétences', 'gestion'), ['les', 'optionnelles', 'de', 'de'])	{'NIL': [('fr-ud-train_03712', '10', '35')], 'nmod - L': [('fr-ud-train_03712', 10, 13)]}
+   345	(('être', 'honneur'), ['pourrait', 'en', "l'", 'de'])	{'NIL': [('fr-ud-train_03727', '3', '24')], 'obl:mod - L': [('fr-ud-train_03727', 3, 6)]}
+   346	(('mer', 'océan'), ['la', 'de', "l'", 'pacifique'])	{'NIL': [('fr-ud-train_04983', '9', '39'), ('fr-ud-train_04983', '19', '39'), ('fr-ud-train_04983', '28', '39')], 'conj - L': [('fr-ud-train_03738', 18, 25)]}
+   347	(('océan', 'pacifique'), ["l'", 0, 0, '.'])	{'flat:name - L': [('fr-ud-train_13693', 62, 63)], 'amod - L': [('fr-ud-train_03738', 25, 26), ('fr-ud-train_04983', 39, 40), ('fr-ud-train_06526', 23, 24), ('fr-ud-train_11000', 17, 18)]}
+   348	(('château', 'château'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_09987', '19', '28')], 'conj - L': [('fr-ud-train_05617', 7, 17), ('fr-ud-train_05617', 7, 22)]}
+   349	(('compagnie', 'baie'), ['la', 'de', 'la', "d'"])	{'NIL': [('fr-ud-train_03864', '2', '30')], 'nmod - L': [('fr-ud-train_03864', 2, 5)]}
+   350	(('homme', 'membre'), ['un', 'politique', ',', 'de'])	{'conj - L': [('fr-ud-train_12836', 14, 18)], 'appos - L': [('fr-ud-train_03974', 17, 21)]}
+   351	(('équipe', 'îles'), ["l'", 'de', 'les', 'vierges'])	{'NIL': [('fr-ud-train_04008', '2', '28')], 'nmod - L': [('fr-ud-train_04008', 2, 5)]}
+   352	(('fédération', 'amapá'), ['la', 'de', "l'", 'de'])	{'NIL': [('fr-ud-train_04009', '2', '46')], 'nmod - L': [('fr-ud-train_04009', 2, 5)]}
+   353	(('partie', 'nord'), ['la', 0, 0, 'de'])	{'amod - L': [('fr-ud-train_09171', 4, 5)], 'nmod - L': [('fr-ud-train_07759', 16, 17)]}
+   354	(('partie', 'parc'), ['une', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_10205', '2', '48')], 'nmod - L': [('fr-ud-train_04014', 8, 11)]}
+   355	(("n'", 'tiré'), ['ils', 'ont', 'pas', 'à'])	{'NIL': [('fr-ud-train_04022', '9', '22')], 'advmod - R': [('fr-ud-train_04022', 19, 22)]}
+   356	(('sauriens', 'famille'), ['de', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_00653', '7', '10'), ('fr-ud-train_08479', '7', '10'), ('fr-ud-train_10883', '7', '10'), ('fr-ud-train_11025', '6', '9'), ('fr-ud-train_12431', '7', '10')], 'nmod - L': [('fr-ud-train_04077', 7, 10)]}
+   357	(('nord', 'province'), ['le', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_10768', '7', '13')], 'nmod - L': [('fr-ud-train_04103', 12, 15)]}
+   358	(('titre', 'exemple'), ['à', "d'", 0, ','])	{'NIL': [('fr-ud-train_05729', '5', '7')], 'nmod - L': [('fr-ud-train_04112', 14, 16), ('fr-ud-train_08236', 28, 30)]}
+   359	(('nord', 'sud'), ['le', 'et', 'le', '.'])	{'NIL': [('fr-ud-train_01485', '9', '17')], 'conj - L': [('fr-ud-train_07676', 12, 16)]}
+   360	(('nord', 'sud'), ['le', 'à', 'le', ','])	{'NIL': [('fr-ud-train_12163', '11', '16')], 'nmod - L': [('fr-ud-train_06751', 20, 23)]}
+   361	(('haye', 'pays-bas'), ['la', '(', 0, ')'])	{'nmod - L': [('fr-ud-train_04838', 12, 14)], 'appos - L': [('fr-ud-train_04172', 14, 16)]}
+   362	(('mère', 'vivait'), ['sa', ',', 'elle', 'grâce'])	{'conj - L': [('fr-ud-train_04198', 8, 39)], 'obl:mod - R': [('fr-ud-train_04198', 36, 39)]}
+   363	(('village', 'municipalité'), ['un', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_02338', '11', '17'), ('fr-ud-train_07643', '11', '17'), ('fr-ud-train_13249', '9', '22'), ('fr-ud-train_13283', '11', '17'), ('fr-ud-train_14346', '11', '17')], 'nmod - L': [('fr-ud-train_04243', 13, 23), ('fr-ud-train_05910', 11, 21), ('fr-ud-train_12171', 13, 23)]}
+   364	(('tennis', 'féminin'), ['de', 'professionnel', 0, 'open'])	{'NIL': [('fr-ud-train_05144', '11', '13')], 'amod - L': [('fr-ud-train_04266', 11, 13)]}
+   365	(('village', 'tchéquie'), ['un', 'de', 'en', '.'])	{'NIL': [('fr-ud-train_06415', '4', '14'), ('fr-ud-train_11284', '4', '17')], 'nmod - L': [('fr-ud-train_04280', 4, 18)]}
+   366	(('plan', 'marshall'), ['le', 0, 0, '.'])	{'appos - L': [('fr-ud-train_13933', 23, 24)], 'flat:name - L': [('fr-ud-train_04348', 22, 23)]}
+   367	(('croisettes', '3'), ['sept', 'de', ',', 'à'])	{'NIL': [('fr-ud-train_04360', '28', '37')], 'appos - L': [('fr-ud-train_04360', 28, 33)]}
+   368	(('situés', 'rue'), [',', 'entre', 'la', 'de'])	{'NIL': [('fr-ud-train_04397', '17', '26')], 'obl:mod - L': [('fr-ud-train_04397', 17, 20)]}
+   369	(('taux', 'tique'), ['le', 'de', 'la', 'est'])	{'NIL': [('fr-ud-train_04463', '2', '13')], 'nmod - L': [('fr-ud-train_04463', 2, 8)]}
+   370	(('elle', 'était'), ["qu'", 0, 0, 'en'])	{'NIL': [('fr-ud-train_13083', '6', '7')], 'nsubj - R': [('fr-ud-train_04471', 19, 20)]}
+   371	(('garder', 'esprit'), ['faut', 'à', "l'", 'que'])	{'obl:arg - L': [('fr-ud-train_13892', 6, 9)], 'obl:mod - L': [('fr-ud-train_04482', 4, 7)]}
+   372	(('laboratoire', 'paris'), ['le', 'de', 'de', ','])	{'NIL': [('fr-ud-train_04491', '2', '23')], 'nmod - L': [('fr-ud-train_04491', 2, 7)]}
+   373	(('fin', 'époque'), ['la', 'de', "l'", 'de'])	{'conj - L': [('fr-ud-train_14544', 3, 10)], 'nmod - L': [('fr-ud-train_06416', 32, 35)]}
+   374	(('situation', 'êtes'), [0, 'idéale', 'vous', 'à'])	{'NIL': [('fr-ud-train_04582', '1', '37')], 'parataxis - L': [('fr-ud-train_04582', 1, 8)]}
+   375	(('fin', 'années'), ['la', 'de', 'les', '1940'])	{'NIL': [('fr-ud-train_13135', '15', '26')], 'nmod - L': [('fr-ud-train_13005', 65, 68)]}
+   376	(('je', 'suis'), [0, 0, 0, 'une'])	{'NIL': [('fr-ud-train_04169', '1', '2')], 'nsubj - R': [('fr-ud-train_08367', 1, 2)]}
+   377	(('données', 'résultats'), ['les', 'connues', 'les', 'de'])	{'NIL': [('fr-ud-train_04637', '17', '44')], 'nmod - L': [('fr-ud-train_04637', 17, 23)]}
+   378	(('côté', 'pont'), ['chaque', 'de', 'le', '.'])	{'NIL': [('fr-ud-train_04647', '27', '48')], 'nmod - L': [('fr-ud-train_12010', 16, 19)]}
+   379	(('mention', 'écrite'), ['première', 0, 0, 'de'])	{'acl - L': [('fr-ud-train_07284', 3, 4), ('fr-ud-train_11230', 2, 3), ('fr-ud-train_13760', 2, 3)], 'nsubj:pass - R': [('fr-ud-train_04663', 2, 3)]}
+   380	(('écrite', 'village'), ['mention', 'de', 'le', 'en'])	{'NIL': [('fr-ud-train_11230', '3', '6'), ('fr-ud-train_13760', '3', '6')], 'obl:mod - L': [('fr-ud-train_04663', 3, 6)]}
+   381	(('endémique', 'province'), ['est', 'de', 'la', 'de'])	{'obl:mod - L': [('fr-ud-train_10768', 4, 13)], 'obl:arg - L': [('fr-ud-train_04676', 4, 7)]}
+   382	(('espèces', 'famille'), ['plusieurs', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_10202', '18', '33')], 'nmod - L': [('fr-ud-train_04677', 16, 21)]}
+   383	(('croissance', 'profit'), ['la', 'de', 'le', 'maximum'])	{'NIL': [('fr-ud-train_04715', '6', '30')], 'conj - L': [('fr-ud-train_04715', 6, 23)]}
+   384	(('de', 'statut'), ['pas', 0, 0, 'de'])	{'case - R': [('fr-ud-train_13359', 2, 3)], 'det - R': [('fr-ud-train_13289', 2, 3)]}
+   385	(('produit', 'analyseur'), ['un', 'à', 'un', 'de'])	{'NIL': [('fr-ud-train_04745', '8', '25')], 'appos - L': [('fr-ud-train_04745', 8, 14)]}
+   386	(('mort', 'cousin'), ['la', 'de', 'son', 'à'])	{'NIL': [('fr-ud-train_05491', '3', '17')], 'nmod - L': [('fr-ud-train_04762', 31, 34)]}
+   387	(('alimente', 'bobinage'), ['on', 'en', 'le', 'de'])	{'NIL': [('fr-ud-train_04803', '2', '29')], 'obj - L': [('fr-ud-train_04803', 2, 6)]}
+   388	(('venir', 'colonne'), ['de', 'derrière', 'la', 'de'])	{'NIL': [('fr-ud-train_04831', '39', '47')], 'obl:mod - L': [('fr-ud-train_04831', 39, 42)]}
+   389	(('feuilleton', 'transfert'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_04914', '8', '45')], 'nmod - L': [('fr-ud-train_04914', 8, 11)]}
+   390	(('arrondissement', 'département'), ["l'", 'de', 'le', 'de'])	{'nmod - L': [('fr-ud-train_06567', 7, 12)], 'conj - L': [('fr-ud-train_04932', 19, 24)], 'NIL': [('fr-ud-train_07529', '2', '13')]}
+   391	(('est', 'sud'), ["l'", 'et', 'le', '.'])	{'NIL': [('fr-ud-train_12420', '15', '29')], 'conj - L': [('fr-ud-train_13715', 32, 36)]}
+   392	(('bordé', 'mer'), ['est', 'à', 'la', 'de'])	{'NIL': [('fr-ud-train_04983', '3', '19'), ('fr-ud-train_04983', '3', '28')], 'obl:agent - L': [('fr-ud-train_04983', 3, 9)]}
+   393	(('ouest', 'mer'), ["l'", 'par', 'la', 'de'])	{'NIL': [('fr-ud-train_04983', '16', '28')], 'orphan - L': [('fr-ud-train_04983', 16, 19)]}
+   394	(('droit', 'croates'), ['le', 'de', 'les', 'à'])	{'NIL': [('fr-ud-train_05134', '18', '30')], 'nmod - L': [('fr-ud-train_05134', 18, 21)]}
+   395	(('tournoi', 'féminin'), ['le', 'de', 'professionnel', 'open'])	{'NIL': [('fr-ud-train_04266', '9', '13')], 'amod - L': [('fr-ud-train_05144', 9, 13)]}
+   396	(('nom', 'nom'), ['le', 'de', 'le', "d'"])	{'NIL': [('fr-ud-train_04494', '13', '32'), ('fr-ud-train_12937', '6', '13')], 'conj - L': [('fr-ud-train_05213', 29, 43)]}
+   397	(('levon', 'points'), [',', 'aronian', '6', ')'])	{'NIL': [('fr-ud-train_05216', '45', '56'), ('fr-ud-train_05216', '45', '63')], 'nmod - L': [('fr-ud-train_05216', 45, 49)]}
+   398	(('viswanathan', 'points'), [',', 'anand', '6', ')'])	{'NIL': [('fr-ud-train_05216', '52', '63')], 'nmod - L': [('fr-ud-train_05216', 52, 56)]}
+   399	(('finir', 'fin'), ['de', 'ces', 'la', 'de'])	{'NIL': [('fr-ud-train_05325', '7', '37')], 'obl:mod - L': [('fr-ud-train_05325', 7, 13)]}
+   400	(('conseil', 'droits'), ['le', 'de', 'les', 'de'])	{'NIL': [('fr-ud-train_00066', '34', '52'), ('fr-ud-train_03245', '30', '66'), ('fr-ud-train_10530', '14', '33')], 'nmod - L': [('fr-ud-train_05440', 10, 13)]}
+   401	(('antarctic', 'fondé'), ["l'", 'heritage', '(', 'en'])	{'NIL': [('fr-ud-train_05487', '10', '29')], 'acl - L': [('fr-ud-train_05487', 10, 18)]}
+   402	(('indépendance', 'sahara'), ["l'", 'de', 'le', 'occidental'])	{'NIL': [('fr-ud-train_08928', '35', '58')], 'nmod - L': [('fr-ud-train_05496', 39, 42)]}
+   403	(('fille', 'mère'), ['la', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_02280', '13', '36')], 'acl:relcl - L': [('fr-ud-train_05509', 10, 21)]}
+   404	(('îles', 'loyauté'), ['les', 0, 0, '.'])	{'appos - L': [('fr-ud-train_14497', 27, 28)], 'flat:name - L': [('fr-ud-train_06482', 38, 39)]}
+   405	(('autorisation', 'installer'), [0, 'leur', "s'", 'dans'])	{'NIL': [('fr-ud-train_05721', '1', '17')], 'acl - L': [('fr-ud-train_05721', 1, 7)]}
+   406	(('à', 'exemple'), [',', 'titre', "d'", ','])	{'NIL': [('fr-ud-train_04112', '13', '16'), ('fr-ud-train_08236', '27', '30')], 'obl:arg - L': [('fr-ud-train_05729', 4, 7)]}
+   407	(('fermeture', 'gare'), ['la', 'de', 'la', 'de'])	{'nmod - L': [('fr-ud-train_05758', 12, 15)], 'obl:mod - R': [('fr-ud-train_05758', 12, 23)]}
+   408	(('allume', 'sont'), ['des', 'barbecues', 'usage', 'à'])	{'NIL': [('fr-ud-train_05786', '29', '37')], 'nsubj - R': [('fr-ud-train_05786', 2, 37)]}
+   409	(('elle', 'caractérisée'), [0, 'est', 0, 'par'])	{'nsubj - R': [('fr-ud-train_11715', 1, 3)], 'nsubj:pass - R': [('fr-ud-train_05867', 1, 3)]}
+   410	(('est', 'caractérisée'), ['elle', 0, 0, 'par'])	{'aux:tense - R': [('fr-ud-train_11715', 2, 3)], 'aux:pass - R': [('fr-ud-train_05867', 2, 3)]}
+   411	(('cosmonautes', 'station'), ['les', 'de', 'la', 'spatiale'])	{'NIL': [('fr-ud-train_05941', '25', '42')], 'nmod - L': [('fr-ud-train_05941', 25, 28)]}
+   412	(('effectuer', 'station'), ['pour', 'les', 'la', 'spatiale'])	{'NIL': [('fr-ud-train_05941', '19', '28')], 'conj - L': [('fr-ud-train_05941', 19, 42)]}
+   413	(('racing', 'club'), ['le', 0, 0, 'de'])	{'appos - L': [('fr-ud-train_12643', 21, 22)], 'flat:name - L': [('fr-ud-train_05945', 13, 14)]}
+   414	(('parcourir', 'aide'), ['ou', 'la', "l'", "d'"])	{'NIL': [('fr-ud-train_06024', '47', '66')], 'obl:mod - L': [('fr-ud-train_06024', 47, 52)]}
+   415	(('apparentes', 'parle'), ['être', 'ou', 'on', 'de'])	{'NIL': [('fr-ud-train_06044', '8', '26')], 'conj - L': [('fr-ud-train_06044', 8, 16)]}
+   416	(('est', 'toutefois'), ["n'", 0, 0, 'pas'])	{'NIL': [('fr-ud-train_02805', '3', '4')], 'advmod - L': [('fr-ud-train_06106', 7, 8)]}
+   417	(('société', '1827'), ['la', 'sigma', '(', ')'])	{'NIL': [('fr-ud-train_06114', '21', '44')], 'nmod - L': [('fr-ud-train_06114', 21, 38)]}
+   418	(('commun', 'églises'), ['en', 'avec', 'autres', ','])	{'NIL': [('fr-ud-train_06152', '5', '34')], 'nmod - L': [('fr-ud-train_06152', 5, 9)]}
+   419	(('église', 'france'), ['une', 'située', 'en', '.'])	{'NIL': [('fr-ud-train_10582', '6', '12'), ('fr-ud-train_13094', '8', '14')], 'nmod - L': [('fr-ud-train_12766', 8, 14)]}
+   420	(('membres', 'groupe'), ['les', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_10704', '6', '16')], 'nmod - L': [('fr-ud-train_06179', 10, 13)]}
+   421	(('à', 'fort'), [',', 'le', 'plus', 'de'])	{'fixed - L': [('fr-ud-train_14504', 15, 18)], 'case - R': [('fr-ud-train_07116', 28, 31)]}
+   422	(('michel', 'observatoire'), ['par', 'giacobini', '(', 'de'])	{'NIL': [('fr-ud-train_06219', '22', '39')], 'appos - L': [('fr-ud-train_06219', 22, 25)]}
+   423	(('démocratie', 'droits'), ['la', ',', 'les', 'de'])	{'NIL': [('fr-ud-train_13147', '26', '33')], 'conj - L': [('fr-ud-train_06245', 16, 20)]}
+   424	(('années', 'réalisation'), ['les', '1960', 'la', 'de'])	{'NIL': [('fr-ud-train_06274', '16', '33')], 'nmod - L': [('fr-ud-train_06274', 16, 22)]}
+   425	(('pris', 'réalisation'), ['a', 'son', 'la', 'de'])	{'NIL': [('fr-ud-train_06274', '11', '22')], 'obl:mod - L': [('fr-ud-train_06274', 11, 33)]}
+   426	(('allant', 'mois'), ['période', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_06310', '6', '15')], 'obl:arg - L': [('fr-ud-train_06310', 6, 9)]}
+   427	(('il', 'composé'), [0, 'est', 0, 'de'])	{'nsubj:pass - R': [('fr-ud-train_09696', 1, 3)], 'nsubj - R': [('fr-ud-train_08187', 1, 3)]}
+   428	(('kappa', '€'), ['avec', '(', 'm', '/'])	{'NIL': [('fr-ud-train_06348', '19', '37')], 'nmod - L': [('fr-ud-train_06348', 19, 23)]}
+   429	(('ajoutées', 'heures'), ['sont', 'à', '24', 'de'])	{'NIL': [('fr-ud-train_06385', '8', '25')], 'obl:mod - L': [('fr-ud-train_06385', 8, 17)]}
+   430	(('trophée', 'nations'), ['le', 'européen', 'les', 'de'])	{'NIL': [('fr-ud-train_06391', '2', '19')], 'nmod - L': [('fr-ud-train_06391', 2, 7)]}
+   431	(('confondue', 'effet'), ['être', 'avec', "l'", 'photoélectrique'])	{'NIL': [('fr-ud-train_06401', '8', '79')], 'obl:arg - L': [('fr-ud-train_06401', 8, 11)]}
+   432	(('conversion', 'transfert'), ['la', 'interne', 'un', 'direct'])	{'NIL': [('fr-ud-train_06401', '2', '71')], 'nsubj - R': [('fr-ud-train_06401', 67, 71)]}
+   433	(('radic', 'carnie'), ['"', 'di', 'la', 'et'])	{'NIL': [('fr-ud-train_06464', '46', '162')], 'nmod - L': [('fr-ud-train_06464', 46, 52)]}
+   434	(('jambons', 'san'), ['les', 'crus', 'de', 'daniele'])	{'NIL': [('fr-ud-train_06464', '65', '165')], 'nmod - L': [('fr-ud-train_06464', 65, 68)]}
+   435	(('carnie', 'san'), ['la', 'et', 'de', 'daniele'])	{'NIL': [('fr-ud-train_06464', '52', '68')], 'conj - L': [('fr-ud-train_06464', 162, 165)]}
+   436	(('sortes', 'triestine'), ['toutes', 'de', 'la', ','])	{'NIL': [('fr-ud-train_06464', '219', '298')], 'nmod - L': [('fr-ud-train_06464', 219, 224)]}
+   437	(('et', 'résiane'), ['gorizienne', 'à', 'la', ','])	{'NIL': [('fr-ud-train_06464', '229', '306')], 'cc - R': [('fr-ud-train_06464', 303, 306)]}
+   438	(('est', 'aussi'), ['il', 0, 0, 'à'])	{'NIL': [('fr-ud-train_00148', '2', '3'), ('fr-ud-train_07210', '2', '3')], 'advmod - L': [('fr-ud-train_06466', 2, 3)]}
+   439	(('onu', 'ue'), ["l'", ',', "l'", 'et'])	{'NIL': [('fr-ud-train_12176', '12', '16')], 'conj - L': [('fr-ud-train_06469', 37, 41)]}
+   440	(('ville', 'nord'), ['une', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_00275', '4', '13'), ('fr-ud-train_04883', '4', '20')], 'nmod - L': [('fr-ud-train_06492', 4, 7)]}
+   441	(('championnats', 'auckland'), ['les', 'régionaux', "d'", 'en'])	{'NIL': [('fr-ud-train_06726', '17', '34')], 'nmod - L': [('fr-ud-train_06726', 17, 20)]}
+   442	(('saison', 'série'), ['deuxième', 'de', 'la', 'télévisée'])	{'NIL': [('fr-ud-train_13020', '9', '12')], 'nmod - L': [('fr-ud-train_06758', 9, 12)]}
+   443	(('différence', 'nombre'), ['la', 'entre', 'le', 'de'])	{'NIL': [('fr-ud-train_06811', '9', '17'), ('fr-ud-train_13856', '9', '17')], 'nmod - L': [('fr-ud-train_06811', 9, 12), ('fr-ud-train_13856', 9, 12)]}
+   444	(('spécialiste', 'lancer'), [',', 'de', 'le', 'de'])	{'obl:arg - L': [('fr-ud-train_07026', 15, 18)], 'nmod - L': [('fr-ud-train_06877', 28, 31)]}
+   445	(('connue', 'race'), ['reste', 'en', '«', 'de'])	{'NIL': [('fr-ud-train_06961', '14', '27'), ('fr-ud-train_06961', '14', '34'), ('fr-ud-train_06961', '14', '43')], 'obl:mod - L': [('fr-ud-train_06961', 14, 20)]}
+   446	(('noter', 'association'), ['peut', 'ainsi', "l'", '"'])	{'NIL': [('fr-ud-train_07000', '3', '24')], 'obj - L': [('fr-ud-train_07000', 3, 6)]}
+   447	(('sud', 'nord'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_03097', '10', '19')], 'conj - L': [('fr-ud-train_07030', 15, 22)]}
+   448	(('famille', 'famille'), ['la', 'de', 'une', 'de'])	{'nsubj - R': [('fr-ud-train_12173', 2, 8)], 'appos - L': [('fr-ud-train_09727', 9, 14)]}
+   449	(('général', 'de'), ['le', 0, 0, 'gaulle'])	{'flat:name - L': [('fr-ud-train_08517', 21, 22)], 'appos - L': [('fr-ud-train_07113', 6, 7)]}
+   450	(('pionniers', 'étude'), ['les', 'dans', "l'", 'de'])	{'NIL': [('fr-ud-train_07117', '7', '29')], 'nmod - L': [('fr-ud-train_07117', 7, 10)]}
+   451	(('passant', 'bus'), ['fréquence', "d'", 'un', 'toutes'])	{'NIL': [('fr-ud-train_07192', '104', '115')], 'obl:arg - L': [('fr-ud-train_07192', 104, 107)]}
+   452	(('toutes', 'minutes'), ['bus', 'les', '4', '.'])	{'NIL': [('fr-ud-train_07192', '108', '119')], 'amod - R': [('fr-ud-train_07192', 116, 119)]}
+   453	(('mention', 'village'), ['première', 'écrite', 'le', 'en'])	{'NIL': [('fr-ud-train_04663', '2', '6')], 'nmod - L': [('fr-ud-train_11230', 2, 6), ('fr-ud-train_13760', 2, 6)]}
+   454	(('était', 'composée'), [',', 0, 0, 'de'])	{'aux:pass - R': [('fr-ud-train_11113', 22, 23)], 'aux:tense - R': [('fr-ud-train_07299', 19, 20)]}
+   455	(('département', 'france'), ['le', 'de', 'en', '.'])	{'NIL': [('fr-ud-train_08421', '22', '28'), ('fr-ud-train_12899', '15', '21')], 'conj - L': [('fr-ud-train_12531', 12, 23)]}
+   456	(('romain', 'ps'), ['général', 'colas', '(', ')'])	{'NIL': [('fr-ud-train_07612', '19', '48')], 'appos - L': [('fr-ud-train_07612', 19, 22)]}
+   457	(('château', 'commune'), ['le', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_05369', '18', '29'), ('fr-ud-train_09189', '2', '15'), ('fr-ud-train_11634', '2', '14'), ('fr-ud-train_13396', '2', '9'), ('fr-ud-train_14340', '2', '9')], 'nmod - L': [('fr-ud-train_07723', 28, 34)]}
+   458	(('crash', 'mont'), ['le', 'de', 'le', 'sainte-odile'])	{'NIL': [('fr-ud-train_07843', '2', '69')], 'nmod - L': [('fr-ud-train_07843', 2, 5)]}
+   459	(('versant', 'sud'), ['le', 0, 0, 'de'])	{'nmod - L': [('fr-ud-train_08102', 15, 16)], 'amod - L': [('fr-ud-train_07847', 8, 9)]}
+   460	(('concentre', 'arrondissement'), ['se', 'principalement', "l'", 'de'])	{'NIL': [('fr-ud-train_07867', '4', '41')], 'obl:mod - L': [('fr-ud-train_07867', 4, 8)]}
+   461	(('première', 'échelle'), ['la', 'de', "l'", 'de'])	{'NIL': [('fr-ud-train_01211', '4', '10')], 'nmod - L': [('fr-ud-train_07982', 4, 10)]}
+   462	(('qix', 'rivière'), ['les', 'de', 'la', ','])	{'NIL': [('fr-ud-train_01211', '13', '16')], 'nmod - L': [('fr-ud-train_07982', 13, 16)]}
+   463	(('hausse', 'parvient'), ['la', 'de', 'ne', 'pas'])	{'NIL': [('fr-ud-train_08211', '20', '54')], 'nsubj - R': [('fr-ud-train_08211', 46, 54)]}
+   464	(('eu', 'cours'), ['ont', 'lieu', 'le', 'de'])	{'NIL': [('fr-ud-train_08266', '12', '26')], 'obl:mod - L': [('fr-ud-train_08266', 12, 16)]}
+   465	(('cours', 'cours'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_04142', '3', '21')], 'conj - L': [('fr-ud-train_08266', 16, 26)]}
+   466	(('serge', 'journal'), [',', 'drouin', '(', 'de'])	{'NIL': [('fr-ud-train_08316', '10', '28'), ('fr-ud-train_08316', '10', '40')], 'appos - L': [('fr-ud-train_08316', 10, 13)]}
+   467	(('eddy', 'journal'), [',', 'labrie', '(', 'de'])	{'NIL': [('fr-ud-train_08316', '25', '40')], 'appos - L': [('fr-ud-train_08316', 25, 28)]}
+   468	(('paris', 'reuters'), [0, ',', '(', ')'])	{'NIL': [('fr-ud-train_09757', '1', '6')], 'nmod - L': [('fr-ud-train_10171', 1, 6)]}
+   469	(('comté', 'norvège'), ['le', 'de', 'en', '.'])	{'NIL': [('fr-ud-train_03668', '7', '12')], 'nmod - L': [('fr-ud-train_08338', 7, 11)]}
+   470	(('complété', 'service'), ['est', 'par', 'un', 'de'])	{'NIL': [('fr-ud-train_08392', '4', '26')], 'obl:agent - L': [('fr-ud-train_08392', 4, 7)]}
+   471	(('fonctionne', 'lundi'), ['qui', 'de', 'le', 'à'])	{'NIL': [('fr-ud-train_08392', '11', '35')], 'obl:arg - L': [('fr-ud-train_08392', 11, 14)]}
+   472	(('lieu', 'juillet'), ['ont', 'de', 0, 'à'])	{'NIL': [('fr-ud-train_13364', '29', '31')], 'nmod - L': [('fr-ud-train_08426', 3, 5)]}
+   473	(('moines', 'chef'), ['des', '(', '«', 'de'])	{'NIL': [('fr-ud-train_08429', '23', '35')], 'appos - L': [('fr-ud-train_08429', 23, 27)]}
+   474	(('cours', 'mois'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_05691', '11', '26')], 'nmod - L': [('fr-ud-train_14379', 6, 9)]}
+   475	(('conception', 'signe'), ['la', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_08450', '2', '52')], 'nmod - L': [('fr-ud-train_08450', 2, 5)]}
+   476	(('ville', 'mans'), ['la', 'de', 'le', 'et'])	{'NIL': [('fr-ud-train_08483', '26', '41')], 'nmod - L': [('fr-ud-train_08483', 26, 29)]}
+   477	(('et', 'sarthe'), ['mans', 'de', 'la', 'qui'])	{'NIL': [('fr-ud-train_08483', '30', '45')], 'cc - R': [('fr-ud-train_08483', 42, 45)]}
+   478	(('kidnappé', 'mauritanie'), ['a', 'trois', 'en', ','])	{'NIL': [('fr-ud-train_08568', '7', '24')], 'obl:mod - L': [('fr-ud-train_08568', 7, 14)]}
+   479	(('otages', 'décembre'), ['deux', 'italiens', 'en', ','])	{'NIL': [('fr-ud-train_08568', '17', '31')], 'orphan - L': [('fr-ud-train_08568', 17, 20)]}
+   480	(('france', 'europe'), ['en', 'et', 'en', '.'])	{'NIL': [('fr-ud-train_04563', '16', '42')], 'conj - L': [('fr-ud-train_08573', 19, 22)]}
+   481	(('de', 'importants'), ['un', 'les', 'plus', 'de'])	{'NIL': [('fr-ud-train_13126', '5', '13')], 'case - R': [('fr-ud-train_08597', 15, 18)]}
+   482	(('un', 'importants'), ["l'", 'de', 'plus', 'de'])	{'NIL': [('fr-ud-train_13126', '4', '13')], 'nmod - L': [('fr-ud-train_08597', 14, 18)]}
+   483	(('ou', 'automobile'), [',', 'de', "l'", '.'])	{'NIL': [('fr-ud-train_08644', '36', '44')], 'cc - R': [('fr-ud-train_08644', 41, 44)]}
+   484	(('parties', 'système'), ['deux', ':', 'le', 'nerveux'])	{'NIL': [('fr-ud-train_08650', '6', '17')], 'appos - L': [('fr-ud-train_08650', 6, 9)]}
+   485	(('moitié', 'palud'), ['pour', 'à', 'la', ','])	{'NIL': [('fr-ud-train_08788', '24', '34')], 'nmod - R': [('fr-ud-train_08788', 30, 34)]}
+   486	(('à', 'palud'), ['moitié', 'les', 'la', ','])	{'NIL': [('fr-ud-train_08788', '25', '34')], 'case - R': [('fr-ud-train_08788', 31, 34)]}
+   487	(('région', 'studio'), ['sa', '(', 'le', "d'"])	{'NIL': [('fr-ud-train_08868', '15', '31')], 'nmod - L': [('fr-ud-train_08868', 15, 19)]}
+   488	(('enlever', 'œufs'), ['ou', 'les', 0, 'et'])	{'NIL': [('fr-ud-train_12629', '32', '34')], 'obj - L': [('fr-ud-train_08885', 32, 34)]}
+   489	(('dégrader', 'milieu'), ['ou', 'son', 0, '.'])	{'NIL': [('fr-ud-train_12629', '45', '47')], 'obj - L': [('fr-ud-train_08885', 45, 47)]}
+   490	(('tout', 'début'), ['le', 0, 0, 'de'])	{'amod - R': [('fr-ud-train_12926', 3, 4)], 'advmod - R': [('fr-ud-train_08917', 3, 4)]}
+   491	(('professionnels', 'cap'), ['les', 'de', 'le', "d'"])	{'NIL': [('fr-ud-train_08990', '5', '41')], 'nmod - L': [('fr-ud-train_08990', 5, 12)]}
+   492	(('km', 'à'), ['2', 0, 0, 'le'])	{'NIL': [('fr-ud-train_09690', '34', '35')], 'advmod - L': [('fr-ud-train_09034', 40, 41)]}
+   493	(('il', 'était'), [0, 0, 0, 'à'])	{'NIL': [('fr-ud-train_13515', '1', '2')], 'nsubj - R': [('fr-ud-train_09043', 1, 2)]}
+   494	(('il', 'était'), ["qu'", 0, 0, '.'])	{'NIL': [('fr-ud-train_13773', '8', '9')], 'nsubj - R': [('fr-ud-train_12839', 6, 7)]}
+   495	(('plantes', 'famille'), ['de', 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_00509', '7', '15'), ('fr-ud-train_00932', '7', '15'), ('fr-ud-train_10706', '7', '15')], 'nmod - L': [('fr-ud-train_09046', 6, 9)]}
+   496	(('passe', 'titre'), ['il', 'à', 'le', 'de'])	{'NIL': [('fr-ud-train_09265', '2', '24')], 'obl:arg - L': [('fr-ud-train_09265', 2, 5)]}
+   497	(('accordé', 'fraise'), ['a', "l'", 'la', 'de'])	{'NIL': [('fr-ud-train_09329', '5', '22')], 'obl:arg - L': [('fr-ud-train_09329', 5, 10)]}
+   498	(('béranger', 'cardinal-prêtre'), ['à', 'frédol', ',', 'de'])	{'NIL': [('fr-ud-train_09491', '12', '24')], 'appos - L': [('fr-ud-train_09491', 12, 15)]}
+   499	(('course', 'place'), ['la', 'à', 'deuxième', ','])	{'NIL': [('fr-ud-train_09610', '21', '57')], 'nmod - L': [('fr-ud-train_09610', 21, 25)]}
+   500	(('printemps', 'été'), ['le', 'et', 'en', '.'])	{'NIL': [('fr-ud-train_02921', '24', '39')], 'conj - L': [('fr-ud-train_09627', 8, 11)]}
+   501	(('gestion', 'risques'), ['meilleure', 'de', 'les', ','])	{'NIL': [('fr-ud-train_09722', '5', '19')], 'nmod - L': [('fr-ud-train_09722', 5, 8)]}
+   502	(('différences', 'vvd'), ['grandes', 'idéologiques', 'le', 'et'])	{'NIL': [('fr-ud-train_09853', '18', '39')], 'nmod - L': [('fr-ud-train_09853', 18, 22)]}
+   503	(('ville', 'province'), ['une', 'et', 'la', 'de'])	{'NIL': [('fr-ud-train_07528', '6', '23')], 'nmod - L': [('fr-ud-train_09959', 4, 10)]}
+   504	(('vision', 'histoire'), ['la', 'globale', 'une', 'de'])	{'conj - L': [('fr-ud-train_09983', 3, 17)], 'nmod - L': [('fr-ud-train_09983', 3, 7)]}
+   505	(('agissait', 'histoire'), ["s'", 'pas', 'petite', 'de'])	{'NIL': [('fr-ud-train_09983', '51', '66')], 'obl:arg - L': [('fr-ud-train_09983', 51, 56)]}
+   506	(('autres', 'encore'), ["d'", 0, 0, '.'])	{'NIL': [('fr-ud-train_11899', '18', '19')], 'advmod - L': [('fr-ud-train_09984', 45, 46)]}
+   507	(('dirigeait', 'château'), ['se', 'vers', 'le', 'de'])	{'NIL': [('fr-ud-train_09987', '16', '28')], 'obl:mod - L': [('fr-ud-train_09987', 16, 19)]}
+   508	(('de', 'à'), ['dégrada', 'le', 'tout', 'le'])	{'NIL': [('fr-ud-train_10071', '5', '11')], 'fixed - L': [('fr-ud-train_10071', 5, 8)]}
+   509	(('politique', 'côte'), ['la', 'de', 'en', "d'"])	{'NIL': [('fr-ud-train_10949', '2', '8')], 'nmod - L': [('fr-ud-train_10217', 2, 7)]}
+   510	(('région', 'tchéquie'), ['la', 'de', 'en', '.'])	{'NIL': [('fr-ud-train_04280', '14', '18'), ('fr-ud-train_11284', '12', '17')], 'nmod - L': [('fr-ud-train_10325', 14, 19)]}
+   511	(("c'", 'équipe'), [0, 'est', "l'", 'de'])	{'NIL': [('fr-ud-train_12643', '1', '16')], 'expl:subj - R': [('fr-ud-train_10423', 1, 4)]}
+   512	(('mentir', 'cessé'), ['de', ',', 'jamais', 'de'])	{'NIL': [('fr-ud-train_10463', '20', '36')], 'xcomp:obj - R': [('fr-ud-train_10463', 24, 36)]}
+   513	(('date', '17'), ['la', 'de', 'le', 'mai'])	{'NIL': [('fr-ud-train_10508', '2', '14')], 'nmod - L': [('fr-ud-train_10508', 2, 5)]}
+   514	(('versions', 'classe'), ['les', 'première', 'seconde', '('])	{'NIL': [('fr-ud-train_10537', '2', '31')], 'appos - L': [('fr-ud-train_10537', 2, 6)]}
+   515	(('chansons', 'sont'), ['les', 0, 0, 'de'])	{'NIL': [('fr-ud-train_06552', '3', '4'), ('fr-ud-train_11240', '3', '4')], 'nsubj - R': [('fr-ud-train_10610', 3, 4)]}
+   516	(('directeur', 'unité'), ['le', 'de', "l'", "d'"])	{'NIL': [('fr-ud-train_10657', '6', '43')], 'nmod - L': [('fr-ud-train_10657', 6, 9)]}
+   517	(('équipe', 'hockey'), ["l'", "d'", 'de', 'sur'])	{'NIL': [('fr-ud-train_10710', '2', '22')], 'nmod - L': [('fr-ud-train_10710', 2, 6)]}
+   518	(('produite', 'bobinages'), ['électricité', 'par', 'les', 'de'])	{'NIL': [('fr-ud-train_10711', '15', '38')], 'obl:agent - L': [('fr-ud-train_10711', 15, 18)]}
+   519	(('microscope', 'incident'), ['le', 'électronique', 'est', 'sur'])	{'NIL': [('fr-ud-train_10735', '11', '21')], 'obl:mod - R': [('fr-ud-train_10735', 3, 21)]}
+   520	(('est', 'intégré'), ['il', 0, 0, 'à'])	{'aux:tense - R': [('fr-ud-train_13346', 2, 3)], 'aux:pass - R': [('fr-ud-train_10740', 12, 13)]}
+   521	(("l'", 'escalade'), ['de', 0, 0, 'et'])	{'NIL': [('fr-ud-train_06893', '27', '28')], 'det - R': [('fr-ud-train_10762', 29, 30)]}
+   522	(('soit', 'îles'), [',', 'sur', 'des', '.'])	{'NIL': [('fr-ud-train_10885', '4', '27')], 'cc - R': [('fr-ud-train_10885', 24, 27)]}
+   523	(('in', '1961'), [',', 'person', '(', ')'])	{'NIL': [('fr-ud-train_10889', '33', '56')], 'nmod - L': [('fr-ud-train_10889', 33, 45)]}
+   524	(('four', '1964'), ['"', '"', '(', ')'])	{'NIL': [('fr-ud-train_10889', '68', '80'), ('fr-ud-train_10889', '68', '87')], 'nmod - L': [('fr-ud-train_10889', 68, 73)]}
+   525	(('à', 'travée'), ["jusqu'", 'la', 'première', 'de'])	{'NIL': [('fr-ud-train_10916', '10', '21')], 'case - R': [('fr-ud-train_10916', 18, 21)]}
+   526	(('bosc', 'balue'), ['le', 'et', 'la', ','])	{'NIL': [('fr-ud-train_10925', '35', '55')], 'conj - L': [('fr-ud-train_10925', 35, 41)]}
+   527	(('les', 'arbre'), ['ni', 'premiers', 'double', 'à'])	{'NIL': [('fr-ud-train_10961', '5', '18')], 'det - R': [('fr-ud-train_10961', 14, 18)]}
+   528	(('premiers', 'arbre'), ['les', '«', 'double', 'à'])	{'NIL': [('fr-ud-train_10961', '6', '18')], 'amod - R': [('fr-ud-train_10961', 15, 18)]}
+   529	(('desservie', 'chemin'), ['est', 'par', 'le', 'de'])	{'NIL': [('fr-ud-train_06353', '3', '19')], 'obl:agent - L': [('fr-ud-train_10992', 3, 6)]}
+   530	(('brune', 'tchan'), ['(', 'de', 'le', ')'])	{'NIL': [('fr-ud-train_11023', '28', '41')], 'nmod - L': [('fr-ud-train_11023', 28, 31)]}
+   531	(('termes', 'politique'), ['les', 'de', '«', 'de'])	{'NIL': [('fr-ud-train_11107', '5', '15')], 'nmod - L': [('fr-ud-train_11107', 5, 8)]}
+   532	(('lutte', 'canada'), ['ou', 'professionnelle', 'le', ')'])	{'NIL': [('fr-ud-train_11211', '6', '20')], 'nmod - L': [('fr-ud-train_11211', 6, 10)]}
+   533	(('syndicat', 'désirait'), ['le', 'de', ',', 'mettre'])	{'NIL': [('fr-ud-train_11213', '17', '27')], 'nsubj - R': [('fr-ud-train_11213', 5, 27)]}
+   534	(('révélé', 'making'), ['groupe', 'par', '"', 'the'])	{'NIL': [('fr-ud-train_11253', '17', '41')], 'obl:agent - L': [('fr-ud-train_11253', 17, 20)]}
+   535	(('district', 'tchéquie'), ['le', 'de', 'en', '.'])	{'NIL': [('fr-ud-train_06415', '7', '14')], 'nmod - L': [('fr-ud-train_11284', 7, 17)]}
+   536	(('nord', 'département'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_11339', '6', '25')], 'nmod - L': [('fr-ud-train_11339', 6, 9)]}
+   537	(('usage', 'langue'), ["l'", 'de', 'la', 'française'])	{'NIL': [('fr-ud-train_11368', '17', '61')], 'nmod - L': [('fr-ud-train_11368', 17, 20)]}
+   538	(('opérette', 'aventures'), ["l'", "d'", 'les', 'de'])	{'NIL': [('fr-ud-train_11399', '9', '34')], 'appos - L': [('fr-ud-train_11399', 9, 15)]}
+   539	(('taille', 'ordre'), ['de', 'minimale', "l'", 'de'])	{'NIL': [('fr-ud-train_11401', '14', '37')], 'nmod - L': [('fr-ud-train_11401', 14, 18)]}
+   540	(('bande', 'moitié'), ['une', 'blanche', 'la', 'de'])	{'NIL': [('fr-ud-train_11417', '17', '50')], 'nmod - L': [('fr-ud-train_11417', 17, 21)]}
+   541	(('moitié', 'bord'), ['la', 'de', 'le', 'costal'])	{'NIL': [('fr-ud-train_11417', '21', '45')], 'nmod - L': [('fr-ud-train_11417', 21, 24)]}
+   542	(('occupée', 'esprit'), ['place', 'de', "l'", 'de'])	{'NIL': [('fr-ud-train_11423', '9', '38')], 'obl:mod - L': [('fr-ud-train_11423', 9, 15)]}
+   543	(('succède', 'école'), ['girard', ',', "l'", 'de'])	{'NIL': [('fr-ud-train_11463', '10', '33')], 'obl:mod - L': [('fr-ud-train_11463', 10, 26)]}
+   544	(('relevaient', 'secteur'), ['%', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_11475', '18', '38'), ('fr-ud-train_11475', '18', '47'), ('fr-ud-train_11475', '18', '68')], 'obl:arg - L': [('fr-ud-train_11475', 18, 21)]}
+   545	(('%', 'secteur'), ['7', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_11475', '35', '47')], 'orphan - L': [('fr-ud-train_11475', 35, 38), ('fr-ud-train_11475', 65, 68)]}
+   546	(('%', 'secteur'), ['27', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_11475', '44', '68')], 'orphan - L': [('fr-ud-train_11475', 44, 47)]}
+   547	(('implantée', 'axe'), ['est', 'dans', "l'", 'de'])	{'NIL': [('fr-ud-train_11483', '20', '37')], 'obl:mod - L': [('fr-ud-train_11483', 20, 23)]}
+   548	(('axe', 'voie'), ["l'", 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_11483', '23', '44'), ('fr-ud-train_11483', '37', '44')], 'nmod - L': [('fr-ud-train_11483', 23, 26)]}
+   549	(("c'", 'monde'), [0, 'est', 'le', 'à'])	{'NIL': [('fr-ud-train_04327', '1', '10')], 'nsubj - R': [('fr-ud-train_11487', 1, 4)]}
+   550	(("n'", 'cher'), ['rien', 'est', 'trop', '»'])	{'NIL': [('fr-ud-train_11528', '3', '12')], 'advmod - R': [('fr-ud-train_11528', 9, 12)]}
+   551	(('population', 'recensement'), ['sa', 'était', 'le', 'de'])	{'NIL': [('fr-ud-train_02988', '2', '10')], 'nsubj - R': [('fr-ud-train_11592', 2, 8)]}
+   552	(('était', 'recensement'), ['population', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_02988', '3', '10')], 'cop - R': [('fr-ud-train_11592', 3, 8)]}
+   553	(('fusion', 'inspection'), ['la', 'de', "l'", 'générale'])	{'NIL': [('fr-ud-train_11615', '6', '20')], 'nmod - L': [('fr-ud-train_11615', 6, 9)]}
+   554	(('inspection', 'police'), ["l'", 'générale', 'la', 'nationale'])	{'NIL': [('fr-ud-train_12194', '19', '23')], 'nmod - L': [('fr-ud-train_11615', 9, 13)]}
+   555	(('ceux', 'reste'), ['à', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_11630', '29', '58')], 'nmod - L': [('fr-ud-train_11630', 29, 32)]}
+   556	(('saint-nicolas', 'diocèse'), [',', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_11732', '45', '62')], 'nmod - L': [('fr-ud-train_11732', 45, 50)]}
+   557	(('et', 'g'), ['plus', 'de', '400', 'à'])	{'NIL': [('fr-ud-train_11823', '25', '52')], 'cc - R': [('fr-ud-train_11823', 49, 52)]}
+   558	(('organisé', 'arrondissement'), ['est', 'autour', "l'", 'de'])	{'NIL': [('fr-ud-train_13284', '4', '18')], 'obl:mod - L': [('fr-ud-train_12081', 4, 10), ('fr-ud-train_12305', 4, 10)]}
+   559	(('ne', 'sont'), ['ils', 0, 0, 'pas'])	{'NIL': [('fr-ud-train_08493', '42', '43')], 'advmod - R': [('fr-ud-train_12084', 14, 15)]}
+   560	(('à', 'dilemme'), ['face', 'un', 0, ':'])	{'NIL': [('fr-ud-train_13706', '22', '24')], 'case - R': [('fr-ud-train_12088', 9, 11)]}
+   561	(('organisations', 'secteur'), ['les', 'syndicales', 'le', 'de'])	{'NIL': [('fr-ud-train_12105', '6', '34')], 'nmod - L': [('fr-ud-train_12105', 6, 10)]}
+   562	(('championnats', 'jeux'), ['les', 'de', 'les', 'olympiques'])	{'NIL': [('fr-ud-train_02606', '26', '44')], 'conj - L': [('fr-ud-train_12109', 9, 24)]}
+   563	(('totalité', 'comté'), ['la', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_12163', '20', '32')], 'nmod - L': [('fr-ud-train_12163', 20, 23)]}
+   564	(('générale', 'police'), ['inspection', 'de', 'la', 'nationale'])	{'NIL': [('fr-ud-train_11615', '10', '13')], 'obl:mod - L': [('fr-ud-train_12194', 20, 23)]}
+   565	(('sécurité', 'nations'), ['de', 'de', 'les', 'unies'])	{'NIL': [('fr-ud-train_02867', '22', '25'), ('fr-ud-train_10352', '22', '25')], 'nmod - L': [('fr-ud-train_12374', 54, 57)]}
+   566	(('fédération', 'rugby'), ['la', 'française', 'de', 'à'])	{'NIL': [('fr-ud-train_12395', '8', '20')], 'nmod - L': [('fr-ud-train_12395', 8, 11)]}
+   567	(('aveugles', 'handicaps'), ['enfants', 'ou', 'sans', 'associés'])	{'NIL': [('fr-ud-train_12411', '9', '60')], 'obl:mod - L': [('fr-ud-train_12411', 9, 17)]}
+   568	(('nom', 'transféré'), ['le', 'de', 'est', 'à'])	{'NIL': [('fr-ud-train_12441', '2', '39')], 'nsubj:pass - R': [('fr-ud-train_12441', 35, 39)]}
+   569	(('aile', 'parti'), ["l'", 'québécoise', 'le', 'libéral'])	{'NIL': [('fr-ud-train_12473', '11', '58')], 'nmod - L': [('fr-ud-train_12473', 11, 15)]}
+   570	(('centre', 'nations'), ['ou', "d'", 'les', 'unies'])	{'NIL': [('fr-ud-train_12514', '10', '27'), ('fr-ud-train_12514', '10', '39'), ('fr-ud-train_12514', '10', '61')], 'nmod - L': [('fr-ud-train_12514', 10, 16)]}
+   571	(('organe', 'nations'), ['un', 'de', 'les', 'unies'])	{'NIL': [('fr-ud-train_12514', '24', '39'), ('fr-ud-train_12514', '24', '61')], 'nmod - L': [('fr-ud-train_12514', 24, 27)]}
+   572	(('message', 'nations'), ['le', 'de', 'les', 'unies'])	{'NIL': [('fr-ud-train_12514', '36', '61'), ('fr-ud-train_13549', '2', '20')], 'nmod - L': [('fr-ud-train_12514', 36, 39)]}
+   573	(('a', 'validé'), ["n'", 'pas', 'été', 'par'])	{'NIL': [('fr-ud-train_12547', '9', '21')], 'aux:tense - R': [('fr-ud-train_12547', 18, 21)]}
+   574	(('équipements', 'véhicules'), ['des', 'spécifiques', 'pour', 'de'])	{'NIL': [('fr-ud-train_12548', '7', '17')], 'nmod - L': [('fr-ud-train_12548', 7, 10)]}
+   575	(('ouvert', 'équipes'), ['conséquent', 'à', 'les', 'continentales'])	{'NIL': [('fr-ud-train_12578', '5', '15')], 'obl:arg - L': [('fr-ud-train_12578', 5, 8)]}
+   576	(('distance', 'correspondances'), ['la', 'avec', 'plusieurs', 'possibles'])	{'NIL': [('fr-ud-train_12242', '12', '17')], 'nmod - L': [('fr-ud-train_12609', 12, 17)]}
+   577	(('détruire', 'œufs'), ['de', 'ou', 'les', 'et'])	{'NIL': [('fr-ud-train_08885', '30', '34')], 'obj - L': [('fr-ud-train_12629', 30, 34)]}
+   578	(('détruire', 'milieu'), ['de', 'ou', 'son', '.'])	{'NIL': [('fr-ud-train_08885', '30', '47')], 'obj - L': [('fr-ud-train_12629', 30, 47)]}
+   579	(('monopole', 'paris'), ['le', 'de', 'les', 'sportifs'])	{'NIL': [('fr-ud-train_12633', '17', '40')], 'nmod - L': [('fr-ud-train_12633', 17, 20)]}
+   580	(('près', 'capacité'), [',', 'de', 'une', 'de'])	{'NIL': [('fr-ud-train_12684', '17', '40')], 'conj - L': [('fr-ud-train_12684', 17, 24)]}
+   581	(('catégorie', 'règles'), ['la', 'de', 'les', 'de'])	{'NIL': [('fr-ud-train_12708', '32', '43')], 'nmod - L': [('fr-ud-train_12708', 32, 35)]}
+   582	(('catégorie', 'celle'), ['la', 'de', 'à', 'de'])	{'NIL': [('fr-ud-train_02545', '19', '47'), ('fr-ud-train_02545', '41', '47')], 'conj - L': [('fr-ud-train_12708', 32, 40)]}
+   583	(('prétendant', 'comte'), ['le', 'légitimiste', 'le', 'de'])	{'NIL': [('fr-ud-train_12760', '2', '27')], 'appos - L': [('fr-ud-train_12760', 2, 9)]}
+   584	(('secrétaire', 'ministère'), ['nommé', "d'", 'le', 'fédéral'])	{'NIL': [('fr-ud-train_12810', '2', '44')], 'nmod - L': [('fr-ud-train_12810', 2, 7)]}
+   585	(('contamination', 'chant'), ['une', 'entre', 'le', 'vieux-romain'])	{'NIL': [('fr-ud-train_12862', '22', '44')], 'nmod - L': [('fr-ud-train_12862', 22, 25)]}
+   586	(('débit', 'élevait'), ['le', 'mensuel', "s'", 'à'])	{'NIL': [('fr-ud-train_12869', '11', '30')], 'nsubj - R': [('fr-ud-train_12869', 26, 30)]}
+   587	(('bordé', 'pančevački'), ['est', 'par', 'le', 'put'])	{'NIL': [('fr-ud-train_04608', '7', '33')], 'obl:agent - L': [('fr-ud-train_12955', 3, 6)]}
+   588	(('olympique', 'lyonnais'), ["l'", 0, 0, ','])	{'amod - L': [('fr-ud-train_14127', 4, 5)], 'flat:name - L': [('fr-ud-train_12961', 8, 9)]}
+   589	(('mettant', 'histoire'), ['film', 'en', "l'", "d'"])	{'NIL': [('fr-ud-train_12965', '12', '32')], 'obj - L': [('fr-ud-train_12965', 12, 19)]}
+   590	(('classement', 'basé'), ['le', 'est', 0, 'sur'])	{'nsubj - R': [('fr-ud-train_13791', 2, 4)], 'nsubj:pass - R': [('fr-ud-train_13011', 2, 4)]}
+   591	(('sud', 'voie'), ['(', 'de', 'la', ')'])	{'NIL': [('fr-ud-train_13033', '33', '50')], 'nmod - L': [('fr-ud-train_13033', 33, 36)]}
+   592	(('succédé', 'zénith'), ['sont', ',', 'le', 'de'])	{'NIL': [('fr-ud-train_13046', '8', '18')], 'parataxis - L': [('fr-ud-train_13046', 8, 11)]}
+   593	(('parti', 'gare'), [0, 'le', 'la', 'de'])	{'NIL': [('fr-ud-train_13060', '1', '30')], 'obl:arg - L': [('fr-ud-train_13060', 1, 7)]}
+   594	(('correspondait', 'question'), ['territoires', 'à', 'une', 'de'])	{'NIL': [('fr-ud-train_13154', '15', '28')], 'obl:arg - L': [('fr-ud-train_13154', 15, 18)]}
+   595	(('arrondissement', 'région'), ["l'", 'de', 'la', 'de'])	{'NIL': [('fr-ud-train_04932', '19', '32')], 'conj - L': [('fr-ud-train_13174', 8, 13)]}
+   596	(('propriétaires', 'groupe'), ['les', 'de', 'le', 'seb'])	{'NIL': [('fr-ud-train_13263', '11', '26')], 'nmod - L': [('fr-ud-train_13263', 11, 14)]}
+   597	(('programme', 'jeux'), ['le', 'de', 'les', 'olympiques'])	{'NIL': [('fr-ud-train_13264', '6', '19')], 'nmod - L': [('fr-ud-train_13264', 6, 9)]}
+   598	(('identification', 'temple'), ["l'", 'avec', 'le', 'de'])	{'NIL': [('fr-ud-train_13268', '2', '23')], 'nmod - L': [('fr-ud-train_13268', 2, 5)]}
+   599	(('temple', 'trouvait'), ['le', 'de', 'se', 'près'])	{'NIL': [('fr-ud-train_13268', '5', '27')], 'nsubj:pass - R': [('fr-ud-train_13268', 23, 27)]}
+   600	(('nom', 'great'), ['le', 'de', '«', 'habbo'])	{'NIL': [('fr-ud-train_13286', '9', '30')], 'nmod - L': [('fr-ud-train_13286', 9, 12)]}
+   601	(('panne', 'appel'), ['seconde', 'deux', ',', 'à'])	{'NIL': [('fr-ud-train_13288', '2', '22')], 'parataxis - L': [('fr-ud-train_13288', 2, 17)]}
+   602	(('pas', 'statut'), [0, 'de', 0, 'de'])	{'dep:comp - L': [('fr-ud-train_13359', 1, 3)], 'advmod - R': [('fr-ud-train_13289', 1, 3)]}
+   603	(('émise', 'péché'), ['avait', 'sur', 'le', 'originel'])	{'NIL': [('fr-ud-train_13342', '15', '32')], 'obl:mod - L': [('fr-ud-train_13342', 15, 18)]}
+   604	(('juillet', 'septembre'), ['de', 'à', 0, 'inclus'])	{'NIL': [('fr-ud-train_08426', '5', '7')], 'nmod - L': [('fr-ud-train_13364', 31, 33)]}
+   605	(('baisse', 'mois'), ['une', 'de', 'le', "d'"])	{'NIL': [('fr-ud-train_08426', '12', '25')], 'nmod - L': [('fr-ud-train_13364', 38, 50)]}
+   606	(('banque', 'caraïbe'), ['la', 'centrale', 'la', 'orientale'])	{'NIL': [('fr-ud-train_13437', '2', '29')], 'nmod - L': [('fr-ud-train_13437', 2, 6)]}
+   607	(('répartie', 'centrales'), ['étant', 'entre', 'les', 'à'])	{'NIL': [('fr-ud-train_13466', '4', '19')], 'obl:mod - L': [('fr-ud-train_13466', 4, 7)]}
+   608	(('bien', 'étant'), [',', 'que', "n'", 'pas'])	{'NIL': [('fr-ud-train_01802', '5', '43')], 'mark - R': [('fr-ud-train_13508', 10, 13)]}
+   609	(('sud-ouest', 'département'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_03849', '15', '20'), ('fr-ud-train_11611', '15', '20')], 'nmod - L': [('fr-ud-train_13517', 12, 15)]}
+   610	(('voïvodie', 'powiat'), ['la', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_14397', '8', '14')], 'conj - L': [('fr-ud-train_13581', 11, 17)]}
+   611	(('points', 'égale'), ['les', 'de', 'est', 'à'])	{'NIL': [('fr-ud-train_09103', '13', '24')], 'acl:relcl - L': [('fr-ud-train_13592', 13, 24)]}
+   612	(('passe', 'diocèse'), ['garrebourg', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_13612', '10', '20')], 'obl:arg - L': [('fr-ud-train_13612', 10, 13)]}
+   613	(('diocèse', 'diocèse'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_11732', '50', '62')], 'nmod - L': [('fr-ud-train_13612', 13, 20)]}
+   614	(('le', 'internet'), [',', 'site', 0, 'de'])	{'NIL': [('fr-ud-train_01990', '3', '5')], 'det - R': [('fr-ud-train_13625', 5, 7)]}
+   615	(('là', 'aussi'), [0, 0, 0, ','])	{'NIL': [('fr-ud-train_11999', '1', '2')], 'advmod - L': [('fr-ud-train_13763', 1, 2)]}
+   616	(('grossiste', 'fabricant'), ['le', 'ou', 'le', ','])	{'NIL': [('fr-ud-train_13767', '12', '34')], 'conj - L': [('fr-ud-train_13767', 12, 15)]}
+   617	(('cadre', 'festival'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_11347', '19', '29')], 'nmod - L': [('fr-ud-train_13776', 23, 26)]}
+   618	(('publiée', 'journal'), ['est', 'pour', 'le', 'spirou'])	{'NIL': [('fr-ud-train_14032', '3', '16')], 'obl:mod - L': [('fr-ud-train_13834', 3, 30)]}
+   619	(('construction', 'édification'), ['la', 'de', "l'", 'de'])	{'NIL': [('fr-ud-train_13932', '17', '70')], 'conj - L': [('fr-ud-train_13932', 17, 51)]}
+   620	(('claude', 'maire'), ['monsieur', 'cottereau', ',', 'de'])	{'NIL': [('fr-ud-train_14149', '34', '45')], 'appos - L': [('fr-ud-train_14149', 34, 37)]}
+   621	(('parachutage', 'troupes'), ['le', 'de', 'les', 'aéroportées'])	{'NIL': [('fr-ud-train_14219', '2', '32')], 'nmod - L': [('fr-ud-train_14219', 2, 5)]}
+   622	(('troupes', 'aient'), ['les', 'aéroportées', "n'", 'pas'])	{'NIL': [('fr-ud-train_14219', '5', '35')], 'nsubj - R': [('fr-ud-train_14219', 32, 35)]}
+   623	(('temple', 'nord'), ['le', 'de', 'le', 'de'])	{'NIL': [('fr-ud-train_13268', '5', '48'), ('fr-ud-train_13268', '23', '48')], 'nmod - L': [('fr-ud-train_14249', 21, 31)]}
+   624	(('début', 'commune'), ['le', 'de', 'la', '.'])	{'NIL': [('fr-ud-train_05385', '3', '15')], 'nmod - L': [('fr-ud-train_14270', 25, 28)]}
+   625	(('vue', 'monts'), ['une', 'magnifique', 'les', 'de'])	{'NIL': [('fr-ud-train_14283', '13', '23')], 'nmod - L': [('fr-ud-train_14283', 13, 17)]}
+   626	(('village', 'voïvodie'), ['un', 'polonais', 'la', 'de'])	{'NIL': [('fr-ud-train_06208', '10', '26')], 'nmod - L': [('fr-ud-train_14397', 4, 8)]}
+   627	(('municipalité', 'république'), ['la', 'de', ',', 'serbe'])	{'NIL': [('fr-ud-train_02749', '6', '10')], 'appos - L': [('fr-ud-train_14499', 6, 10)]}
+   628	(('mentsee', 'lhassa'), ['le', 'khang', 'de', ','])	{'NIL': [('fr-ud-train_14532', '9', '19')], 'nmod - L': [('fr-ud-train_14532', 9, 12)]}
