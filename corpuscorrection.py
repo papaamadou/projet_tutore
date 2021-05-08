@@ -1,10 +1,11 @@
 
 import json
 import argparse
+
 def get_argument():
     parser = argparse.ArgumentParser()
     parser.add_argument('infile', nargs='?', type=argparse.FileType('r'),help="path to input conllu file")
-    parser.add_argument("context",nargs=1,choices=["interne","dependance","voisin"],help="choose the context you want")
+    parser.add_argument("context",nargs=1,choices=["interne","dependance","voisin","none"],help="choose the context you want")
     parser.add_argument("nil", nargs=1, choices=["nil", "not_nil"], help= "do you want to take nil into account")
     parser.add_argument("punct", nargs=1, choices=["punct", "not_punct"], help="do you want to take punctuation into account")
     arg=parser.parse_args()
@@ -68,7 +69,7 @@ def couple(dico, cont, punct=True):
     for k, v in dico.items():
         for elt in v:
             if elt[5] == "root":
-                relation = [elt[1], "##empty##", k, elt[0], 0, elt[5], [], [0, 0, 0, 0], ""]
+                relation = [elt[1], "##empty##", k, elt[0], 0, elt[5], [], [0, 0, 0, 0], "","##none##"]
 
             elif not punct and  (elt[3] == "PUNCT" or v[int(elt[4]) - 1][3]== "PUNCT") :
                 continue
@@ -81,12 +82,12 @@ def couple(dico, cont, punct=True):
                     rel = rel + " - R"
                     interne, voisins = context(v, position_word1, position_word2)
                     relation = [elt[1], v[int(elt[4]) - 1][1], k, position_word1, position_word2, rel, interne, voisins,
-                                v[int(elt[4]) - 1][5]]
+                                v[int(elt[4]) - 1][5],"##none##"]
                 else:
                     rel = rel + " - L"
                     interne, voisins = context(v, position_word2, position_word1)
                     relation = [v[int(elt[4]) - 1][1], elt[1], k, position_word2, position_word1, rel, interne, voisins,
-                                v[int(elt[4]) - 1][5]]
+                                v[int(elt[4]) - 1][5], "##none##"]
                     # relation = [word1, word2, sent_id, position_1, position_2, relation_name, internal_context, neighbour_context, depandency_context]
 
             choose_context(relation, list_couple, cont)
@@ -104,21 +105,23 @@ def nil(list_couple, dico, cont):
             for j in range(i + 1, len(v)):
                 if (elt[1], v[j][1]) in list_couple and elt[4] != v[j][0] and int(v[j][4]) != int(elt[0]):
                     interne, voisins = context(v, int(elt[0]), int(v[j][0]))
-                    nil_relation = [elt[1], v[j][1], k, elt[0], v[j][0], "NIL", interne, voisins, ""]
+                    nil_relation = [elt[1], v[j][1], k, elt[0], v[j][0], "NIL", interne, voisins, "","##none##"]
                     choose_context(nil_relation, list_nil, cont)
     return list_nil
 
 
 def choose_context(relation, couple, cont="interne"):
     """
-    choose the context that will be  take into account for the comparison (interne, voisins, dependance)
+    choose the context that will be  take into account for the comparison (interne, voisins, dependance,without context)
     """
-    i, v, d = 6, 7, 8
+    i, v, d, n = 6, 7, 8,9
     indice = i
     if cont == "voisin":
         indice = v
     if cont == "dependance":
         indice = d
+    if cont =="none":
+        indice = n
     if (relation[0], relation[1]) not in couple:
         couple[(relation[0], relation[1])] = [(*relation[2:6], relation[indice])]
     else:
@@ -156,6 +159,32 @@ def compare(n_couple, list_couple=[], list_nil=[],result={}, nil=False):
 
     return result
 
+def filter(dico):
+    """ remove the false positive couples"""
+    sup_key = []
+    dico = deepcopy(dico)
+    for k, v in dico.items():
+        if "NIL" in dico[k]:
+            nil = []
+            for elt in dico[k]["NIL"]:
+                for k1, v1 in dico[k].items():
+                    if k1 != "NIL":
+                        for i in v1:
+                            if i[0] == elt[0]:
+                                if ("- R" in k1) and (int(i[1]) == int(elt[1])):
+                                    nil.append(elt)
+                                if ("- L" in k1) and (int(i[2]) == int(elt[2])):
+                                    nil.append(elt)
+            for elt in nil:
+                if elt in dico[k]["NIL"]:
+                    dico[k]["NIL"].remove(elt)
+            if len(dico[k]["NIL"]) == 0:
+                dico[k].pop("NIL")
+            if len(dico[k]) == 1:
+                sup_key.append(k)
+    for elt in sup_key:
+        dico.pop(elt)
+    return dico
 
 def main():
     file_name, context, test_nil, punct = get_argument()
@@ -168,19 +197,19 @@ def main():
         if len(v) > 1 or k in list_nil:
             if k in list_nil:
                 compare(k,v, list_nil[k],result=potential_errors, nil=test_nil)
-
             else:
                 compare(k,v,result=potential_errors, nil=test_nil)
+                
     with open("result_"+context+".json","w")as file:
         json.dump(potential_errors,file)
 
-    print(len(potential_errors)," couples with potential errors")
-    for i,elt in potential_errors.items():
-        print(i,elt)
+    potential_errors_filt=filter(potential_errors)
+    with open("result_filt"+context+".json","w")as file:
+        json.dump(potential_errors_filt,file)
 
+    for k,v in potential_errors.items():
+        print(k,v)
 
-
-main()
 
 
 
