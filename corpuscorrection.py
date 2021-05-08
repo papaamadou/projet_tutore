@@ -211,7 +211,7 @@ def main():
         print(k,v)
 
 
-
+main()
 
 
 
