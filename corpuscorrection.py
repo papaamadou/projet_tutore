@@ -1,7 +1,7 @@
 
 import json
 import argparse
-
+from copy import deepcopy
 def get_argument():
     parser = argparse.ArgumentParser()
     parser.add_argument('infile', nargs='?', type=argparse.FileType('r'),help="path to input conllu file")
@@ -104,8 +104,11 @@ def nil(list_couple, dico, cont):
         for i, elt in enumerate(v):
             for j in range(i + 1, len(v)):
                 if (elt[1], v[j][1]) in list_couple and elt[4] != v[j][0] and int(v[j][4]) != int(elt[0]):
-                    interne, voisins = context(v, int(elt[0]), int(v[j][0]))
-                    nil_relation = [elt[1], v[j][1], k, elt[0], v[j][0], "NIL", interne, voisins, "","##none##"]
+                    position_word1 = int(elt[0])
+                    position_word2 = int(v[j][0])
+                    interne, voisins = context(v, position_word1, position_word2)
+                    nil_relation = [elt[1], v[j][1], k, position_word1, position_word2, "NIL", interne, voisins, "",
+                                    "##none##"]
                     choose_context(nil_relation, list_nil, cont)
     return list_nil
 
