@@ -1,0 +1,1182 @@
+- ('les', 'premiers'), ['trois'])
+
+# sent_id = fr-ud-train_07609
+# text = À Arles, des objets provenant de différents sondages, en particulier du site de l'hôpital Van-Gogh attestent l'existence d'une occupation sur cet îlot rocheux dès la fin du VIIe siècle et durant les trois premiers quarts du VIe siècle av. J.-C.
+
+39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
+40	trois	trois	NUM	_	Number=Plur	42	nummod	_	_
+41	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	42	amod	_	_
+
+# sent_id = fr-ud-train_12603
+# text = Ces écrits sont regroupés dans les * Collected Papers édités aux Éditions Martinus Nijhoff (pour les trois premiers tomes) et par Kluwer Academic Publishers (pour le quatrième tome, ainsi que pour le cinquième tome qui est en préparation) :
+
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+19	trois	trois	NUM	_	Number=Plur	21	nummod	_	_
+20	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+
+# sent_id = fr-ud-train_03121
+# text = La classe Akizuki est une classe de destroyers lance-missiles de la Force maritime d'autodéfense japonaise construits actuellement dans les chantiers navals de Mitsubishi Heavy Industries à Nagasaki pour les trois premiers, et le quatrième au chantier Mitsui Engineering & Shipbuilding de Tamano.
+
+30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+31	trois	trois	NUM	_	Number=Plur	32	nummod	_	_
+32	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	17	obl:mod	_	SpaceAfter=No
+
+
+# sent_id = fr-ud-train_13659
+# text = Les trois premiers sont des tissus parenchymateux, en opposition au tissu conjonctif (ou stroma) ;
+
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	wordform=les
+2	trois	trois	NUM	_	Number=Plur	3	nummod	_	_
+3	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+- (('à', 'faire'), [])
+
+# sent_id = fr-ud-train_02426
+# text = L'idée d'un sauvetage financier de la Grèce, un pays reconnu coupable d'avoir truqué à plusieurs reprises les chiffres de ses déficits pour les minimiser, n'est pas facile à faire passer aux yeux de l'opinion publique allemande.
+
+34	à	à	ADP	_	_	36	mark	_	_
+35	faire	faire	AUX	_	VerbForm=Inf	36	aux:caus	_	_
+
+# sent_id = fr-ud-train_03084
+# text = Elle a aussi contribué à faire reculer la pauvreté.
+
+5	à	à	ADP	_	_	7	mark	_	_
+6	faire	faire	AUX	_	VerbForm=Inf	7	aux:caus	_	_
+
+# sent_id = fr-ud-train_05086
+# text = Les forces d'Iberville ayant été réduites, il réussit quand même à faire croire aux assiégés que ses troupes étaient très importantes.
+
+13	à	à	ADP	_	_	15	mark	_	_
+14	faire	faire	AUX	_	VerbForm=Inf	15	aux:caus	_	_
+
+# sent_id = fr-ud-train_06012
+# text = 14 navires espagnols réussissent à faire reculer l'escadre française.
+
+5	à	à	ADP	_	_	7	mark	_	_
+6	faire	faire	AUX	_	VerbForm=Inf	7	aux:caus	_	_
+
+# sent_id = fr-ud-train_06463
+# text = Il entre ensuite comme professeur d'histoire-géographie au collège de Chambéry qu'il participe à faire devenir une École normale.
+
+16	à	à	ADP	_	_	18	mark	_	_
+17	faire	faire	AUX	_	VerbForm=Inf	18	aux:caus	_	_
+
+# sent_id = fr-ud-train_08316
+# text = Ont donc contribué à faire connaître l'homme, Serge Drouin (Journal de Québec), Jacques Dumais (Le Soleil), Eddy Labrie (Journal de Québec et Journal de Montréal), Pierre Nadeau (Journal de Québec), et Judith Savard (Dimanche-Québec).
+
+4	à	à	ADP	_	_	6	mark	_	_
+5	faire	faire	AUX	_	VerbForm=Inf	6	aux:caus	_	_
+
+# sent_id = fr-ud-train_08354
+# text = François Fillon s'est dit "convaincu" jeudi de la capacité du gouvernement "à faire reculer le chômage" cette année, après avoir qualifié de "mauvais" les chiffres pour décembre 2010, mois qui a connu une nouvelle hausse du nombre de demandeurs d'emploi.
+
+17	à	à	ADP	_	_	19	mark	_	_
+18	faire	faire	AUX	_	VerbForm=Inf	19	aux:caus	_	_
+
+# sent_id = fr-ud-train_00356
+# text = Certains hôpitaux ont été invités à faire de même (série H-dépôt) pour leurs documents les plus anciens.
+
+6	à	à	ADP	_	_	7	mark	_	_
+7	faire	faire	VERB	_	VerbForm=Inf	5	xcomp:obl	_	_
+
+# sent_id = fr-ud-train_00697
+# text = Aujourd'hui, il continue à faire certains concerts seul, mais il présente la plupart de ses concerts avec ses Pleureurs.
+
+5	à	à	ADP	_	_	6	mark	_	_
+6	faire	faire	VERB	_	VerbForm=Inf	4	xcomp:obl	_	_
+
+# sent_id = fr-ud-train_00768
+# text = Je n'ai rien à faire !
+
+5	à	à	ADP	_	_	6	mark	_	_
+6	faire	faire	VERB	_	VerbForm=Inf	4	acl	_	_
+
+# sent_id = fr-ud-train_04169
+# text = Je suis une véritable documentaliste, je passe beaucoup de temps sur mon ordinateur à faire des recherches.
+
+15	à	à	ADP	_	_	16	mark	_	_
+16	faire	faire	VERB	_	VerbForm=Inf	8	xcomp:obl	_	_
+
+# sent_id = fr-ud-train_04262
+# text = Le fait que le groupe ne disposa pas d'un incubateur, à la différence de Kitasato, et qu'il eut à faire ses cultures bactériennes à température ambiante, dans une cabane de bambou, fut en réalité une circonstance favorable car dans des conditions de laboratoire Yersinia pestis se développe mieux à des températures plus basses que celle du corps humain.
+
+23	à	à	ADP	_	_	24	mark	_	_
+24	faire	faire	VERB	_	VerbForm=Inf	22	xcomp:obl	_	_
+
+# sent_id = fr-ud-train_04714
+# text = Ne manquant pas à ce propos d'appeler les Nations unies à faire preuve de responsabilité et de « voir d'où vient le problème », selon M. Salem Ould Salek.
+
+12	à	à	ADP	_	_	13	mark	_	_
+13	faire	faire	VERB	_	VerbForm=Inf	8	xcomp:obl	_	_
+
+# sent_id = fr-ud-train_05146
+# text = Ce dernier est le premier joueur non-belge à faire son apparition dans le top-5 du classement final, la République démocratique du Congo ayant obtenu son indépendance le 30 juin 1960.
+
+8	à	à	ADP	_	_	9	mark	_	_
+9	faire	faire	VERB	_	VerbForm=Inf	5	xcomp:obl	_	_
+
+# sent_id = fr-ud-train_05502
+# text = Il sert à faire des arbitrages entre placements.
+
+3	à	à	ADP	_	_	4	mark	_	_
+4	faire	faire	VERB	_	VerbForm=Inf	2	xcomp:obl	_	_
+
+
+# sent_id = fr-ud-train_06137
+# text = "Il y a déjà beaucoup à apprendre et à faire avec ce dont nous disposons actuellement au niveau moteur, système électronique et batterie" assure Julien Schell.
+
+10	à	à	ADP	_	_	11	mark	_	_
+11	faire	faire	VERB	_	VerbForm=Inf	8	conj	_	_
+
+
+# sent_id = fr-ud-train_06444
+# text = Bungaree passa le reste de sa vie à accueillir les nouveaux arrivants dans la colonie, à enseigner le lancer de boomerang et à faire la mendicité.
+
+24	à	à	ADP	_	_	25	mark	_	_
+25	faire	faire	VERB	_	VerbForm=Inf	9	conj	_	_
+
+
+# sent_id = fr-ud-train_08072
+# text = J'aurais tendance à faire comme mon arrière-grand-père avec l'art : liquider la spiritualité officielle.
+
+4	à	à	ADP	_	_	5	mark	_	_
+5	faire	faire	VERB	_	VerbForm=Inf	3	xcomp:obl	_	_
+
+
+# sent_id = fr-ud-train_08536
+# text = Cet intérêt pour les phénomènes interactionnels l'a amené à faire des études en ayant recours à des enrégistrements (audio et/ou video) des diverses manières qu'il qualifie de « naturelles » d'interagir socialement.
+
+10	à	à	ADP	_	_	11	mark	_	_
+11	faire	faire	VERB	_	VerbForm=Inf	9	xcomp:obl	_	_
+
+# sent_id = fr-ud-train_08996
+# text = Dommage car le cadre est agréable même s'il y a encore un effort à faire du point de vue acoustique.
+
+15	à	à	ADP	_	_	16	mark	_	_
+16	faire	faire	VERB	_	VerbForm=Inf	14	acl	_	_
+
+# sent_id = fr-ud-train_09774
+# text = En raison de problèmes de conception, Daniel a aussi été invité à faire l'intérieur de la pochette, une tâche qu'il a accompli en moins d'une semaine.
+
+13	à	à	ADP	_	_	14	mark	_	_
+14	faire	faire	VERB	_	VerbForm=Inf	12	xcomp:obl	_	_
+
+# sent_id = fr-ud-train_10453
+# text = Il sert aussi à faire de l'aérographe.
+
+4	à	à	ADP	_	_	5	mark	_	_
+5	faire	faire	VERB	_	VerbForm=Inf	2	xcomp:obl	_	_
+
+# sent_id = fr-ud-train_12088
+# text = Les commandants alliés eurent également à faire face à un dilemme : fallait-il garder les divisions épuisées par l'attaque et courir le risque d'avoir une force de combat insuffisante ou les remplacer par de nouvelles divisions et perdre l'élan créé par les succès ?
+
+6	à	à	ADP	_	_	7	mark	_	_
+7	faire	faire	VERB	_	VerbForm=Inf	4	xcomp:obl	_	_
+
+# sent_id = fr-ud-train_12501
+# text = L'ouvrage vise à discuter des problèmes sociaux et des conflits qui affectent le peuple écossais, mais également à faire l'éloge de beaucoup de facettes uniques de la société écossaise comme une école pour sourds-muets à Edinburgh.
+
+20	à	à	ADP	_	_	21	mark	_	_
+21	faire	faire	VERB	_	VerbForm=Inf	5	conj	_	_
+
+
+# sent_id = fr-ud-train_14470
+# text = Buh-Buh Ray et D-Von (2 des nombreux « fils » de Willy Loman "Big Daddy" Dudley) ont acquis leur reconnaissance pour leur degré d'interviews à connotation profane, explicite, et vitriolique, qui antagonisait la foule au point de l'amener à faire une émeute.
+
+51	à	à	ADP	_	_	52	mark	_	_
+52	faire	faire	VERB	_	VerbForm=Inf	50	xcomp:obl	_	_
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (('faire', 'de'), [])Edelstein, R. S., & Shaver, P. R. (2007). A cross-cultural examination of lexical studies of self-conscious emotions. In J. L. Tracy, R. W. Robins, & J. P. Tangney (Eds), The self-conscious emotions: Theory and research (pp. 194-208). New York, NY: Guilford Press.
+
+# sent_id = fr-ud-train_02144
+# text = On sent qu'il faut faire du chiffre et c'est là seule chose qui compte.
+
+6	faire	faire	VERB	_	VerbForm=Inf	5	ccomp:obj	_	_
+7-8	du	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+
+# sent_id = fr-ud-train_03317
+# text = Jusqu'au vélo avec un siège adapté : ainsi nous avons pu faire de jolies balades et bébé était ravi.
+
+14	faire	faire	VERB	_	VerbForm=Inf	13	xcomp:obj	_	_
+15	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+
+# sent_id = fr-ud-train_06817
+# text = Violet, afin de préserver le bébé dans la famille, convient avec un Robert de mauvaise grâce de faire de Tom le gérant du domaine aux côtés de Mattew, afin de le conseiller.
+
+20	faire	faire	VERB	_	VerbForm=Inf	12	xcomp:obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+
+
+# sent_id = fr-ud-train_06928
+# text = "Nous pensons que s'il y a nécessité de recapitaliser (les banques) au-delà de ce qui a été déjà identifié après les tests de résistance de juillet, il faut le faire de manière coordonnée", a dit le porte-parole.
+
+35	faire	faire	VERB	_	VerbForm=Inf	33	ccomp:obj	_	_
+36	de	de	ADP	_	_	37	case	_	_
+
+# sent_id = fr-ud-train_07502
+# text = Il était urgent de faire de Samaná un bastion de la Reconquista, car sans la possession d'une place-forte portuaire, les vivres et renforts auraient du mal à être acheminés aux révoltés.
+
+5	faire	faire	VERB	_	VerbForm=Inf	3	csubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+
+# sent_id = fr-ud-train_08996
+# text = Dommage car le cadre est agréable même s'il y a encore un effort à faire du point de vue acoustique.
+
+16	faire	faire	VERB	_	VerbForm=Inf	14	acl	_	_
+17-18	du	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+
+
+# sent_id = fr-ud-train_10453
+# text = Il sert aussi à faire de l'aérographe.
+
+5	faire	faire	VERB	_	VerbForm=Inf	2	xcomp:obl	_	_
+6	de	de	ADP	_	_	8	case	_	_
+
+# sent_id = fr-ud-train_12995
+# text = J'en connais à qui la concurrence du nouvel Ikea ne va pas faire de bien...
+
+15	faire	faire	VERB	_	VerbForm=Inf	13	xcomp:obj	_	_
+16	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+
+# sent_id = fr-ud-train_13507
+# text = Je trouve les façons de faire de cet opticien un peu légères...
+
+6	faire	faire	VERB	_	VerbForm=Inf	4	acl	_	_
+7	de	de	ADP	_	_	9	case	_	_
+
+# sent_id = fr-ud-train_00356
+# text = Certains hôpitaux ont été invités à faire de même (série H-dépôt) pour leurs documents les plus anciens.
+
+7	faire	faire	VERB	_	VerbForm=Inf	5	xcomp:obl	_	_
+8	de	de	ADP	_	_	7	advmod	_	ExtPos=ADV|PhraseType=Idiom
+
+# sent_id = fr-ud-train_01265
+# text = Par exemple, pour indiquer « 326 », il suffit de placer le stylet dans l'encoche « 6 » de la tirette la plus à droite et de descendre, puis de faire de même dans la tirette immédiatement à gauche avec l'encoche « 2 », puis répéter le processus avec l'encoche « 3 » juste à côté.
+
+35	faire	faire	VERB	_	VerbForm=Inf	13	conj	_	_
+36	de	de	ADP	_	_	35	advmod	_	ExtPos=ADV|PhraseType=Idiom
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (('de', 'même'), [])
+
+# sent_id = fr-ud-train_00290
+# text = Ils seront toutefois ensuite largement dominés en championnat par le Celtic FC lors des saisons 2000/01 et 2001/02, obtenant tout de même la coupe et la coupe de la Ligue en 2002 après l'arrivée de Alex McLeish en remplacement de Dick Advocaat.
+
+27	de	de	ADP	_	_	26	fixed	_	_
+28	même	même	ADV	_	_	26	fixed	_	_
+
+
+# sent_id = fr-ud-train_00612
+# text = A mon avis, il a dit ça parce qu'il a peur de l'immigration... Mais tout de même !...
+
+20	de	de	ADP	_	_	19	fixed	_	_
+21	même	même	ADV	_	_	19	fixed	_	_
+
+# sent_id = fr-ud-train_01068
+# text = Mais si l'on tient tout de même à cette notion de duo, on peut dire que durant les années 1984-1986, la vraie « paire créative » était plutôt constituée par Orzabal/Stanley.
+
+7	de	de	ADP	_	_	6	fixed	_	_
+8	même	même	ADV	_	_	6	fixed	_	_
+
+
+# sent_id = fr-ud-train_03583
+# text = Ce nouveau doctorat d'État, de même niveau que le Doctorat en Droit et le Doctorat ès Sciences Économiques, fut ouvert non seulement aux licenciés en droit, mais aussi aux diplômés des instituts d'études politiques.
+
+7	de	de	ADP	_	_	9	case	_	_
+8	même	même	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+
+# sent_id = fr-ud-train_04975
+# text = A noter tout de même que Valence, qui affrontera Séville puis Chelsea après avoir joué contre les Catalans, n'a pas gagné une seule fois lors des quatre dernières venues du Barça à Mestalla (deux nuls et deux défaites).
+
+4	de	de	ADP	_	_	3	fixed	_	_
+5	même	même	ADV	_	_	3	fixed	_	_
+
+# sent_id = fr-ud-train_05225
+# text = Elle reste tout de même à Seattle, notamment pour soigner "l'inconnue", trouvée par Karev.
+
+4	de	de	ADP	_	_	3	fixed	_	_
+5	même	même	ADV	_	_	3	fixed	_	_
+
+
+# sent_id = fr-ud-train_08564
+# text = On compte tout de même sept points sur neuf possibles.
+
+4	de	de	ADP	_	_	3	fixed	_	_
+5	même	même	ADV	_	_	3	fixed	_	_
+
+# sent_id = fr-ud-train_09388
+# text = Il fut tout de même sélectionné au 13e échelon.
+
+4	de	de	ADP	_	_	3	fixed	_	_
+5	même	même	ADV	_	_	3	fixed	_	_
+
+# sent_id = fr-ud-train_09725
+# text = C'est tout de même plus sympa à deux !
+
+4	de	de	ADP	_	_	3	fixed	_	_
+5	même	même	ADV	_	_	3	fixed	_	_
+
+# sent_id = fr-ud-train_10459
+# text = Téléphone de la génération SMS, il y a peu à redire sur cette fonction, mais des bugs mineur sont tout de même bien présent.
+
+23	de	de	ADP	_	_	22	fixed	_	_
+24	même	même	ADV	_	_	22	fixed	_	_
+
+# sent_id = fr-ud-train_11029
+# text = Bien que la totalité de la tumeur ne puisse théoriquement pas être retirée, en raison de sa multicentricité et de son caractère diffus, une résection partielle peut tout de même prolonger légèrement l'espérance de survie.
+
+31	de	de	ADP	_	_	30	fixed	_	_
+32	même	même	ADV	_	_	30	fixed	_	_
+
+
+# sent_id = fr-ud-train_12041
+# text = Cette grossesse étant à risque selon son médecin, elle démissionne à contrecoeur de ses fonctions ministérielles, mais conserve tout de même son siège de députée de Joliette à l'Assemblée nationale.
+
+22	de	de	ADP	_	_	21	fixed	_	_
+23	même	même	ADV	_	_	21	fixed	_	_
+
+# sent_id = fr-ud-train_13626
+# text = Dans un contexte d'activités les plus variées, il faut tout de même relever les attributions particulières en microélectronique, technique d'information et de communication, biotechnologies et nanotechnologies ainsi que dans la recherche et l'élaboration de matières nouvelles.
+
+13	de	de	ADP	_	_	12	fixed	_	_
+14	même	même	ADV	_	_	12	fixed	_	_
+
+# sent_id = fr-ud-train_00356
+# text = Certains hôpitaux ont été invités à faire de même (série H-dépôt) pour leurs documents les plus anciens.
+
+8	de	de	ADP	_	_	7	advmod	_	ExtPos=ADV|PhraseType=Idiom
+9	même	même	ADV	_	_	8	fixed	_	_
+
+# sent_id = fr-ud-train_00642
+# text = Le parti flamand d'extrême droite, Vlaams Belang (Intérêt flamand), semble aussi en perte de vitesse, de même que la Liste De Decker, un parti populiste.
+
+22	de	de	ADP	_	_	15	advmod	_	ExtPos=ADV|PhraseType=Idiom
+23	même	même	ADV	_	_	22	fixed	_	_
+
+
+# sent_id = fr-ud-train_01253
+# text = Les Normands détruisirent le village au IXe siècle de même que les communes voisines.
+
+10	de	de	ADP	_	_	3	advmod	_	ExtPos=ADV|PhraseType=Idiom
+11	même	même	ADV	_	_	10	fixed	_	_
+
+# sent_id = fr-ud-train_01265
+# text = Par exemple, pour indiquer « 326 », il suffit de placer le stylet dans l'encoche « 6 » de la tirette la plus à droite et de descendre, puis de faire de même dans la tirette immédiatement à gauche avec l'encoche « 2 », puis répéter le processus avec l'encoche « 3 » juste à côté.
+
+36	de	de	ADP	_	_	35	advmod	_	ExtPos=ADV|PhraseType=Idiom
+37	même	même	ADV	_	_	36	fixed	_	_
+
+# sent_id = fr-ud-train_01471
+# text = Il en est de même pour l'épisode où les résistants sabotent la voie ferrée du côté de Chavannes-sur-Reyssouze et font le coup de feu avec l'ennemi.
+
+4	de	de	ADP	_	_	3	advmod	_	ExtPos=ADV|PhraseType=Idiom
+5	même	même	ADV	_	_	4	fixed	_	_
+
+# sent_id = fr-ud-train_02123
+# text = En France, France Nature Environnement a par exemple fait remarquer au CNC que le logo éco-emballage est en réalité interprété à tort par la plupart des consommateurs, comme signifiant que le produit qui le porte est recyclable ou recyclé, de même des flacons de détergent où il est apposé une mention « 100% recyclable » qui ne concerne que l'emballage trompent certains consommateurs ou « camouflent » pour l'homme ou l'environnement.
+
+45	de	de	ADP	_	_	68	advmod	_	ExtPos=ADV|PhraseType=Idiom
+46	même	même	ADV	_	_	45	fixed	_	_
+
+# sent_id = fr-ud-train_04819
+# text = Il en est de même pour le master recherche.
+
+4	de	de	ADP	_	_	3	advmod	_	ExtPos=ADV|PhraseType=Idiom
+5	même	même	ADV	_	_	4	fixed	_	_
+
+# sent_id = fr-ud-train_06582
+# text = Cette conductivité peut être mesurée, de même que la perméabilité d'un sol gelé.
+
+7	de	de	ADP	_	_	5	advmod	_	ExtPos=ADV|PhraseType=Idiom
+8	même	même	ADV	_	_	7	fixed	_	_
+
+# sent_id = fr-ud-train_06910
+# text = De même, selon la treizième édition du Bon usage de Grevisse (refondue par André Goosse) 1993, la graphie « Au temps » de l'injonction militaire et gymnastique est peut-être une altération de autant.
+
+1	De	de	ADP	_	_	38	advmod	_	ExtPos=ADV|PhraseType=Idiom|wordform=de
+2	même	même	ADV	_	_	1	fixed	_	SpaceAfter=No
+
+
+# sent_id = fr-ud-train_09008
+# text = De même la pêche permet de ramener ce phosphore à la terre, toujours dans des quantités relativement faibles.
+
+1	De	de	ADP	_	_	5	advmod	_	ExtPos=ADV|PhraseType=Idiom|wordform=de
+2	même	même	ADV	_	_	1	fixed	_	_
+
+
+# sent_id = fr-ud-train_09378
+# text = De même les grandes troupes qu'ils forment et les cris perçants qu'ils poussent sont caractéristiques.
+
+1	De	de	ADP	_	_	17	advmod	_	ExtPos=ADV|PhraseType=Idiom|wordform=de
+2	même	même	ADV	_	_	1	fixed	_	_
+
+
+# sent_id = fr-ud-train_09477
+# text = La tournée qui s'ensuit donne l'album live Nickel qui reçoit la Victoire de la Musique du meilleur album de l'année 1991, de même que Belle Île en Mer, Marie Galante est sacrée « Chanson de la décennie ».
+
+27	de	de	ADP	_	_	14	advmod	_	ExtPos=ADV|PhraseType=Idiom
+28	même	même	ADV	_	_	27	fixed	_	_
+
+# sent_id = fr-ud-train_10250
+# text = De même, un homme vivant seul a le même devoir d'allumer ces lumières.
+
+1	De	de	ADP	_	_	8	advmod	_	ExtPos=ADV|PhraseType=Idiom|wordform=de
+2	même	même	ADV	_	_	1	fixed	_	SpaceAfter=No
+
+# sent_id = fr-ud-train_10431
+# text = De même les forces navales, emblématiques de la vague industrielle, conserveront leur nécessité tant que l'essentiel du commerce mondial se fera par voie maritime et que la pêche constituera une activité économique de poids.
+
+1	De	de	ADP	_	_	13	advmod	_	ExtPos=ADV|PhraseType=Idiom|wordform=de
+2	même	même	ADV	_	_	1	fixed	_	_
+
+
+# sent_id = fr-ud-train_10745
+# text = Abbas Kiarostami--de même que Ridley Scott, Jean Cocteau, Pier Paolo Pasolini, Derek Jarman, et Gulzar--appartient à une tradition de réalisateurs dont l'expression artistique n'est pas limitée à un média : ils sont capables d'utiliser d'autres formes d'expression, comme la poésie, la scénographie, la peinture ou la photographie pour faire partager leur interprétation du monde contemporain, et pour donner formes à leur compréhension de nos préoccupations et de nos identités.
+
+4	de	de	ADP	_	_	23	advmod	_	ExtPos=ADV|PhraseType=Idiom
+5	même	même	ADV	_	_	4	fixed	_	_
+
+
+# sent_id = fr-ud-train_10773
+# text = « Bien sûr, on sait plus ou moins ce que notre rencontre musicale va donner, mais nous laissons une grande place à l'improvisation, ça donne un autre caractère au spectacle », affirme Didier Lockwood, qui en fera de même lors de la soirée d'ouverture avec Marie-Claude Pietragalla.
+
+45	de	de	ADP	_	_	44	advmod	_	ExtPos=ADV|PhraseType=Idiom
+46	même	même	ADV	_	_	45	fixed	_	_
+
+# sent_id = fr-ud-train_10921
+# text = Elle soutient de même des petits groupes en les aidant dans les tâches sur l'organisation des concerts, le matériel...
+
+3	de	de	ADP	_	_	2	advmod	_	ExtPos=ADV|PhraseType=Idiom
+4	même	même	ADV	_	_	3	fixed	_	_
+
+# sent_id = fr-ud-train_12880
+# text = Ses essais rédigés pendant ce séjour au Chili visaient de même avec une violence accrue Juan Manuel de Rosas.
+
+11	de	de	ADP	_	_	10	advmod	_	ExtPos=ADV|PhraseType=Idiom
+12	même	même	ADV	_	_	11	fixed	_	_
+
+
+# sent_id = fr-ud-train_13176
+# text = De même, cette position peut aussi dans une certaine mesure presenter des analogie avec la refutation de l'existence de tout fondement strictement rationnel à la définition de la justice opérée par Cornelius Castoriadis.
+
+1	De	de	ADP	_	_	6	advmod	_	ExtPos=ADV|PhraseType=Idiom|wordform=de
+2	même	même	ADV	_	_	1	fixed	_	SpaceAfter=No
+
+# sent_id = fr-ud-train_13621
+# text = De même, la complexité des harmonies et le nombre d'instruments en jeu se veulent signifiants dramaturgiquement.
+
+1	De	de	ADP	_	_	17	advmod	_	ExtPos=ADV|PhraseType=Idiom|wordform=de
+2	même	même	ADV	_	_	1	fixed	_	SpaceAfter=No
+
+# sent_id = fr-ud-train_13642
+# text = De même, les achats de produits en textile et cuir ont diminué de 1% en décembre, mais le secteur renoue avec la croissance sur un an (+1,8%) après deux années de recul.
+
+1	De	de	ADP	_	_	13	advmod	_	ExtPos=ADV|PhraseType=Idiom|wordform=de
+2	même	même	ADV	_	_	1	fixed	_	SpaceAfter=No
+
+
+# sent_id = fr-ud-train_13793
+# text = La société opère trois centres de données à Toronto et Vancouver, de même qu'un réseau de fibres optiques dans des secteurs d'affaires clés au centre-ville de Toronto.
+
+13	de	de	ADP	_	_	3	advmod	_	ExtPos=ADV|PhraseType=Idiom
+14	même	même	ADV	_	_	13	fixed	_	_
+
+
+# sent_id = fr-ud-train_13833
+# text = Si les Tunisiens, autocentrés sur leur propre processus postrévolutionnaire, ne portent qu'un intérêt distrait aux échéances françaises, il n'en va pas de même des Algériens et des Marocains.
+
+28	de	de	ADP	_	_	26	advmod	_	ExtPos=ADV|PhraseType=Idiom
+29	même	même	ADV	_	_	28	fixed	_	_
+
+# sent_id = fr-ud-train_14157
+# text = Le 28 juillet les Brighton Bears en font de même, puis c'est au tour des mythiques London Towers d'annoncer leur retrait le 30 juillet.
+
+9	de	de	ADP	_	_	8	advmod	_	ExtPos=ADV|PhraseType=Idiom
+10	même	même	ADV	_	_	9	fixed	_	SpaceAfter=No
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+-/? (('les', 'anciens'), [])
+
+# sent_id = fr-ud-train_03060
+# text = La vision les faisant descendre des anciens Israélites du Nord est assez proche de celle de la majorité des historiens.
+
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+8	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+
+# sent_id = fr-ud-train_05196
+# text = Plus tard, l'abandon de Kerrigan à la merci des Zergs lors de l'invasion de Tarsonis amène Liberty et Raynor à quitter les Fils de Korhal avec les anciens membres de la milice de Mar Sara.
+
+31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
+32	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	33	amod	_	_
+
+# sent_id = fr-ud-train_06688
+# text = Après l'effondrement du front de l'Est, l'armée allemande entre dans la capitale lettone Riga le 3 septembre 1917, et fin février 1918, elle occupe également les territoires des anciens Gouvernements de Livonie et de d'Estonie--laquelle avait pourtant déjà déclaré son indépendance.
+
+36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
+37	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	_
+
+# sent_id = fr-ud-train_06710
+# text = Les anciens Grecs dénommaient aussi la pivoine paiônia.
+
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	wordform=les
+2	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+
+# sent_id = fr-ud-train_07164
+# text = Ces nouveaux entourages portent un plan du réseau, qui est également ajouté aux anciens entourages Guimard.
+
+15-16	aux	_	_	_	_	_	_	_	_
+15	à	à	ADP	_	_	18	case	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+17	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
+
+# sent_id = fr-ud-train_08122
+# text = En août 2011, un groupe d'anciens élèves dépose auprès du gouvernorat de Tunis une demande d'autorisation pour l'Association des anciens de l'IPEIT (2AI), une association à but non lucratif, apolitique et indépendante qui regroupe les taupins qui poursuivent leurs études à l'IPEIT ainsi que les anciens étudiants en école d'ingénieur ou diplômés.
+
+24-25	des	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+26	anciens	ancien	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+
+
+# sent_id = fr-ud-train_10960
+# text = Un des plus curieux romans de cette époque est celui qu'elle publia sous le titre de Roman des ouvrières, tableau des ouvriers de filatures rouennaises, se déroulant dans les anciens quartiers populaires de Saint-Maclou, de Saint-Vivien, du Clos-Saint-Marc, décrits avec une très grande fidélité.
+
+35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
+36	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	37	amod	_	_
+
+# sent_id = fr-ud-train_12536
+# text = L'influence chinoise cède du terrain : on en revient bientôt à une manière qui n'est pas sans rappeler le yamatoe de jadis et l'art des anciens emaki, mais largement stylisé, et surtout copieusement enrichi.
+
+28-29	des	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	31	case	_	_
+29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
+30	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	_
+
+# sent_id = fr-ud-train_07256
+# text = Maintenant que je fais partie « des anciens », je ferai de mon mieux pour faciliter la tâche aux nouveaux.
+
+7-8	des	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	4	obl:arg	_	_
+
+# sent_id = fr-ud-train_08122
+# text = En août 2011, un groupe d'anciens élèves dépose auprès du gouvernorat de Tunis une demande d'autorisation pour l'Association des anciens de l'IPEIT (2AI), une association à but non lucratif, apolitique et indépendante qui regroupe les taupins qui poursuivent leurs études à l'IPEIT ainsi que les anciens étudiants en école d'ingénieur ou diplômés.
+
+24-25	des	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+26	anciens	ancien	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+
+
+# sent_id = fr-ud-train_10019
+# text = Les vengeances tenaces des anciens de la Commune viendront le tourmenter..
+
+4-5	des	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	anciens	ancien	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
++ (('fait', 'avoir'), ["d'"])
+
+# sent_id = fr-ud-train_00738
+# text = Une salle bondée (samedi soir-20h) qui a fait que l'attente soit un peu longue, mais le fait d'avoir été placé au niveau du bar/cuisine central, nous a permis de contempler la confections des sushis et makis et de ne pas voir le temps passer.
+
+23	fait	fait	NOUN	_	Gender=Masc|Number=Sing	40	nsubj	_	_
+24	d'	de	ADP	_	_	27	mark	_	SpaceAfter=No
+25	avoir	avoir	AUX	_	VerbForm=Inf	27	aux:tense	_	_
+
+# sent_id = fr-ud-train_11829
+# text = Les gendarmes se rendirent également en divers lieux de la ville connus pour servir d'endroits de retrouvailles entre jeunes comme le parc de la Garenne afin de procéder à des contrôles d'alcoolémie et d'expliquer que le fait d'avoir fait acheter de l'alcool par des majeurs ne les exonéraient pas de respecter les textes sur l'ivresse dans un lieu public.
+
+40	fait	fait	NOUN	_	Gender=Masc|Number=Sing	53	nsubj	_	_
+41	d'	de	ADP	_	_	44	mark	_	SpaceAfter=No
+42	avoir	avoir	AUX	_	VerbForm=Inf	44	aux:tense	_	_
+
+# sent_id = fr-ud-train_00363
+# text = Le simple fait d'avoir recours à la photographie le prouve.
+
+3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+4	d'	de	ADP	_	_	5	mark	_	SpaceAfter=No
+5	avoir	avoir	VERB	_	VerbForm=Inf	3	acl	_	_
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
++ (('compositeur', 'groupe'), ['de', 'le'])
+
+# sent_id = fr-ud-train_04380
+# text = Finn Andrews (né à Brixton, Londres, le 24 août 1983) est le chanteur/compositeur du groupe The Veils basé à Londres.
+
+19	compositeur	compositeur	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
+20-21	du	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+
+
+# sent_id = fr-ud-train_00365
+# text = DeStijl est un groupe de rock français, chantant en anglais, à formation variable s'articulant autour du créateur et principal compositeur du groupe P. DeStijl.
+
+24	compositeur	compositeur	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
+25-26	du	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+? erreur de frappe (('et', 'un'), ["l'"])
+
+# sent_id = fr-ud-train_11547
+# text = Il recruta de grands spécialistes en microbiologie, et l'un deux fit de brillantes avancées.
+
+9	et	et	CCONJ	_	_	13	cc	_	_
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	_
+
+# sent_id = fr-ud-train_00373
+# text = Thai Farmers Bank FC est un ancien club de football thaïlandais et l'un des meilleurs clubs du continent asiatique durant les années 1990 avec notamment deux titres en Coupe d'Asie des clubs champions en 1994 et 1995.
+
+
+12	et	et	CCONJ	_	_	14	cc	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	conj	_	_
+
+# sent_id = fr-ud-train_05314
+# text = William Gibson (né le 17 mars 1948 aux États-Unis en Caroline du Sud) est un écrivain américain de science-fiction et l'un des leaders du mouvement cyberpunk.
+
+24	et	et	CCONJ	_	_	26	cc	_	_
+25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	conj	_	_
+
+# sent_id = fr-ud-train_08287
+# text = En 2001, Marčelo quitta le groupe et commença à travailler avec Oneya, le fondateur du label Bassivity et l'un des producteurs les plus important de la scène du hip-hop serbe.
+
+21	et	et	CCONJ	_	_	23	cc	_	_
+22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	conj	_	_
+
+
+# sent_id = fr-ud-train_09762
+# text = Le lynx boréal en France est un animal protégé et l'un des plus gros prédateur du pays.
+
+10	et	et	CCONJ	_	_	12	cc	_	_
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	conj	_	_
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (('ça', 'a'), [])
+
+# sent_id = fr-ud-train_05952
+# text = Aujourd'hui, ça a complètement changé.
+
+3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+
+# sent_id = fr-ud-train_09234
+# text = De temps en temps ils font des démos privées en magasin, il faut s'inscrire sur le site, je suis pas encore allée mais ça a l'air génial !
+
+27	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	28	nsubj	_	_
+28	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (('et', 'père'), ['son'])
+
+# sent_id = fr-ud-train_03189
+# text = Maria Mena est née dans une famille artistique, sa mère est une dramaturge et son père est batteur.
+
+15	et	et	CCONJ	_	_	19	cc	_	_
+16	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	17	det	_	_
+17	père	père	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+
+# sent_id = fr-ud-train_09430
+# text = Né dans une famille de la bourgeoisie Foyalaise, sa mère, Renée Daniel, esr bijoutière et son père, Louis Appoline-Darsières, est inspecteur des contributions à Fort-de-France, on lui a souvent reproché ses origines, précisément parce qu'il était l'avocat des plus humbles.
+
+18	et	et	CCONJ	_	_	26	cc	_	_
+19	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	20	det	_	_
+20	père	père	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+
+# sent_id = fr-ud-train_04804
+# text = Certains même qui auront transgressé les interdits en ne considérant l'amour que comme une mascarade (M. Alphonse et son père) seront punis de mort.
+
+20	et	et	CCONJ	_	_	22	cc	_	_
+21	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	22	det	_	_
+22	père	père	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (('et', 'père'), [])
+
+# sent_id = fr-ud-train_14102
+# text = Son père était officier de police d'origine irlandaise et père et fils ont été actifs dans la communauté irlandaise de Melbourne (y compris comme membres du Club Celtique).
+
+10	et	et	CCONJ	_	_	16	cc	_	_
+11	père	père	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+
+# sent_id = fr-ud-train_02324
+# text = Vers 1960, Szabolcs de Vajay attribua à Adalbert, sur la base de deux documents, le comté de Longwy, et le dit marié à Clémence, fille du comte de Foix et père de deux filles, Etiennette, mariée à Guillaume, comte de Bourgogne, et Ermesinde, mariée à Guillaume VII, duc d'Aquitaine.
+
+36	et	et	CCONJ	_	_	37	cc	_	_
+37	père	père	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	_
+
+# sent_id = fr-ud-train_04429
+# text = Il était marié et père de quatre enfants.
+
+4	et	et	CCONJ	_	_	5	cc	_	_
+5	père	père	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
++ (("l'", 'extrême'), [])
+
+# sent_id = fr-ud-train_02347
+# text = Cette station basée à Chennevières-sur-Marne émettait sur l'extrême sud de Paris et sur le sud de l'Île-de-France.
+
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	extrême	extrême	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+
+# sent_id = fr-ud-train_07365
+# text = L'archéologie a, en effet, démontré le maintien d'une présence grecque à Alalia jusqu'à la prise de possession par Rome en 259, et une courte occupation punique d'une dizaine d'années à l'extrême fin de la période.
+
+39	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
+40	extrême	extrême	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
+
+# sent_id = fr-ud-train_10406
+# text = Le but du barrage était l'interdiction du passage par des troupes d'infanterie ayant soit franchit le fuorcla Trupchun à l'extrême sud du val à la frontière italienne, soit pénétrer les vals Chaschauna et Vaüglia en amont du val da Scrigns.
+
+24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+25	extrême	extrême	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+
+# sent_id = fr-ud-train_13470
+# text = Le débat sur la Constitution avait révélé l'extrême sensibilité aux problèmes religieux des tenants de la tradition, mais aussi des catholiques ralliés à la République (Alcalá Zamora, Miguel Maura, Claudio, Sanchez Albornoz).
+
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	extrême	extrême	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+
+# sent_id = fr-ud-train_14337
+# text = Il est fréquent que les Verts se voient reprocher leur fondamentalisme, leur réalisme ou au contraire leur « gauchisme » (suite à l'adhésion de militants venus de l'extrême gauche ou du PSU, aux alentours de 1992).
+
+32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	extrême	extrême	NOUN	_	Gender=Masc|Number=Sing	30	obl:arg	_	_
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+- (('il', 'fut'), ['en'])
+
+# sent_id = fr-ud-train_07382
+# text = Il en fut dérivé une version civile ne pouvant tirer en rafale (AR-180/AR-180B) et une version à canon court et à deux poignées (AR-18S).
+
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	wordform=il
+2	en	en	PRON	_	Person=3|PronType=Prs	4	obl:arg	_	_
+3	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:tense	_	_
+
+
+# sent_id = fr-ud-train_00074
+# text = Il en fut comme de tout ce qu'il avait fait jusqu'alors : les uns s'en édifièrent, les autres s'en scandalisèrent.
+
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=il
+2	en	en	PRON	_	Person=3|PronType=Prs	3	dep:comp	_	_
+3	fut	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (('a', 'fait'), [])
+
+# sent_id = fr-ud-train_00049
+# text = Larry Harlow a fait découvrir le trompettiste cubain Alfredo "Chocolate" Armenteros et le tromboniste Mark Weinstein, qui a co-arrangé l'album avec lui.
+
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:caus	_	_
+
+# sent_id = fr-ud-train_01084
+# text = Le 19 septembre 2012, la Première Ministre Pauline Marois a fait entrer Véronique Hivon dans son cabinet de 23 ministres en la nommant ministre déléguée à la Santé publique et à la Protection de la jeunesse ainsi que ministre responsable de la région de Lanaudière, mais démissionne de ses fonctions ministérielles, le 18 octobre suivant, à cause d'une grossesse surprise à risque.
+
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+12	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux:caus	_	_
+
+
+# sent_id = fr-ud-train_02582
+# text = J'ai fait quelques erreurs, mais le public me les a fait oublier.
+
+12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
+13	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux:caus	_	_
+
+# sent_id = fr-ud-train_03315
+# text = Sarkozy, pour tenter de se prémunir contre ce scénario catastrophe, a fait savoir qu'aucune preuve concernant le fait que l'otage serait encore en vie, n'a pu être obtenue.
+
+13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
+14	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:caus	_	_
+
+
+# sent_id = fr-ud-train_04498
+# text = Entre 1350 et 1365 Théodoric Borgognoni a élaboré un traité exhaustif de chirurgie en quatre volumes, la Cyrurgia, qui a fait connaître des innovations importantes, et a été à l'origine de l'utilisations des antiseptiques dans le traitement des blessures, ainsi que de l'anesthésie à l'aide d'un mélange d'opiacés et d'herbes, lors des interventions chirurgicales.
+
+22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
+23	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	aux:caus	_	_
+
+# sent_id = fr-ud-train_05017
+# text = La municipalité a fait stopper les cloches des églises lors des enterrements en raison des effets négatifs qu'elles avaient sur le moral de la population.
+
+
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:caus	_	_
+
+
+# sent_id = fr-ud-train_07727
+# text = Entre 1799 et 1801, il a fait paraître une collection de 24 gravures intitulée Fleurs dessinées d'après nature, considérée comme l'une de ses œuvres majeures.
+
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+8	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:caus	_	_
+
+
+# sent_id = fr-ud-train_08014
+# text = En attendant, elle a fait creuser un caniveau d'un mètre de large de part et d'autre de la clôture pour contenir ses eaux usées, à deux semaines de la nouvelle saison des pluies qui durera six mois.
+
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+6	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:caus	_	_
+
+# sent_id = fr-ud-train_08265
+# text = Il a fait savoir que s'il était à nouveau transféré en prison, où il partage une cellule avec une vingtaine de prisonniers de droit commun, il arrêterait de boire.
+
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+3	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:caus	_	_
+
+
+# sent_id = fr-ud-train_09711
+# text = Goswin de Stassart, outre ses activités de haut fonctionnaire, était un poète réputé de son temps, auteur de Fables, il était considéré comme un écrivain de valeur, même si le temps a fait modifier ce jugement.
+
+
+37	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux:tense	_	_
+38	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	aux:caus	_	_
+
+# sent_id = fr-ud-train_10386
+# text = Caillois a gardé l'homme de l'Histoire, Ponce Pilate, mais l'a fait évoluer différemment pour arriver à un autre résultat que celui connu.
+
+
+15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
+16	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux:caus	_	_
+
+
+# sent_id = fr-ud-train_12867
+# text = Un ami m'a fait découvrir ce petit resto à Clichy, simplement merveilleux !
+
+
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
+5	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:caus	_	_
+
+
+# sent_id = fr-ud-train_13894
+# text = L'action protectionniste occidentale a fait reculer le tourisme en Mauritanie, mais une contre-offensive intelligente et soutenue pourrait bien inverser la tendance.
+
+
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+6	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:caus	_	_
+
+# sent_id = fr-ud-train_14512
+# text = Très bon contact avec monsieur Dussau, il a fait revivre mon vieux piano.
+
+
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:caus	_	_
+
+
+# sent_id = fr-ud-train_00003
+# text = Le comportement de la Turquie vis-à-vis du problème palestinien a fait qu'elle n'est plus en odeur de sainteté auprès de la communauté juive en générale, et américaine en particulier.
+
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+12	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+
+
+# sent_id = fr-ud-train_00209
+# text = De son côté, le Times de Londres a fait état d'une altercation sans en préciser les détails.
+
+
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+10	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+
+
+# sent_id = fr-ud-train_00239
+# text = Les honoraires sont corrects et abordables et il a fait preuve d'une grande capacité d'écoute et d'analyse de nos difficultés
+
+
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+10	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+
+
+# sent_id = fr-ud-train_00738
+# text = Une salle bondée (samedi soir-20h) qui a fait que l'attente soit un peu longue, mais le fait d'avoir été placé au niveau du bar/cuisine central, nous a permis de contempler la confections des sushis et makis et de ne pas voir le temps passer.
+
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+12	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+
+
+# sent_id = fr-ud-train_01564
+# text = Elle a participé à l'émission Popstar en Espagne et a fait partie du groupe BELLA POP.
+
+
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+12	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+
+# sent_id = fr-ud-train_01723
+# text = On peut mettre Benny, qui refoule ce qu'il a fait, en lien avec les Autrichiens eux-mêmes.
+
+
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+12	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
+
+
+# sent_id = fr-ud-train_03777
+# text = Les causes de la catastrophe, qui a fait 103 morts, restent pour l'instant inconnues.
+
+
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+9	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+
+
+# sent_id = fr-ud-train_03904
+# text = Celui-ci a fait l'objet d'une extraction intensive durant tout le XXe siècle.
+
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = fr-ud-train_04802
+# text = Pour l'auteur, au cours des cinq cents dernières années, il y a eu trois changements du pouvoir dans le monde : le premier en faveur de l'Occident durant la Renaissance, le deuxième qui a fait des États-Unis une superpuissance, et le troisième changement qui voit l'émergence de pays tels que l'Inde et la Chine ainsi que des organisations non gouvernementales.
+
+42	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux:tense	_	_
+43	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl:relcl	_	_
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (('a', 'fait'), ['même'])
+
+# sent_id = fr-ud-train_04929
+# text = Il a une grande culture musicale et nous a même fait découvrir des titres très sympas.
+
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+10	même	même	ADV	_	_	12	advmod	_	_
+11	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:caus	_	_
+
+
+# sent_id = fr-ud-train_11911
+# text = Il a vécu 28 ans en Belgique, et il a même fait ici le service militaire ", a déclaré sa soeur Farida citée par l'agence Belga.
+
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+12	même	même	ADV	_	_	13	advmod	_	_
+13	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (('et', 'a'), ["n'"])
+
+# sent_id = fr-ud-train_06532
+# text = Vailland faisait du renseignement et n'a jamais fait sauter de train, ce chapitre purement romanesque est surtout l'occasion pour l'auteur d'une discussion sur la portée symbolique de ce'drôle de jeu'avec Annie, la petite amie de Frédéric, qui l'accompagne et tue le temps dans l'attente des résultats de l'opération.
+
+6	et	et	CCONJ	_	_	11	cc	_	_
+7	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+
+
+# sent_id = fr-ud-train_09325
+# text = Lola, qui devait aller le chercher, s'est fait voler son scooter et n'a pu arriver à l'heure.
+
+15	et	et	CCONJ	_	_	18	cc	_	_
+16	n'	ne	ADV	_	Polarity=Neg	18	advmod	_	SpaceAfter=No
+17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
+
+
+# sent_id = fr-ud-train_14457
+# text = Pour preuve, cet avion venu de Bogota, qui a atterri en novembre 2009 près de Gao dans le nord du Mali et n'a jamais pu repartir.
+
+
+25	et	et	CCONJ	_	_	29	cc	_	_
+26	n'	ne	ADV	_	Polarity=Neg	29	advmod	_	SpaceAfter=No
+27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:tense	_	_
+
+
+# sent_id = fr-ud-train_06363
+# text = Toutefois, ce mouvement estudiantin n'est pas né du néant et n'a rien de spontané.
+
+
+13	et	et	CCONJ	_	_	15	cc	_	_
+14	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	SpaceAfter=No
+15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+
+
+# sent_id = fr-ud-train_08475
+# text = Il n'a jamais vécu au Maroc et n'a aucun lien effectif avec ce pays.
+
+
+9	et	et	CCONJ	_	_	11	cc	_	_
+10	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
+11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
++ (('trois', 'autres'), [])
+
+# sent_id = fr-ud-train_04189
+# text = Il disparait en quelques minutes, à la stupéfaction des marins des trois autres bâtiments.
+
+
+15	trois	trois	NUM	_	Number=Plur	17	nummod	_	_
+16	autres	autre	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+
+# sent_id = fr-ud-train_04625
+# text = Et les tensions grandissent entre Jack Sherman et les trois autres membres, ce qui le conduit à quitter le groupe, rendant ainsi sa place à Hillel Slovak, qui lui arrête son aventure avec What Is This ?
+
+10	trois	trois	NUM	_	Number=Plur	12	nummod	_	_
+11	autres	autre	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+
+# sent_id = fr-ud-train_10859
+# text = Puis avec l'arrivée de trois autres musiciens (un trompettiste, un clavier et un trombone), ils se lancent véritablement dans le Ska.
+
+
+6	trois	trois	NUM	_	Number=Plur	8	nummod	_	_
+7	autres	autre	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+
+
+# sent_id = fr-ud-train_12505
+# text = Navarro est immédiatement cédé par les Diamondbacks aux Dodgers de Los Angeles avec trois autres joueurs pour les services du voltigeur Shawn Green.
+
+15	trois	trois	NUM	_	Number=Plur	17	nummod	_	_
+16	autres	autre	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+
+
+# sent_id = fr-ud-train_00264
+# text = Il a été désigné par le gouvernement de Kinshasa (mouvance PPRD) au terme des accords de Pretoria, tandis que les trois autres représentent les différentes sensibilités de l'opposition armée (RCD, MLC) ou démocratique.
+
+
+26	trois	trois	NUM	_	Number=Plur	27	nummod	_	_
+27	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	28	nsubj	_	_
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
++ (('pour', 'c.'), [])
+
+# sent_id = fr-ud-train_14225
+# text = Les tentatives d'élaboration d'une « troisième voie » visant à dépasser ce clivage droite/gauche sont d'ailleurs pour C. Mouffe l'une des raison de l'essor des populismes de droites et partis d'extreme droite.
+
+
+22	pour	pour	ADP	_	_	24	case	_	_
+23	C.	C.	X	_	_	24	nmod	_	_
+
+# sent_id = fr-ud-train_01057
+# text = Pour C. Tyerman, cela indique probablement que Flambard avait fait joué son réseau de relations, car ces évêchés appartenaient tous à d'anciens chanceliers royaux, respectivement : Maurice de Londres, Robert Blouet et Osmond de Sées.
+
+1	Pour	pour	ADP	_	_	2	case	_	wordform=pour
+2	C.	C.	PROPN	_	_	6	obl:mod	_	_
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
++ (('dont', 'un'), [])
+
+# sent_id = fr-ud-train_07374
+# text = D'autres espèces peuvent être trouvées en Océanie, dont un grand nombre en Nouvelle-Guinée.
+
+10	dont	dont	PRON	_	PronType=Rel	13	nmod	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+
+
+# sent_id = fr-ud-train_09203
+# text = Ce magazine est tiré en 2011 à exemplaires dont un peu plus de 10% seraient vendus.
+
+9	dont	dont	PRON	_	PronType=Rel	15	nmod	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	advmod	_	ExtPos=ADV|PhraseType=Idiom
+
+
+# sent_id = fr-ud-train_09517
+# text = Le système juridique indépendant de l'Inde a été mis en place par les Britanniques, sous le Raj britannique, et ses concepts et procédures suivent grosso modo ceux des pays anglo-saxons, bien qu'il possède de nombreuses particularités (dont un très grand nombre de juridictions spécialisées, appelées tribunals pour les distinguer des cours de justice, appelées courts ;
+
+
+44	dont	dont	PRON	_	PronType=Rel	48	nmod	_	_
+45	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+
+ sent_id = fr-ud-train_09631
+# text = Ainsi, les autorités marocaines ont annoncé vendredi dernier le démantèlement de « deux cellules liées à Al Qaïda » et l'arrestation de « neuf personnes dont un ressortissant yéménite recherché par les autorités de son pays ».
+
+
+28	dont	dont	PRON	_	PronType=Rel	30	nmod	_	_
+29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+
+
+# sent_id = fr-ud-train_13677
+# text = Dans ce que l'auteur appelle une approche minimaliste, ses écrits utilisent un vocabulaire limité et des phrases courtes pour simuler la manière dont un individu moyen raconterait une histoire.
+
+25	dont	dont	PRON	_	PronType=Rel	29	advcl	_	_
+26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+
+# sent_id = fr-ud-train_06814
+# text = Depuis cette date 6 appareils ont été modifiés, dont un livré en Nouvelle-Zélande.
+
+
+10	dont	dont	PRON	_	PronType=Rel	11	nmod	_	_
+11	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj:pass	_	_
+
+# sent_id = fr-ud-train_09514
+# text = Le Bismarck est touché par trois obus de 356 mm dont un qui cause une fuite de carburant.
+
+
+11	dont	dont	PRON	_	PronType=Rel	12	nmod	_	_
+12	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	appos	_	_
+
+# sent_id = fr-ud-train_10336
+# text = Pour le forcer au combat, Kenshin monte plusieurs raids dont un très important qui remonte presque jusqu'à la vallée de la Saku.
+
+12	dont	dont	PRON	_	PronType=Rel	13	nmod	_	_
+13	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	appos	_	_
+
+
+# sent_id = fr-ud-train_12219
+# text = Deux tourneurs dont un spécialisé en robinetterie (robinets de tonneaux) perpétuent, de nos jours, cette tradition.
+
+3	dont	dont	PRON	_	PronType=Rel	4	nmod	_	_
+4	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj:pass	_
+
+
+# sent_id = fr-ud-train_13449
+# text = Le Prix Sándor Márai (Márai Sándor-díj), créé en 1996 est un prix hongrois remis chaque année à trois écrivains magyarophones, dont un issu des Hongrois d'outre-frontières.
+
+25	dont	dont	PRON	_	PronType=Rel	26	nmod	_	_
+26	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	acl:relcl	_	_
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (('en', 'rendre'), [])
+
+# sent_id = fr-ud-train_10509
+# text = Ensuite, la façon de représenter l'éducation fut repensée afin d'en rendre responsable le clergé.
+
+
+13	en	en	PRON	_	Person=3|PronType=Prs	15	obl:arg	_	_
+14	rendre	rendre	VERB	_	VerbForm=Inf	11	ccomp:obj	_	_
+
+# sent_id = fr-ud-train_01207
+# text = Pour s'en rendre compte, il n'est pas besoin d'évoquer l'historien militaire du Clausewitz qui liait les deux facteurs, car la situation militaire en mai 1940 et les événements politiques des années d'avant-guerre parlent d'eux-mêmes.
+
+
+3	en	en	PRON	_	Person=3|PronType=Prs	4	obl:arg	_	_
+4	rendre	rendre	VERB	_	VerbForm=Inf	11	advcl	_	_
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
