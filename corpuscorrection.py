@@ -4,10 +4,12 @@ import argparse
 from copy import deepcopy
 def get_argument():
     parser = argparse.ArgumentParser()
-    parser.add_argument('infile', nargs='?', type=argparse.FileType('r'),help="path to input conllu file")
+    parser.add_argument('infile', nargs="?", type=argparse.FileType('r'),help="path to input conllu file")
     parser.add_argument("context",nargs=1,choices=["interne","dependance","voisin","none"],help="choose the context you want")
     parser.add_argument("nil", nargs=1, choices=["nil", "not_nil"], help= "do you want to take nil into account")
     parser.add_argument("punct", nargs=1, choices=["punct", "not_punct"], help="do you want to take punctuation into account")
+    parser.add_argument("word", nargs=1, choices=["wordform", "lemma"],help="wordform or lemma")
+
     arg=parser.parse_args()
     file_name=arg.infile.name
     context = arg.context[0]
@@ -19,12 +21,16 @@ def get_argument():
         punct= True
     else:
         punct = False
-    return file_name,context, test_nil,punct
+    if arg.word[0] =="lemma":
+        lemma = True
+    else:
+        lemma = False
+    return file_name,context, test_nil,punct, lemma
 
 def data_extraction(file_name):
     """
     input: file name of a .conllu file
-    output: dictionary with key:id of the sentence, value: (position, word, lexeme, governor, relation_name)
+    output: dictionary with key:id of the sentence, value: (position, word, lexeme,pos_tagging, governor, relation_name)
     """
     with open(file_name, "r", encoding="utf8") as file:
         lines = file.readlines()
@@ -36,40 +42,55 @@ def data_extraction(file_name):
                     dico[sent_id] = []
             if l[0].isdigit():
                 line = l.split("\t")[0:8]
-                line[1]=line[1].lower()
                 if '-' not in line[0]:
                     del line[4:6]
                     dico[sent_id].append(line)
     return dico
 
 
-def context(sentence, position_word1, position_word2):
+def context(sentence, position_word1, position_word2, lemma):
     """
     output: internal context and neighbour context for 2 given words
     """
-    phrase = [elt[1] for elt in sentence]
+    i=1
+    phrase = [elt[i].lower() for elt in sentence]
+    if lemma:
+        i=2
+        phrase = [elt[i] for elt in sentence]
+
     interne = phrase[position_word1:position_word2 - 1]
-    voisins = [0, sentence[position_word1][1], sentence[position_word2 - 2][1], 0]
+    voisins = [0, phrase[position_word1], phrase[position_word2 - 2], 0]
     if position_word1 != 1:
-        voisins[0] = sentence[position_word1 - 2][1]
+        voisins[0] = phrase[position_word1 - 2]
     if position_word2 != len(sentence):
-        voisins[3] = sentence[position_word2][1]
+        voisins[3] = phrase[position_word2]
     if position_word1 + 1 == position_word2:
         voisins[1], voisins[2] = 0, 0
     if position_word1 + 2 == position_word2:
         voisins[2] = 0
+
     return interne, voisins
 
 
-def couple(dico, cont, punct=True):
+def couple(dico, cont, punct=True, lemma=False):
     """
     output: dictionary with all the pair of word which are related, key :(word1, word2)  value:(sent_id, position_word1, position_word2,relation_name, chosen context)
     """
+    i =1
+    if lemma :
+        i = 2
+
     list_couple = {}
     for k, v in dico.items():
         for elt in v:
+            if i==1:
+                word1 = elt[i].lower()
+                word2 = v[int(elt[4]) - 1][i].lower()
+            else :
+                word1 = elt[i]
+                word2 = v[int(elt[4]) - 1][i]
             if elt[5] == "root":
-                relation = [elt[1], "##empty##", k, elt[0], 0, elt[5], [], [0, 0, 0, 0], "","##none##"]
+                relation = [word1, "##empty##", k, int(elt[0]), 0, elt[5], [], [0, 0, 0, 0], "","##none##"]
 
             elif not punct and  (elt[3] == "PUNCT" or v[int(elt[4]) - 1][3]== "PUNCT") :
                 continue
@@ -80,34 +101,46 @@ def couple(dico, cont, punct=True):
 
                 if position_word1 < position_word2:
                     rel = rel + " - R"
-                    interne, voisins = context(v, position_word1, position_word2)
-                    relation = [elt[1], v[int(elt[4]) - 1][1], k, position_word1, position_word2, rel, interne, voisins,
+                    interne, voisins = context(v, position_word1, position_word2, lemma)
+
+                    relation = [word1, word2, k, position_word1, position_word2, rel, interne, voisins,
                                 v[int(elt[4]) - 1][5],"##none##"]
+
                 else:
                     rel = rel + " - L"
-                    interne, voisins = context(v, position_word2, position_word1)
-                    relation = [v[int(elt[4]) - 1][1], elt[1], k, position_word2, position_word1, rel, interne, voisins,
+                    interne, voisins = context(v, position_word2, position_word1, lemma)
+
+                    relation = [word2, word1, k, position_word2, position_word1, rel, interne, voisins,
                                 v[int(elt[4]) - 1][5], "##none##"]
+
                     # relation = [word1, word2, sent_id, position_1, position_2, relation_name, internal_context, neighbour_context, depandency_context]
 
             choose_context(relation, list_couple, cont)
     return list_couple
 
 
-def nil(list_couple, dico, cont):
+def nil(list_couple, dico, cont, lemma):
     """
     output: dictionary with all the relevant nil pair of word
     """
+    p=1
+    if lemma:
+        p=2
     list_nil = {}
     for k, v in dico.items():
-        phrase = [elt[1] for elt in v]
         for i, elt in enumerate(v):
             for j in range(i + 1, len(v)):
-                if (elt[1], v[j][1]) in list_couple and elt[4] != v[j][0] and int(v[j][4]) != int(elt[0]):
+                if p == 1:
+                    word1 = elt[p].lower()
+                    word2 = v[j][p].lower()
+                else:
+                    word1 = elt[p]
+                    word2 = v[j][p]
+                if (word1, word2) in list_couple and elt[4] != v[j][0] and int(v[j][4]) != int(elt[0]):
                     position_word1 = int(elt[0])
                     position_word2 = int(v[j][0])
-                    interne, voisins = context(v, position_word1, position_word2)
-                    nil_relation = [elt[1], v[j][1], k, position_word1, position_word2, "NIL", interne, voisins, "",
+                    interne, voisins = context(v, position_word1, position_word2,lemma)
+                    nil_relation = [word1, word2, k, position_word1, position_word2, "NIL", interne, voisins, "",
                                     "##none##"]
                     choose_context(nil_relation, list_nil, cont)
     return list_nil
@@ -129,12 +162,6 @@ def choose_context(relation, couple, cont="interne"):
         couple[(relation[0], relation[1])] = [(*relation[2:6], relation[indice])]
     else:
         couple[(relation[0], relation[1])].append((*relation[2:6], relation[indice]))
-
-
-def recuperer_phrase(dico, sent_id):
-    for elt in dico[sent_id]:
-        print(elt[1], end=' ')
-    print()
 
 
 def compare(n_couple, list_couple=[], list_nil=[],result={}, nil=False):
@@ -189,11 +216,32 @@ def filter(dico):
         dico.pop(elt)
     return dico
 
+def recuperer_phrase(dico, sent_id):
+    phrase =""
+    for elt in dico[sent_id]:
+        phrase += elt[1] +" "
+    return phrase
+
+
+def conllu_format(dico, couple):
+    file = ""
+    for k,v in couple.items():
+        for elt in v:
+            file += "# sent_id = "+elt[0]+"\n"
+            file += "# text = "+ recuperer_phrase(dico, elt[0]) + "\n"
+            for word in dico[elt[0]]:
+                if (int(word[0])==elt[1] and int(word[4])== elt[2]) or (int(word[4])==elt[1] and int(word[0])== elt[2]):
+                    file += word[0]+"\t"+word[1]+"\t"+word[2]+"\t"+word[3] +"\t_\t_\t"+word[4]+"\t"+word[5]+"\t_\t_\n"
+                else:
+                    file += word[0] + "\t" + word[1] + "\t" + word[2] +"\t"+word[3]+"\t_\t_\t_\t_\t_\t_\n"
+        file+="\n"
+    return file
+
 def main():
-    file_name, context, test_nil, punct = get_argument()
+    file_name, context, test_nil, punct,lemma = get_argument()
     dico = data_extraction(file_name)
-    list_couple = couple(dico, context,punct)
-    list_nil = nil(list_couple, dico, context)
+    list_couple = couple(dico, context,punct,lemma)
+    list_nil = nil(list_couple, dico, context,lemma)
     potential_errors = {}
 
     for k, v in list_couple.items():
