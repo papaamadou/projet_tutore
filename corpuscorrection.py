@@ -337,7 +337,7 @@ def main():
                 compare(k,v,result=potential_errors, nil=test_nil)
 
     potential_errors_filt=filter(potential_errors)
-    visualisation(potential_errors, dico, context)
+    visualisation(potential_errors_filt, dico, context)
     os.system("start visu_corpus_correction/visu_{}.html".format(context))
 
 main()
