@@ -231,11 +231,14 @@ def conllu_format(dico, couple):
             file += "# text = "+ recuperer_phrase(dico, elt[0]) + "\n"
             for word in dico[elt[0]]:
                 if (int(word[0])==elt[1] and int(word[4])== elt[2]) or (int(word[4])==elt[1] and int(word[0])== elt[2]):
-                    file += word[0]+"\t"+word[1]+"\t"+word[2]+"\t"+word[3] +"\t_\t_\t"+word[4]+"\t"+word[5]+"\t_\t_\n"
-                else:
-                    file += word[0] + "\t" + word[1] + "\t" + word[2] +"\t"+word[3]+"\t_\t_\t_\t_\t_\t_\n"
+                    if elt[1]==int(word[0)) or elt[2]== int(word[0]):
+                        file += word[0]+"\t"+word[1]+"\t"+word[2]+"\t"+word[3] +"\t_\t_\t"+word[4]+"\t"+word[5]+"\t_\thighlight=red\n"
+                    else:
+                        file += word[0] + "\t" + word[1] + "\t" + word[2] + "\t" + word[3] + "\t_\t_\t" + word[
+                            4] + "\t" + word[5] + "\t_\t_\n"
         file+="\n"
     return file
+
 
 def main():
     file_name, context, test_nil, punct,lemma = get_argument()
