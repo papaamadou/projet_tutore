@@ -14,8 +14,8 @@ from gooey import Gooey
 def get_argument():
     parser = GooeyParser()
     parser.add_argument('input', type=argparse.FileType('r'),help="path to input conllu file", widget='FileChooser')
-    parser.add_argument("context",nargs=1,choices=["interne","dependance","voisin","none"],help="choose the context you want")
-    parser.add_argument("nil", nargs=1, choices=["nil", "not_nil"], help= "do you want to take nil into account")
+    parser.add_argument("context",nargs=1,choices=["internal","dependence","neighbour","none"],help="choose the context you want")
+    parser.add_argument("nil", nargs=1, choices=["nil", "not_nil"], help= "do you want to take nil relation into account")
     parser.add_argument("punct", nargs=1, choices=["punct", "not_punct"], help="do you want to take punctuation into account")
     parser.add_argument("word", nargs=1, choices=["wordform", "lemma"],help="wordform or lemma")
 
@@ -160,15 +160,15 @@ def nil(list_couple, dico, cont, lemma):
     return list_nil
 
 
-def choose_context(relation, couple, cont="interne"):
+def choose_context(relation, couple, cont="internal"):
     """
-    choose the context that will be  take into account for the comparison (interne, voisins, dependance,without context)
+    choose the context that will be  take into account for the comparison (internal, neighbour, dependency, without context)
     """
     i, v, d, n = 6, 7, 8,9
     indice = i
-    if cont == "voisin":
+    if cont == "neighbour":
         indice = v
-    if cont == "dependance":
+    if cont == "dependency":
         indice = d
     if cont =="none":
         indice = n
