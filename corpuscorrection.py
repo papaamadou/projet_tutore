@@ -2,16 +2,26 @@
 import json
 import argparse
 from copy import deepcopy
+from gooey import Gooey
+from gooey import GooeyParser
+import pandas as pd
+import os
+from gooey import Gooey
+
+import glob
+
+
+@Gooey(program_name='Corpus correction',program_description="Detection of erros in corpora with dependency annotations.")
 def get_argument():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('infile', nargs="?", type=argparse.FileType('r'),help="path to input conllu file")
+    parser = GooeyParser()
+    parser.add_argument('input', type=argparse.FileType('r'),help="path to input conllu file", widget='FileChooser')
     parser.add_argument("context",nargs=1,choices=["interne","dependance","voisin","none"],help="choose the context you want")
     parser.add_argument("nil", nargs=1, choices=["nil", "not_nil"], help= "do you want to take nil into account")
     parser.add_argument("punct", nargs=1, choices=["punct", "not_punct"], help="do you want to take punctuation into account")
     parser.add_argument("word", nargs=1, choices=["wordform", "lemma"],help="wordform or lemma")
 
     arg=parser.parse_args()
-    file_name=arg.infile.name
+    file_name=arg.input.name
     context = arg.context[0]
     if arg.nil[0]=="nil":
         test_nil = True
@@ -27,10 +37,11 @@ def get_argument():
         lemma = False
     return file_name,context, test_nil,punct, lemma
 
+
 def data_extraction(file_name):
     """
     input: file name of a .conllu file
-    output: dictionary with key:id of the sentence, value: (position, word, lexeme,pos_tagging, governor, relation_name)
+    output: dictionary with key:id of the sentence, value: (position, word, lexeme, governor, relation_name)
     """
     with open(file_name, "r", encoding="utf8") as file:
         lines = file.readlines()
@@ -69,13 +80,14 @@ def context(sentence, position_word1, position_word2, lemma):
     if position_word1 + 2 == position_word2:
         voisins[2] = 0
 
-    return interne, voisins
+    return tuple(interne), tuple(voisins)
 
 
 def couple(dico, cont, punct=True, lemma=False):
     """
     output: dictionary with all the pair of word which are related, key :(word1, word2)  value:(sent_id, position_word1, position_word2,relation_name, chosen context)
     """
+    print("start creating existing couple")
     i =1
     if lemma :
         i = 2
@@ -89,8 +101,9 @@ def couple(dico, cont, punct=True, lemma=False):
             else :
                 word1 = elt[i]
                 word2 = v[int(elt[4]) - 1][i]
+
             if elt[5] == "root":
-                relation = [word1, "##empty##", k, int(elt[0]), 0, elt[5], [], [0, 0, 0, 0], "","##none##"]
+                relation = [elt[1], "##empty##", k, elt[0], 0, elt[5], [], [0, 0, 0, 0], "","##none##"]
 
             elif not punct and  (elt[3] == "PUNCT" or v[int(elt[4]) - 1][3]== "PUNCT") :
                 continue
@@ -104,7 +117,7 @@ def couple(dico, cont, punct=True, lemma=False):
                     interne, voisins = context(v, position_word1, position_word2, lemma)
 
                     relation = [word1, word2, k, position_word1, position_word2, rel, interne, voisins,
-                                v[int(elt[4]) - 1][5],"##none##"]
+                                v[int(elt[4]) - 1][5], "##none##"]
 
                 else:
                     rel = rel + " - L"
@@ -112,10 +125,10 @@ def couple(dico, cont, punct=True, lemma=False):
 
                     relation = [word2, word1, k, position_word2, position_word1, rel, interne, voisins,
                                 v[int(elt[4]) - 1][5], "##none##"]
-
                     # relation = [word1, word2, sent_id, position_1, position_2, relation_name, internal_context, neighbour_context, depandency_context]
 
             choose_context(relation, list_couple, cont)
+
     return list_couple
 
 
@@ -123,6 +136,7 @@ def nil(list_couple, dico, cont, lemma):
     """
     output: dictionary with all the relevant nil pair of word
     """
+    print("start creating nil couples")
     p=1
     if lemma:
         p=2
@@ -143,6 +157,7 @@ def nil(list_couple, dico, cont, lemma):
                     nil_relation = [word1, word2, k, position_word1, position_word2, "NIL", interne, voisins, "",
                                     "##none##"]
                     choose_context(nil_relation, list_nil, cont)
+
     return list_nil
 
 
@@ -164,6 +179,97 @@ def choose_context(relation, couple, cont="interne"):
         couple[(relation[0], relation[1])].append((*relation[2:6], relation[indice]))
 
 
+def recuperer_phrase(dico, sent_id):
+    phrase =""
+    for elt in dico[sent_id]:
+        phrase += elt[1] +" "
+    return phrase
+
+def conllu_format(dico, sent):
+    file = ""
+    file += "# sent_id = "+sent[0]+"\n"
+    file += "# text = "+ recuperer_phrase(dico, sent[0]) + "\n"
+    for word in dico[sent[0]]:
+        if sent[1] == int(word[0]) or sent[2] == int(word[0]):
+            file += word[0] + "\t" + word[1] + "\t" + word[2] + "\t" + word[3] + "\t_\t_\t" + word[4] + "\t" + word[
+                5] + "\t_\thighlight=red\n"
+        else:
+            file += word[0] + "\t" + word[1] + "\t" + word[2] + "\t" + word[3] + "\t_\t_\t" + word[
+                4] + "\t" + word[5] + "\t_\t_\n"
+    return file
+
+def visualisation(data,dico, context):
+
+    if not os.path.exists('visu_corpus_correction'):
+        os.makedirs('visu_corpus_correction')
+    if not os.path.exists('visu_corpus_correction/couple_{}'.format(context)):
+        os.makedirs('visu_corpus_correction/couple_{}'.format(context))
+    visu = """
+           <html>
+	<head>
+		<title>{nb_couple} couples of potential errors for the {context} context</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+	<h1><center>{nb_couple} couples of potential errors for the {context} context</h1>
+		<ul>""".format(nb_couple = len(data), context= context)
+    visu +=	"""</ul></body></html>"""
+    i=0
+    for k, v in data.items():
+        visu += """<li> <a href="couple_{}/{}.html"> {}</a></li>""".format(context,i,k)
+        page = """<html><head> <script src="https://unpkg.com/reactive-dep-tree@0.4.0/dist/reactive-dep-tree.umd.js" 
+        async deferred></script></head> <h1> Le couple ({},{}) avec le context {} : {}</h1><div style="text-align:right"><form>
+        <input type = "button" value = "Back"  onclick = "history.go(-1)"> </form> </div>""".format(k[0][0],k[0][1],context,k[1])
+        for m,elt in enumerate(v):
+            visu_other_sent = """<html><head> <script src="https://unpkg.com/reactive-dep-tree@0.4.0/dist/reactive-dep-tree.umd.js" 
+            async deferred></script></head> <h1> Autres phrases pour le couple ({},{}) ayant une relation {} avec le context {} : {}
+            </h1><div style="text-align:right"><form> <input type = "button" value = "Back"  onclick = "history.go(-1)">
+            </form> </div>""".format(k[0][0],k[0][1],elt,context,k[1])
+            for j,sent in enumerate(v[elt]):
+                if j==0:
+                    file = conllu_format(dico, sent)
+                    file = file.replace("'", '&#039')
+                else:
+                    #print("super")
+                    other_sent= conllu_format(dico, v[elt][j])
+                    other_sent = other_sent.replace("'", '&#039')
+                    #print(other_sent)
+                    visu_other_sent += """<div style="overflow:scroll style="float: right">sent_id : {}<br> position mot 1 : {} <br> position mot 2 : {}
+                                    <reactive-dep-tree
+                                    interactive="false"
+                                    conll='{}'
+                                    ></reactive-dep-tree>
+                                    </div><br><br><br>""".format(v[elt][j][0],v[elt][j][1],v[elt][j][2],other_sent)
+
+            visu_other_sent+= "</html>"
+
+            if len(v[elt])==1:
+                link=""
+            else:
+                with open("""visu_corpus_correction/couple_{}/{}_{}.html""".format(context,i, m), 'w', encoding="utf-8") as f:
+                    f.write(visu_other_sent)
+                link=""" <a href="{}_{}.html"> Autres phrase pour cette relation </a>""".format(i,m)
+
+            page +=  """
+            
+            <div style="overflow:scroll style="float: right">Relation : {}<br>nb_phrase :  {} {} <br> sent_id : {}<br> position mot 1 : {} <br> position mot 2 : {}
+            <reactive-dep-tree
+            interactive="false"
+            conll='{}'
+            ></reactive-dep-tree>
+            </div><br><br><br>""".format(elt,len(v[elt]),link,v[elt][0][0],v[elt][0][1],v[elt][0][2],file)
+        with open("visu_corpus_correction/couple_{}/{}.html".format(context,i), 'w', encoding="utf-8") as f:
+            f.write(page)
+        i+=1
+
+
+    visu +=	"""</ul>
+	</body>
+    </html>
+    """
+    with open("visu_corpus_correction/visu_{}.html".format(context), 'w', encoding='utf-8') as f:
+        f.write(visu)
+
 def compare(n_couple, list_couple=[], list_nil=[],result={}, nil=False):
     """
     for a given pair of word, compare the context and return the potential errors
@@ -175,25 +281,25 @@ def compare(n_couple, list_couple=[], list_nil=[],result={}, nil=False):
     for i, elt in enumerate(l):
         for ind,j in enumerate (l[0:i]):
             if elt[4] == j[4] and elt[3] != j[3]:
-                k=str((n_couple,elt[4]))
+                k=(n_couple,elt[4])
                 if k not in result:
                     result[k]={}
-                if str(elt[3]) not in result[k]:
-                    result[k][str(elt[3])]=[elt[:3]]
-                elif elt[:3] not in result[k][str(elt[3])]:
-                    result[k][str(elt[3])].append(elt[:3])
-                if str(j[3]) not in result[k]:
+                if elt[3] not in result[k]:
+                    result[k][elt[3]]=[elt[:3]]
+                elif elt[:3] not in result[k][elt[3]]:
+                    result[k][elt[3]].append(elt[:3])
+                if j[3] not in result[k]:
                     result[k][j[3]]=[j[:3]]
-                elif j[:3] not in result[k][str(j[3])]:
-                    result[k][str(j[3])].append(j[:3])
+                elif j[:3] not in result[k][j[3]]:
+                    result[k][j[3]].append(j[:3])
 
     return result
 
 def filter(dico):
-    """ remove the false positive couples"""
     sup_key = []
     dico = deepcopy(dico)
     for k, v in dico.items():
+
         if "NIL" in dico[k]:
             nil = []
             for elt in dico[k]["NIL"]:
@@ -206,8 +312,7 @@ def filter(dico):
                                 if ("- L" in k1) and (int(i[2]) == int(elt[2])):
                                     nil.append(elt)
             for elt in nil:
-                if elt in dico[k]["NIL"]:
-                    dico[k]["NIL"].remove(elt)
+                dico[k]["NIL"].remove(elt)
             if len(dico[k]["NIL"]) == 0:
                 dico[k].pop("NIL")
             if len(dico[k]) == 1:
@@ -216,56 +321,29 @@ def filter(dico):
         dico.pop(elt)
     return dico
 
-def recuperer_phrase(dico, sent_id):
-    phrase =""
-    for elt in dico[sent_id]:
-        phrase += elt[1] +" "
-    return phrase
-
-
-def conllu_format(dico, couple):
-    file = ""
-    for k,v in couple.items():
-        for elt in v:
-            file += "# sent_id = "+elt[0]+"\n"
-            file += "# text = "+ recuperer_phrase(dico, elt[0]) + "\n"
-            for word in dico[elt[0]]:
-                if (int(word[0])==elt[1] and int(word[4])== elt[2]) or (int(word[4])==elt[1] and int(word[0])== elt[2]):
-                    if elt[1]==int(word[0)) or elt[2]== int(word[0]):
-                        file += word[0]+"\t"+word[1]+"\t"+word[2]+"\t"+word[3] +"\t_\t_\t"+word[4]+"\t"+word[5]+"\t_\thighlight=red\n"
-                    else:
-                        file += word[0] + "\t" + word[1] + "\t" + word[2] + "\t" + word[3] + "\t_\t_\t" + word[
-                            4] + "\t" + word[5] + "\t_\t_\n"
-        file+="\n"
-    return file
-
 
 def main():
-    file_name, context, test_nil, punct,lemma = get_argument()
+    file_name, context, test_nil, punct, lemma = get_argument()
     dico = data_extraction(file_name)
     list_couple = couple(dico, context,punct,lemma)
     list_nil = nil(list_couple, dico, context,lemma)
     potential_errors = {}
-
+    print("retrieve all potential errors")
     for k, v in list_couple.items():
         if len(v) > 1 or k in list_nil:
             if k in list_nil:
                 compare(k,v, list_nil[k],result=potential_errors, nil=test_nil)
+
             else:
                 compare(k,v,result=potential_errors, nil=test_nil)
-                
-    with open("result_"+context+".json","w")as file:
-        json.dump(potential_errors,file)
 
     potential_errors_filt=filter(potential_errors)
-    with open("result_filt"+context+".json","w")as file:
-        json.dump(potential_errors_filt,file)
-
-    for k,v in potential_errors.items():
-        print(k,v)
-
+    visualisation(potential_errors, dico, context)
+    os.system("start visu_corpus_correction/visu_{}.html".format(context))
 
 main()
+
+
 
 
 
