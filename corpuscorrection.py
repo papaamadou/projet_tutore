@@ -8,7 +8,6 @@ import pandas as pd
 import os
 from gooey import Gooey
 
-import glob
 
 
 @Gooey(program_name='Corpus correction',program_description="Detection of erros in corpora with dependency annotations.")
