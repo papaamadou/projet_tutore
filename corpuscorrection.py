@@ -11,7 +11,7 @@ from gooey import Gooey
 def get_argument():
     parser = GooeyParser()
     parser.add_argument('input', type=argparse.FileType('r'), help="path to input conllu file", widget='FileChooser')
-    parser.add_argument("context", nargs=1, choices=["interne", "dependance", "voisin", "none"],
+    parser.add_argument("context", nargs=1, choices=["internal", "dependency", "neighbour", "none"],
                         help="choose the context you want")
     parser.add_argument("nil", nargs=1, choices=["nil", "not_nil"], help="do you want to take nil into account")
     parser.add_argument("punct", nargs=1, choices=["punct", "not_punct"],
@@ -85,7 +85,7 @@ def couple(dico, cont, punct=True, lemma=False):
     """
     output: dictionary with all the pair of word which are related, key :(word1, word2)  value:(sent_id, position_word1, position_word2,relation_name, chosen context)
     """
-    print("start creating existing couple")
+    print("start creating existing couples")
     i = 1
     if lemma:
         i = 2
@@ -134,7 +134,7 @@ def nil(list_couple, dico, cont, lemma):
     """
     output: dictionary with all the relevant nil pair of word
     """
-    print("start creating nil couples")
+    print("start creating NIL couples")
     p = 1
     if lemma:
         p = 2
@@ -159,15 +159,15 @@ def nil(list_couple, dico, cont, lemma):
     return list_nil
 
 
-def choose_context(relation, couple, cont="interne"):
+def choose_context(relation, couple, cont="internal"):
     """
-    choose the context that will be  take into account for the comparison (interne, voisins, dependance,without context)
+    choose the context that will be  take into account for the comparison (internal, neighbour, dependency,without context)
     """
     i, v, d, n = 6, 7, 8, 9
     indice = i
-    if cont == "voisin":
+    if cont == "neighbour":
         indice = v
-    if cont == "dependance":
+    if cont == "dependency":
         indice = d
     if cont == "none":
         indice = n
