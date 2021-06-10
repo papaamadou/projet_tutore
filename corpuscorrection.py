@@ -85,7 +85,7 @@ def couple(dico, cont, punct=True, lemma=False):
     """
     output: dictionary with all the pair of word which are related, key :(word1, word2)  value:(sent_id, position_word1, position_word2,relation_name, chosen context)
     """
-    print("start creating existing couples")
+    print("start creating existing couple")
     i = 1
     if lemma:
         i = 2
@@ -134,7 +134,7 @@ def nil(list_couple, dico, cont, lemma):
     """
     output: dictionary with all the relevant nil pair of word
     """
-    print("start creating NIL couples")
+    print("start creating nil couples")
     p = 1
     if lemma:
         p = 2
@@ -222,9 +222,9 @@ def visualisation(data, dico, context):
         <input type = "button" class="btn btn-primary" value = "Back"  onclick = "history.go(-1)"> </form> </div>""".format(k[0][0], k[0][1],
                                                                                                     context, k[1])
         for m, elt in enumerate(v):
-            visu_other_sent = """<html><head><meta charset="utf-8"> <script src="https://unpkg.com/reactive-dep-tree@0.4.0/dist/reactive-dep-tree.umd.js" 
-            async deferred></script></head> <h1> Others sentences for the couple ({},{}) having a relation {} with the  {} context : {}
-            </h1><div style="text-align:right"><form> <input type = "button" value = "Back"  onclick = "history.go(-1)">
+            visu_other_sent = """<html><head><meta charset="utf-8"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous"> <script src="https://unpkg.com/reactive-dep-tree@0.4.0/dist/reactive-dep-tree.umd.js" 
+            async deferred></script></head><div class="alert alert-success"> <h1> Others sentences for the couple ({},{}) having a relation {} with the  {} context : {}
+            </h1></div><div style="text-align:right"><form> <input class="btn btn-primary" type = "button" value = "Back"  onclick = "history.go(-1)">
             </form> </div>""".format(k[0][0], k[0][1], elt, context, k[1])
             for j, sent in enumerate(v[elt]):
                 if j == 0:
@@ -235,7 +235,7 @@ def visualisation(data, dico, context):
                     other_sent = conllu_format(dico, v[elt][j])
                     other_sent = other_sent.replace("'", '&#039')
                     # print(other_sent)
-                    visu_other_sent += """<div class="alert alert-danger" style="overflow:scroll" style="float: right">sent_id : {}<br> position of the first word : {} <br> position of the seond word : {}
+                    visu_other_sent += """<div class="alert alert-warning" style="overflow:scroll" style="float: right">sent_id : {}<br> position of the first word : {} <br> position of the seond word : {}
                                     <reactive-dep-tree
                                     interactive="false"
                                     conll='{}'
@@ -346,14 +346,3 @@ def main():
 
 
 main()
-
-
-
-
-
-
-
-
-
-
-
