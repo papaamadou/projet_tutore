@@ -85,7 +85,7 @@ def couple(dico, cont, punct=True, lemma=False):
     """
     output: dictionary with all the pair of word which are related, key :(word1, word2)  value:(sent_id, position_word1, position_word2,relation_name, chosen context)
     """
-    print("start creating existing couple")
+    print("start creating existing couples")
     i = 1
     if lemma:
         i = 2
@@ -134,7 +134,7 @@ def nil(list_couple, dico, cont, lemma):
     """
     output: dictionary with all the relevant nil pair of word
     """
-    print("start creating nil couples")
+    print("start creating NIL couples")
     p = 1
     if lemma:
         p = 2
