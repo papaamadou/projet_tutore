@@ -7,7 +7,7 @@ from gooey import Gooey
 
 
 @Gooey(program_name='Corpus correction',
-       program_description="Detection of erros in corpora with dependency annotations.")
+       program_description="Detection of errors in corpora with dependency annotations.")
 def get_argument():
     parser = GooeyParser()
     parser.add_argument('input', type=argparse.FileType('r'), help="path to input conllu file", widget='FileChooser')
