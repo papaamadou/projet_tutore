@@ -8,18 +8,19 @@ In the file test.conllu, there is 4 sentences with some errors. If you want to t
 
 For the neighboring context, only one erroneous couple:
 
-the couple ('le','chat') with the context ['voit', 0, 0, 0]. The potential errors are in sentence 2 (word 4, word 5) with conj-R annotation and sentence 1 (word 4, word 5) with det-R annotation.
+    the couple ('le','chat') with the context ['voit', 0, 0, 0]. The potential errors are in sentence 2 (word 4, word 5) with conj-R annotation and sentence 1 (word 4, word 5) with det-R annotation.
 
 
 For the internal context, only one erroneous couple:
 
-the couple ('le','chat') with the context []. The potential errors are in phrase 2 (word 4, word 5) with conj-R annotation and phrase 1 (word 4, word 5), phrase 1 (word 1, word 2), phrase 2 (word 1, word 2) with det-R annotation.
+    the couple ('le','chat') with the context []. The potential errors are in phrase 2 (word 4, word 5) with conj-R annotation and phrase 1 (word 4, word 5), phrase 1 (word 1, word 2), phrase 2 (word 1, word 2) with det-R annotation.
+
 
 For the dependency context, two erroneous couples:
 
-the couple ('le','chat') with the context 'obj'. The potential errors are in phrase 2 (word 4, word 5) with conj-R annotation and phrase 1 (word 4, word 5) with det-R annotation.
+    the couple ('le','chat') with the context 'obj'. The potential errors are in phrase 2 (word 4, word 5) with conj-R annotation and phrase 1 (word 4, word 5) with det-R annotation.
 
-the couple ('est','maison') with the context 'root'. The potential errors are in phrase 4 (word 2, word 5) with obl-L annotation and phrase 3 (word 2, word 4) with obj-R annotation.
+    the couple ('est','maison') with the context 'root'. The potential errors are in phrase 4 (word 2, word 5) with obl-L annotation and phrase 3 (word 2, word 4) with obj-R annotation.
 
 
 
